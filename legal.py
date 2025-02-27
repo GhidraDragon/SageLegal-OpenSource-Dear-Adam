@@ -6,6 +6,7 @@ import re
 import pickle
 import os
 import datetime
+import sqlite3
 from collections import OrderedDict
 from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import letter
@@ -51,63 +52,51 @@ def read_input_file(filepath):
 def is_exhibit_reference(line_str):
     return bool(re.search(r'\bEXHIBIT\s+\d+:', line_str, re.IGNORECASE))
 
-class Lawsuit:
-    def __init__(
-        self,
-        sections=None,
-        exhibits=None,
-        header=None,
-        documents=None,
-        case_information="",
-        law_firm_information=""
-    ):
-        if sections is None:
-            sections = OrderedDict()
-        if exhibits is None:
-            exhibits = OrderedDict()
-        if header is None:
-            header = OrderedDict()
-        if documents is None:
-            documents = OrderedDict()
-        self.sections = OrderedDict(sections)
-        self.exhibits = OrderedDict(exhibits)
-        self.header = OrderedDict(header)
-        self.documents = OrderedDict(documents)
-        self.case_information = case_information
-        self.law_firm_information = law_firm_information
-
-    def __repr__(self):
-        header_str = "\n".join([f"  {k}: {v}" for k, v in self.header.items()])
-        sections_str = "\n".join([f"  {sec_key}: {sec_value}" for sec_key, sec_value in self.sections.items()])
-        exhibits_str = []
-        for ex_key, ex_data in self.exhibits.items():
-            ex_inner = "\n      ".join([f"{ik}: {iv}" for ik, iv in ex_data.items()])
-            exhibits_str.append(f"  {ex_key}:\n      {ex_inner}")
-        exhibits_str = "\n".join(exhibits_str)
-        documents_str = []
-        for doc_key, doc_text in self.documents.items():
-            documents_str.append(f"  {doc_key}:\n      {doc_text}")
-        documents_str = "\n".join(documents_str)
-        return (
-            "Lawsuit Object:\n\n"
-            "CASE INFORMATION:\n"
-            f"  {self.case_information}\n\n"
-            "LAW FIRM INFORMATION:\n"
-            f"  {self.law_firm_information}\n\n"
-            "HEADER:\n"
-            f"{header_str}\n\n"
-            "SECTIONS:\n"
-            f"{sections_str}\n\n"
-            "EXHIBITS:\n"
-            f"{exhibits_str}\n\n"
-            "DOCUMENTS:\n"
-            f"{documents_str}\n"
-        )
-
 def is_line_all_caps(line_str):
     if not re.search(r'[A-Z]', line_str):
         return False
     return not re.search(r'[a-z]', line_str)
+
+def is_line_of_equals(line_str):
+    s = line_str.strip()
+    if len(s) < 5:
+        return False
+    return bool(re.match(r'^[=]+$', s))
+
+def is_line_of_dashes(line_str):
+    s = line_str.strip()
+    if len(s) < 5:
+        return False
+    return bool(re.match(r'^-+$', s))
+
+def detect_legal_title_blocks(lines):
+    i = 0
+    n = len(lines)
+    while i < n:
+        if is_line_of_equals(lines[i]):
+            j = i + 1
+            inner_lines = []
+            found_bottom = False
+            while j < n:
+                if is_line_of_equals(lines[j]):
+                    found_bottom = True
+                    j += 1
+                    break
+                else:
+                    inner_lines.append(lines[j])
+                j += 1
+            if found_bottom:
+                yield ("legal_page_title_block", inner_lines)
+                i = j
+            else:
+                yield ("delimiter_line", lines[i])
+                i += 1
+        elif is_line_of_dashes(lines[i]):
+            yield ("delimiter_line", lines[i])
+            i += 1
+        else:
+            yield ("normal_line", lines[i])
+            i += 1
 
 def wrap_text_to_lines(pdf_canvas, full_text, font_name, font_size, max_width):
     pdf_canvas.setFont(font_name, font_size)
@@ -141,38 +130,6 @@ def draw_firm_name_vertical_center(pdf_canvas, text, page_width, page_height):
     pdf_canvas.rotate(90)
     pdf_canvas.drawString(0, 0, text)
     pdf_canvas.restoreState()
-
-def detect_legal_title_blocks(lines):
-    i = 0
-    n = len(lines)
-    while i < n:
-        if is_full_equals_line(lines[i]):
-            j = i + 1
-            inner_lines = []
-            found_bottom = False
-            while j < n:
-                if is_full_equals_line(lines[j]):
-                    found_bottom = True
-                    j += 1
-                    break
-                else:
-                    inner_lines.append(lines[j])
-                j += 1
-            if found_bottom:
-                yield ("legal_page_title_block", inner_lines)
-                i = j
-            else:
-                yield ("normal_line", lines[i])
-                i += 1
-        else:
-            yield ("normal_line", lines[i])
-            i += 1
-
-def is_full_equals_line(line_str):
-    stripped = line_str.strip()
-    if len(stripped) < 5:
-        return False
-    return bool(re.match(r'^[=]+$', stripped))
 
 def draw_legal_page_title_block(
     pdf_canvas,
@@ -246,11 +203,13 @@ def draw_page_of_segments(
                 )
                 end_index += 1
                 return end_index
+
         line_number = end_index + 1
         pdf_canvas.setFont("Helvetica", 10)
         pdf_canvas.drawString(line_offset_x - 0.6 * inch, y_text, str(line_number))
         pdf_canvas.drawString(page_width - 0.4 * inch, y_text, str(line_number))
         pdf_canvas.setFont(seg["font_name"], seg["font_size"])
+
         if seg["is_heading"] or seg["is_subheading"]:
             heading_positions.append(
                 (
@@ -260,6 +219,15 @@ def draw_page_of_segments(
                     seg["is_subheading"]
                 )
             )
+
+        if seg.get("delimiter_line"):
+            pdf_canvas.setLineWidth(1)
+            pdf_canvas.line(line_offset_x, y_text + 4, page_width - 0.5 * inch, y_text + 4)
+            y_text -= line_spacing
+            current_line_count += 1
+            end_index += 1
+            continue
+
         if seg["alignment"] == "center":
             left_boundary = line_offset_x
             right_boundary = page_width - 0.5 * inch
@@ -267,9 +235,11 @@ def draw_page_of_segments(
             pdf_canvas.drawCentredString(mid_x, y_text, seg["text"])
         else:
             pdf_canvas.drawString(line_offset_x, y_text, seg["text"])
+
         y_text -= line_spacing
         current_line_count += 1
         end_index += 1
+
     pdf_canvas.setFont("Helvetica-Oblique", 9)
     footer_text = f"Page {page_number} of {total_pages}"
     pdf_canvas.drawCentredString(page_width / 2.0, 0.4 * inch, footer_text)
@@ -285,9 +255,11 @@ def generate_index_pdf(index_filename, firm_name, case_name, heading_positions):
     right_margin = 0.5 * inch
     line_spacing = 0.25 * inch
     temp_c = canvas.Canvas("dummy.pdf", pagesize=letter)
+
     def wrap_text(linestr, font_name, font_size, maxwidth):
         temp_c.setFont(font_name, font_size)
         return wrap_text_to_lines(temp_c, linestr, font_name, font_size, maxwidth)
+
     max_entry_width = page_width - left_margin - 1.5 * inch
     flattened_lines = []
     for (heading_text, pg_num, ln_num, is_sub) in heading_positions:
@@ -310,6 +282,7 @@ def generate_index_pdf(index_filename, firm_name, case_name, heading_positions):
                     (i == 0)
                 )
             )
+
     usable_height = page_height - (top_margin + bottom_margin) - 1.0 * inch
     max_lines_per_page = int(usable_height // line_spacing)
     total_lines = len(flattened_lines)
@@ -355,11 +328,13 @@ def generate_complaint_docx(docx_filename, firm_name, case_name, header_od, sect
     font = style.font
     font.name = 'Times New Roman'
     font.size = Pt(12)
+
     top_par = doc.add_paragraph()
     top_par.alignment = WD_ALIGN_PARAGRAPH.CENTER
     run = top_par.add_run(f"{firm_name} | {case_name}\n")
     run.bold = True
     run.font.size = Pt(14)
+
     header_content = header_od.get("content", "")
     header_lines = header_content.splitlines()
     buffer_of_lines = []
@@ -386,8 +361,26 @@ def generate_complaint_docx(docx_filename, firm_name, case_name, header_od, sect
                 runx.font.size = Pt(14)
                 if is_exhibit_reference(line_stripped):
                     runx.bold = True
+        elif kind == "delimiter_line":
+            if buffer_of_lines:
+                for line in buffer_of_lines:
+                    p = doc.add_paragraph()
+                    line_stripped = line.strip()
+                    r = p.add_run(line_stripped)
+                    if is_line_all_caps(line_stripped):
+                        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                    else:
+                        p.alignment = WD_ALIGN_PARAGRAPH.LEFT
+                    if is_exhibit_reference(line_stripped):
+                        r.bold = True
+                buffer_of_lines = []
+            p = doc.add_paragraph()
+            p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            r = p.add_run("――――――――――――――――――――――――――――――――――")
+            r.bold = False
         else:
             buffer_of_lines.append(block_lines)
+
     if buffer_of_lines:
         for line in buffer_of_lines:
             p = doc.add_paragraph()
@@ -400,6 +393,7 @@ def generate_complaint_docx(docx_filename, firm_name, case_name, header_od, sect
             if is_exhibit_reference(line_stripped):
                 r.bold = True
         buffer_of_lines = []
+
     for section_key, section_body in sections_od.items():
         style_type = heading_styles.get(section_key, "section")
         doc.add_paragraph()
@@ -415,6 +409,7 @@ def generate_complaint_docx(docx_filename, firm_name, case_name, header_od, sect
             run.font.size = Pt(11)
         if is_exhibit_reference(section_key):
             run.bold = True
+
         body_lines = section_body.splitlines()
         normal_buffer = []
         for kind, block_lines in detect_legal_title_blocks(body_lines):
@@ -441,8 +436,27 @@ def generate_complaint_docx(docx_filename, firm_name, case_name, header_od, sect
                     runx.font.size = Pt(14)
                     if is_exhibit_reference(xline_str):
                         runx.bold = True
+            elif kind == "delimiter_line":
+                if normal_buffer:
+                    for bline in normal_buffer:
+                        bline_str = bline.strip()
+                        p = doc.add_paragraph()
+                        p.alignment = WD_ALIGN_PARAGRAPH.LEFT
+                        rr = p.add_run(bline_str)
+                        if style_type == "section":
+                            rr.font.size = Pt(12)
+                        else:
+                            rr.font.size = Pt(11)
+                        if is_exhibit_reference(bline_str):
+                            rr.bold = True
+                    normal_buffer = []
+                p = doc.add_paragraph()
+                p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                rr = p.add_run("――――――――――――――――――――――――――――――――――")
+                rr.bold = False
             else:
                 normal_buffer.append(block_lines)
+
         if normal_buffer:
             for bline in normal_buffer:
                 bline_str = bline.strip()
@@ -464,34 +478,52 @@ def generate_toc_docx(docx_filename, firm_name, case_name, heading_positions):
     font = style.font
     font.name = 'Times New Roman'
     font.size = Pt(12)
+
     top_par = doc.add_paragraph()
     top_par.alignment = WD_ALIGN_PARAGRAPH.CENTER
     run = top_par.add_run(f"{firm_name} | {case_name}\nTABLE OF CONTENTS\n")
     run.bold = True
     run.font.size = Pt(14)
+
     table = doc.add_table(rows=0, cols=2)
     table.autofit = True
     for (heading_text, pg_num, ln_num, is_sub) in heading_positions:
-        row_cells = table.add_row().cells
-        left_cell = row_cells[0]
-        right_cell = row_cells[1]
-        if is_sub:
-            this_font_size = 11
-            this_bold = False
-        else:
-            this_font_size = 12
-            this_bold = True
-        left_par = left_cell.paragraphs[0]
-        run_left = left_par.add_run(heading_text)
-        run_left.font.size = Pt(this_font_size)
-        run_left.bold = this_bold
-        if is_exhibit_reference(heading_text):
+        # For Exhibits, only list "Exhibit # and Title"
+        if re.match(r'(?i)^EXHIBIT\s+\d+:', heading_text):
+            row_cells = table.add_row().cells
+            left_cell = row_cells[0]
+            right_cell = row_cells[1]
+            left_par = left_cell.paragraphs[0]
+            run_left = left_par.add_run(heading_text)
+            run_left.font.size = Pt(12)
             run_left.bold = True
-        right_par = right_cell.paragraphs[0]
-        run_right = right_par.add_run(f"{pg_num}:{ln_num}")
-        run_right.font.size = Pt(this_font_size)
-        run_right.bold = False
-        right_par.alignment = WD_ALIGN_PARAGRAPH.RIGHT
+            right_par = right_cell.paragraphs[0]
+            run_right = right_par.add_run(f"{pg_num}")
+            run_right.font.size = Pt(12)
+            run_right.bold = False
+            right_par.alignment = WD_ALIGN_PARAGRAPH.RIGHT
+        else:
+            row_cells = table.add_row().cells
+            left_cell = row_cells[0]
+            right_cell = row_cells[1]
+            if is_sub:
+                this_font_size = 11
+                this_bold = False
+            else:
+                this_font_size = 12
+                this_bold = True
+            left_par = left_cell.paragraphs[0]
+            run_left = left_par.add_run(heading_text)
+            run_left.font.size = Pt(this_font_size)
+            run_left.bold = this_bold
+            if is_exhibit_reference(heading_text):
+                run_left.bold = True
+            right_par = right_cell.paragraphs[0]
+            run_right = right_par.add_run(f"{pg_num}:{ln_num}")
+            run_right.font.size = Pt(this_font_size)
+            run_right.bold = False
+            right_par.alignment = WD_ALIGN_PARAGRAPH.RIGHT
+
     doc.save(docx_filename)
 
 def parse_documents_from_text(raw_text):
@@ -500,10 +532,10 @@ def parse_documents_from_text(raw_text):
     i = 0
     n = len(lines)
     while i < n:
-        if is_full_equals_line(lines[i]):
+        if is_line_of_equals(lines[i]) or is_line_of_dashes(lines[i]):
             j = i + 1
             doc_lines = []
-            while j < n and not is_full_equals_line(lines[j]):
+            while j < n and not (is_line_of_equals(lines[j]) or is_line_of_dashes(lines[j])):
                 doc_lines.append(lines[j])
                 j += 1
             if j < n:
@@ -514,12 +546,6 @@ def parse_documents_from_text(raw_text):
         else:
             i += 1
     return docs
-
-def is_full_equals_line(line_str):
-    stripped = line_str.strip()
-    if len(stripped) < 5:
-        return False
-    return bool(re.match(r'^[=]+$', stripped))
 
 def parse_header_and_sections(raw_text):
     header_od = OrderedDict()
@@ -538,6 +564,7 @@ def parse_header_and_sections(raw_text):
             break
         header_lines.append(line)
         idx += 1
+
     header_od["content"] = "\n".join(header_lines)
     current_heading_key = None
     current_body_lines = []
@@ -568,6 +595,7 @@ def parse_header_and_sections(raw_text):
         idx += 1
     if current_heading_key is not None:
         sections_od[current_heading_key] = "\n".join(current_body_lines)
+
     return header_od, sections_od
 
 def classify_headings(sections_od):
@@ -589,6 +617,7 @@ def prepare_main_pdf_segments(header_text, sections_od, heading_styles, pdf_canv
     segments = []
     header_lines = header_text.splitlines()
     normal_buffer = []
+
     def flush_normal_buffer():
         for line in normal_buffer:
             line_str = line.strip()
@@ -644,6 +673,7 @@ def prepare_main_pdf_segments(header_text, sections_od, heading_styles, pdf_canv
                             "is_subheading": False
                         })
         normal_buffer.clear()
+
     for kind, block_lines in detect_legal_title_blocks(header_lines):
         if kind == "legal_page_title_block":
             flush_normal_buffer()
@@ -653,9 +683,19 @@ def prepare_main_pdf_segments(header_text, sections_od, heading_styles, pdf_canv
                 "page_always_new": True,
                 "lines": lines_cleaned
             })
+        elif kind == "delimiter_line":
+            flush_normal_buffer()
+            segments.append({
+                "delimiter_line": True,
+                "font_name": "Helvetica",
+                "font_size": 10,
+                "is_heading": False,
+                "is_subheading": False
+            })
         else:
             normal_buffer.append(block_lines)
     flush_normal_buffer()
+
     for section_key, section_body in sections_od.items():
         style = heading_styles.get(section_key, "section")
         if style == "section":
@@ -672,6 +712,7 @@ def prepare_main_pdf_segments(header_text, sections_od, heading_styles, pdf_canv
             body_font_size = 9
             is_heading = False
             is_subheading = True
+
         segments.append({
             "text": "",
             "font_name": body_font_name,
@@ -680,6 +721,7 @@ def prepare_main_pdf_segments(header_text, sections_od, heading_styles, pdf_canv
             "is_heading": False,
             "is_subheading": False
         })
+
         if is_exhibit_reference(section_key):
             heading_wrapped = wrap_text_to_lines(pdf_canvas, section_key, "Helvetica-Bold", heading_font_size, max_text_width)
             for (wl, _) in heading_wrapped:
@@ -702,8 +744,10 @@ def prepare_main_pdf_segments(header_text, sections_od, heading_styles, pdf_canv
                     "is_heading": is_heading,
                     "is_subheading": is_subheading
                 })
+
         lines_of_body = section_body.splitlines()
         normal_buffer_sec = []
+
         def flush_section_buffer():
             for line in normal_buffer_sec:
                 line_str = line.strip()
@@ -738,6 +782,7 @@ def prepare_main_pdf_segments(header_text, sections_od, heading_styles, pdf_canv
                                 "is_subheading": False
                             })
             normal_buffer_sec.clear()
+
         for kind, block_lines in detect_legal_title_blocks(lines_of_body):
             if kind == "legal_page_title_block":
                 flush_section_buffer()
@@ -747,9 +792,19 @@ def prepare_main_pdf_segments(header_text, sections_od, heading_styles, pdf_canv
                     "page_always_new": True,
                     "lines": lines_cleaned
                 })
+            elif kind == "delimiter_line":
+                flush_section_buffer()
+                segments.append({
+                    "delimiter_line": True,
+                    "font_name": "Helvetica",
+                    "font_size": body_font_size,
+                    "is_heading": False,
+                    "is_subheading": False
+                })
             else:
                 normal_buffer_sec.append(block_lines)
         flush_section_buffer()
+
     return segments
 
 def parse_exhibits_from_text(raw_text):
@@ -795,7 +850,7 @@ def draw_exhibit_text(
     line_spacing
 ):
     pdf_canvas.setLineWidth(2)
-    pdf_canvas.rect(0.5 * inch, 0.5 * inch, page_width - 1.0 * inch, page_height - 1.3 * inch)
+    pdf_canvas.rect(0.5 * inch, 0.5 * inch, page_width - 1.0 * inch, page_height - 1.0 * inch)
     draw_firm_name_vertical_center(pdf_canvas, firm_name, page_width, page_height)
     pdf_canvas.setFont("Helvetica-Bold", 12)
     pdf_canvas.drawCentredString(page_width / 2.0, page_height - 0.5 * inch, case_name)
@@ -804,7 +859,7 @@ def draw_exhibit_text(
     pdf_canvas.setFont(font_name, font_size)
     max_text_width = page_width - 1.5 * inch
     wrapped = wrap_text_to_lines(pdf_canvas, exhibit_text, font_name, font_size, max_text_width)
-    y_text = page_height - 1.2 * inch
+    y_text = page_height - 0.8 * inch
     left_margin = 1.0 * inch
     pdf_canvas.setFont("Helvetica-Bold", 10)
     pdf_canvas.drawString(left_margin, y_text, exhibit_label)
@@ -818,14 +873,18 @@ def draw_exhibit_text(
             pdf_canvas.showPage()
             page_number += 1
             pdf_canvas.setLineWidth(2)
-            pdf_canvas.rect(0.5 * inch, 0.5 * inch, page_width - 1.0 * inch, page_height - 1.3 * inch)
+            pdf_canvas.rect(0.5 * inch, 0.5 * inch, page_width - 1.0 * inch, page_height - 1.0 * inch)
             draw_firm_name_vertical_center(pdf_canvas, firm_name, page_width, page_height)
             pdf_canvas.setFont("Helvetica-Bold", 12)
             pdf_canvas.drawCentredString(page_width / 2.0, page_height - 0.5 * inch, case_name)
             pdf_canvas.setLineWidth(1)
             pdf_canvas.line(0.5 * inch, page_height - 0.6 * inch, page_width - 0.5 * inch, page_height - 0.6 * inch)
             pdf_canvas.setFont(font_name, font_size)
-            y_text = page_height - 1.2 * inch
+            y_text = page_height - 0.8 * inch
+            pdf_canvas.setFont("Helvetica-Bold", 10)
+            pdf_canvas.drawString(left_margin, y_text, exhibit_label)
+            y_text -= (line_spacing * 2)
+            pdf_canvas.setFont(font_name, font_size)
         pdf_canvas.drawString(left_margin, y_text, txt_line)
         y_text -= line_spacing
     return page_number
@@ -841,13 +900,13 @@ def draw_exhibit_image(
     total_pages
 ):
     pdf_canvas.setLineWidth(2)
-    pdf_canvas.rect(0.5 * inch, 0.5 * inch, page_width - 1.0 * inch, page_height - 1.3 * inch)
+    pdf_canvas.rect(0.5 * inch, 0.5 * inch, page_width - 1.0 * inch, page_height - 1.0 * inch)
     draw_firm_name_vertical_center(pdf_canvas, firm_name, page_width, page_height)
     pdf_canvas.setFont("Helvetica-Bold", 12)
     pdf_canvas.drawCentredString(page_width / 2.0, page_height - 0.5 * inch, case_name)
     pdf_canvas.setLineWidth(1)
     pdf_canvas.line(0.5 * inch, page_height - 0.6 * inch, page_width - 0.5 * inch, page_height - 0.6 * inch)
-    top_of_image_area = page_height - 1.2 * inch
+    top_of_image_area = page_height - 0.8 * inch
     bottom_of_image_area = 0.5 * inch
     available_height = top_of_image_area - bottom_of_image_area
     available_width = page_width - 1.0 * inch
@@ -881,6 +940,115 @@ def draw_exhibit_image(
     footer_text = f"Page {page_number} of {total_pages}"
     pdf_canvas.drawCentredString(page_width / 2.0, 0.4 * inch, footer_text)
 
+class Lawsuit:
+    def __init__(
+        self,
+        sections=None,
+        exhibits=None,
+        header=None,
+        documents=None,
+        case_information="",
+        law_firm_information=""
+    ):
+        if sections is None:
+            sections = OrderedDict()
+        if exhibits is None:
+            exhibits = OrderedDict()
+        if header is None:
+            header = OrderedDict()
+        if documents is None:
+            documents = OrderedDict()
+        self.sections = OrderedDict(sections)
+        self.exhibits = OrderedDict(exhibits)
+        self.header = OrderedDict(header)
+        self.documents = OrderedDict(documents)
+        self.case_information = case_information
+        self.law_firm_information = law_firm_information
+
+    def __repr__(self):
+        header_str = "\n".join([f"  {k}: {v}" for k, v in self.header.items()])
+        sections_str = "\n".join([f"  {sec_key}: {sec_value}" for sec_key, sec_value in self.sections.items()])
+        exhibits_str = []
+        for ex_key, ex_data in self.exhibits.items():
+            ex_inner = "\n      ".join([f"{ik}: {iv}" for ik, iv in ex_data.items()])
+            exhibits_str.append(f"  {ex_key}:\n      {ex_inner}")
+        exhibits_str = "\n".join(exhibits_str)
+        documents_str = []
+        for doc_key, doc_text in self.documents.items():
+            documents_str.append(f"  {doc_key}:\n      {doc_text}")
+        documents_str = "\n".join(documents_str)
+        return (
+            "Lawsuit Object:\n\n"
+            "CASE INFORMATION:\n"
+            f"  {self.case_information}\n\n"
+            "LAW FIRM INFORMATION:\n"
+            f"  {self.law_firm_information}\n\n"
+            "HEADER:\n"
+            f"{header_str}\n\n"
+            "SECTIONS:\n"
+            f"{sections_str}\n\n"
+            "EXHIBITS:\n"
+            f"{exhibits_str}\n\n"
+            "DOCUMENTS:\n"
+            f"{documents_str}\n"
+        )
+
+def detect_case_numbers(text):
+    pattern = re.compile(r'\b([A-Z]{1,5}\s*\d{1,}-\d+)\b', re.IGNORECASE)
+    return set(re.findall(pattern, text))
+
+def store_lawsuit_in_db(lawsuit_obj, db_conn):
+    db_conn.execute("""
+        CREATE TABLE IF NOT EXISTS cases (
+            case_number TEXT PRIMARY KEY,
+            firm_name TEXT,
+            creation_date TEXT,
+            data BLOB,
+            is_active INTEGER DEFAULT 0
+        )
+    """)
+    pickled_data = pickle.dumps(lawsuit_obj)
+    existing = db_conn.execute(
+        "SELECT case_number FROM cases WHERE case_number = ?",
+        (lawsuit_obj.case_information,)
+    ).fetchone()
+    if existing:
+        db_conn.execute(
+            "UPDATE cases SET firm_name=?, creation_date=?, data=? WHERE case_number=?",
+            (lawsuit_obj.law_firm_information, datetime.datetime.now().isoformat(), pickled_data, lawsuit_obj.case_information)
+        )
+    else:
+        db_conn.execute(
+            "INSERT INTO cases (case_number, firm_name, creation_date, data) VALUES (?, ?, ?, ?)",
+            (lawsuit_obj.case_information, lawsuit_obj.law_firm_information, datetime.datetime.now().isoformat(), pickled_data)
+        )
+    db_conn.commit()
+
+def store_detected_cases_in_db(detected_cases, db_conn):
+    db_conn.execute("""
+        CREATE TABLE IF NOT EXISTS detected_cases (
+            case_number TEXT PRIMARY KEY,
+            detection_date TEXT
+        )
+    """)
+    for cn in detected_cases:
+        existing = db_conn.execute(
+            "SELECT case_number FROM detected_cases WHERE case_number = ?",
+            (cn,)
+        ).fetchone()
+        if not existing:
+            db_conn.execute(
+                "INSERT INTO detected_cases (case_number, detection_date) VALUES (?, ?)",
+                (cn, datetime.datetime.now().isoformat())
+            )
+    db_conn.commit()
+
+def set_active_case(case_number, db_conn):
+    db_conn.execute("CREATE TABLE IF NOT EXISTS cases (case_number TEXT PRIMARY KEY, firm_name TEXT, creation_date TEXT, data BLOB, is_active INTEGER DEFAULT 0)")
+    db_conn.execute("UPDATE cases SET is_active = 0")
+    db_conn.execute("UPDATE cases SET is_active = 1 WHERE case_number = ?", (case_number,))
+    db_conn.commit()
+
 def generate_legal_document(
     firm_name,
     case_name,
@@ -896,6 +1064,7 @@ def generate_legal_document(
     pdf_canvas.setAuthor(firm_name)
     pdf_canvas.setSubject(case_name)
     pdf_canvas.setCreator("Legal PDF Generator")
+
     heading_styles = classify_headings(sections_od)
     top_margin = 1.0 * inch
     bottom_margin = 1.0 * inch
@@ -907,6 +1076,7 @@ def generate_legal_document(
     line_offset_x = left_margin
     line_offset_y = page_height - top_margin
     max_text_width = page_width - right_margin - line_offset_x - 0.2 * inch
+
     segments = prepare_main_pdf_segments(
         header_text=header_od.get("content", ""),
         sections_od=sections_od,
@@ -933,8 +1103,12 @@ def generate_legal_document(
                 local_i += 1
             text_pages += 1
             current_index = local_i
-    exhibit_pages_est = len(exhibits)
-    total_pages_est = text_pages + exhibit_pages_est
+
+    exhibit_pages_est = 0
+    if exhibits:
+        exhibit_pages_est = len(exhibits)
+
+    total_pages_est = text_pages + exhibit_pages_est * 2
     page_number = 1
     current_index = 0
     while current_index < total_segments:
@@ -957,7 +1131,16 @@ def generate_legal_document(
         pdf_canvas.showPage()
         page_number += 1
         current_index = next_index
-    for idx, (caption, image_path) in enumerate(exhibits, start=1):
+
+    idx = 0
+    for ex_content, image_path in exhibits:
+        idx += 1
+        lines = ex_content.split('\n', 1)
+        exhibit_title = lines[0].strip() if lines else "Untitled Exhibit"
+        label_for_toc = f"EXHIBIT {idx}: {exhibit_title}"
+        exhibit_start = page_number
+        heading_positions.append((label_for_toc, exhibit_start, 1, True))
+
         exhibit_label = f"EXHIBIT {idx}"
         page_number = draw_exhibit_text(
             pdf_canvas=pdf_canvas,
@@ -965,7 +1148,7 @@ def generate_legal_document(
             page_height=page_height,
             firm_name=firm_name,
             case_name=case_name,
-            exhibit_text=caption,
+            exhibit_text=ex_content,
             exhibit_label=exhibit_label,
             page_number=page_number,
             total_pages=total_pages_est,
@@ -991,7 +1174,9 @@ def generate_legal_document(
             )
             pdf_canvas.showPage()
             page_number += 1
+
     pdf_canvas.save()
+
     generate_complaint_docx(
         docx_filename=os.path.splitext(output_filename)[0] + ".docx",
         firm_name=firm_name,
@@ -1009,6 +1194,7 @@ def main():
     parser.add_argument("--file", required=True)
     parser.add_argument("--index", default="index.pdf")
     parser.add_argument("--pickle", nargs='?', const=None)
+    parser.add_argument("--set-case", help="Set the specified case number as active in the database", required=False)
     args = parser.parse_args()
 
     datetime_string = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -1026,6 +1212,11 @@ def main():
             args.pickle = f"lawsuit_{datetime_string}.pickle"
 
     raw_text = read_input_file(args.file)
+    db_conn = sqlite3.connect("cases.db")
+
+    detected_cases = detect_case_numbers(raw_text)
+    store_detected_cases_in_db(detected_cases, db_conn)
+
     header_od, sections_od = parse_header_and_sections(raw_text)
     text_exhibits_od = parse_exhibits_from_text(raw_text)
     exhibits_od = OrderedDict()
@@ -1036,9 +1227,11 @@ def main():
             ('image_path', "")
         ])
         i += 1
+
     header_od["DocumentTitle"] = "Complaint for Tort – Other"
     header_od["DateFiled"] = "2025-02-14"
     header_od["Court"] = "King County Superior Court"
+
     found_documents = parse_documents_from_text(raw_text)
     documents_od = OrderedDict()
     for idx, doc_text in enumerate(found_documents, start=1):
@@ -1052,6 +1245,11 @@ def main():
         case_information=args.case,
         law_firm_information=args.firm_name
     )
+
+    store_lawsuit_in_db(lawsuit_obj, db_conn)
+
+    if args.set_case:
+        set_active_case(args.set_case, db_conn)
 
     exhibits_for_pdf = []
     for _, val in lawsuit_obj.exhibits.items():
@@ -1096,6 +1294,8 @@ def main():
     print(f"Lawsuit object saved to: {pkl_path}\n")
     print("Dumped Lawsuit object:")
     print(lawsuit_obj)
+
+    db_conn.close()
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,6 @@
+reportlab
+python-docx
+odf
+PyPDF2
+opendocument
+tensorflow
