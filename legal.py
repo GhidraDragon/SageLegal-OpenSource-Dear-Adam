@@ -203,13 +203,11 @@ def draw_page_of_segments(
                 )
                 end_index += 1
                 return end_index
-
         line_number = end_index + 1
         pdf_canvas.setFont("Helvetica", 10)
         pdf_canvas.drawString(line_offset_x - 0.6 * inch, y_text, str(line_number))
         pdf_canvas.drawString(page_width - 0.4 * inch, y_text, str(line_number))
         pdf_canvas.setFont(seg["font_name"], seg["font_size"])
-
         if seg["is_heading"] or seg["is_subheading"]:
             heading_positions.append(
                 (
@@ -219,7 +217,6 @@ def draw_page_of_segments(
                     seg["is_subheading"]
                 )
             )
-
         if seg.get("delimiter_line"):
             pdf_canvas.setLineWidth(1)
             pdf_canvas.line(line_offset_x, y_text + 4, page_width - 0.5 * inch, y_text + 4)
@@ -227,7 +224,6 @@ def draw_page_of_segments(
             current_line_count += 1
             end_index += 1
             continue
-
         if seg["alignment"] == "center":
             left_boundary = line_offset_x
             right_boundary = page_width - 0.5 * inch
@@ -235,11 +231,9 @@ def draw_page_of_segments(
             pdf_canvas.drawCentredString(mid_x, y_text, seg["text"])
         else:
             pdf_canvas.drawString(line_offset_x, y_text, seg["text"])
-
         y_text -= line_spacing
         current_line_count += 1
         end_index += 1
-
     pdf_canvas.setFont("Helvetica-Oblique", 9)
     footer_text = f"Page {page_number} of {total_pages}"
     pdf_canvas.drawCentredString(page_width / 2.0, 0.4 * inch, footer_text)
@@ -282,7 +276,6 @@ def generate_index_pdf(index_filename, firm_name, case_name, heading_positions):
                     (i == 0)
                 )
             )
-
     usable_height = page_height - (top_margin + bottom_margin) - 1.0 * inch
     max_lines_per_page = int(usable_height // line_spacing)
     total_lines = len(flattened_lines)
@@ -409,7 +402,6 @@ def generate_complaint_docx(docx_filename, firm_name, case_name, header_od, sect
             run.font.size = Pt(11)
         if is_exhibit_reference(section_key):
             run.bold = True
-
         body_lines = section_body.splitlines()
         normal_buffer = []
         for kind, block_lines in detect_legal_title_blocks(body_lines):
@@ -456,7 +448,6 @@ def generate_complaint_docx(docx_filename, firm_name, case_name, header_od, sect
                 rr.bold = False
             else:
                 normal_buffer.append(block_lines)
-
         if normal_buffer:
             for bline in normal_buffer:
                 bline_str = bline.strip()
@@ -488,7 +479,6 @@ def generate_toc_docx(docx_filename, firm_name, case_name, heading_positions):
     table = doc.add_table(rows=0, cols=2)
     table.autofit = True
     for (heading_text, pg_num, ln_num, is_sub) in heading_positions:
-        # For Exhibits, only list "Exhibit # and Title"
         if re.match(r'(?i)^EXHIBIT\s+\d+:', heading_text):
             row_cells = table.add_row().cells
             left_cell = row_cells[0]
@@ -523,7 +513,6 @@ def generate_toc_docx(docx_filename, firm_name, case_name, heading_positions):
             run_right.font.size = Pt(this_font_size)
             run_right.bold = False
             right_par.alignment = WD_ALIGN_PARAGRAPH.RIGHT
-
     doc.save(docx_filename)
 
 def parse_documents_from_text(raw_text):
@@ -564,7 +553,6 @@ def parse_header_and_sections(raw_text):
             break
         header_lines.append(line)
         idx += 1
-
     header_od["content"] = "\n".join(header_lines)
     current_heading_key = None
     current_body_lines = []
@@ -595,7 +583,6 @@ def parse_header_and_sections(raw_text):
         idx += 1
     if current_heading_key is not None:
         sections_od[current_heading_key] = "\n".join(current_body_lines)
-
     return header_od, sections_od
 
 def classify_headings(sections_od):
@@ -721,7 +708,6 @@ def prepare_main_pdf_segments(header_text, sections_od, heading_styles, pdf_canv
             "is_heading": False,
             "is_subheading": False
         })
-
         if is_exhibit_reference(section_key):
             heading_wrapped = wrap_text_to_lines(pdf_canvas, section_key, "Helvetica-Bold", heading_font_size, max_text_width)
             for (wl, _) in heading_wrapped:
@@ -744,7 +730,6 @@ def prepare_main_pdf_segments(header_text, sections_od, heading_styles, pdf_canv
                     "is_heading": is_heading,
                     "is_subheading": is_subheading
                 })
-
         lines_of_body = section_body.splitlines()
         normal_buffer_sec = []
 
@@ -804,7 +789,6 @@ def prepare_main_pdf_segments(header_text, sections_od, heading_styles, pdf_canv
             else:
                 normal_buffer_sec.append(block_lines)
         flush_section_buffer()
-
     return segments
 
 def parse_exhibits_from_text(raw_text):
@@ -1103,11 +1087,9 @@ def generate_legal_document(
                 local_i += 1
             text_pages += 1
             current_index = local_i
-
     exhibit_pages_est = 0
     if exhibits:
         exhibit_pages_est = len(exhibits)
-
     total_pages_est = text_pages + exhibit_pages_est * 2
     page_number = 1
     current_index = 0
@@ -1131,7 +1113,6 @@ def generate_legal_document(
         pdf_canvas.showPage()
         page_number += 1
         current_index = next_index
-
     idx = 0
     for ex_content, image_path in exhibits:
         idx += 1
@@ -1140,7 +1121,6 @@ def generate_legal_document(
         label_for_toc = f"EXHIBIT {idx}: {exhibit_title}"
         exhibit_start = page_number
         heading_positions.append((label_for_toc, exhibit_start, 1, True))
-
         exhibit_label = f"EXHIBIT {idx}"
         page_number = draw_exhibit_text(
             pdf_canvas=pdf_canvas,
@@ -1174,9 +1154,7 @@ def generate_legal_document(
             )
             pdf_canvas.showPage()
             page_number += 1
-
     pdf_canvas.save()
-
     generate_complaint_docx(
         docx_filename=os.path.splitext(output_filename)[0] + ".docx",
         firm_name=firm_name,
@@ -1185,6 +1163,24 @@ def generate_legal_document(
         sections_od=sections_od,
         heading_styles=heading_styles
     )
+
+def filter_headings_for_toc(heading_positions):
+    new_positions = []
+    found_exhibit = False
+    in_special_section = False
+    for heading_text, pg_num, ln_num, is_sub in heading_positions:
+        if in_special_section:
+            new_positions.append((heading_text, pg_num, ln_num, is_sub))
+            continue
+        if found_exhibit:
+            if re.match(r'(?i)^SPECIAL EXHIBITS$', heading_text.strip()):
+                in_special_section = True
+                new_positions.append((heading_text, pg_num, ln_num, is_sub))
+            continue
+        new_positions.append((heading_text, pg_num, ln_num, is_sub))
+        if is_exhibit_reference(heading_text):
+            found_exhibit = True
+    return new_positions
 
 def main():
     parser = argparse.ArgumentParser()
@@ -1265,6 +1261,8 @@ def main():
         exhibits=exhibits_for_pdf,
         heading_positions=heading_positions
     )
+
+    heading_positions = filter_headings_for_toc(heading_positions)
 
     generate_index_pdf(
         index_filename=args.index,
