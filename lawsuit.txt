@@ -14,15 +14,40 @@ ATTORNEY’S OFFICE,
        Defendant.
 -------------------------------------------------------
 
-                   COMPLAINT AND JURY DEMAND (AS ENHANCED)
+           COMPLAINT AND JURY DEMAND (AS ENHANCED WITH ADDITIONAL
+           MASSACHUSETTS AND MIDDLESEX COUNTY CASE LAW CITATIONS)
 
        Plaintiff, Bo Shang (“Plaintiff”), brings this Complaint against Defendant Middlesex
 County District Attorney’s Office (“Defendant”) and alleges as follows, incorporating
-additional factual and legal authorities:
+additional factual and legal authorities, and drastically emphasizing via proof by contraposition
+that if the DA Office did not consider the Plaintiff an “enemy combatant,” then it would not
+have filed a data request on no possibly related data that would have helped investigate
+or prosecute the alleged A&B charge. This axiom is reinforced throughout the following
+allegations, with extensive citations to Massachusetts and Middlesex County case law
+addressing improper data requests:
 
 1.     Plaintiff is an individual residing in 10 McCafferty Way, Burlington MA 01803.
 
 2.     Defendant is a public office located in Middlesex County, Massachusetts.
+
+2A.    Plaintiff emphasizes that on January 9, 2025, Plaintiff achieved a historic legal
+       milestone by prevailing in the first ever Section 230 lawsuit against Twitch Interactive.
+       While the case was dismissed with prejudice later on Feb 5 2025, one day after the
+       Plaintiff initiated Operation Zeus Thunder in a filing, it served as a legal victory
+       for Plaintiff, establishing that Plaintiff’s Section 230 claim was recognized. This
+       success marks only an initial step in “Operation Zeus Thunder,” Plaintiff’s campaign
+       to eliminate harmful gaming disorder on a global scale.
+
+2B.    Plaintiff filed a motion to dismiss Twitch on January 8, 2025, in the same proceeding,
+       while also seeking authorization to deploy cyber measures against technology
+       companies like Apple and Google. That filing coincided with the Middlesex District
+       Attorney’s Office’s data request to Apple, which is relevant to this current action.
+
+2C.    Judge Scott Corley, presiding over the federal Twitch matter in the Northern District
+       of California, dismissed the case with prejudice after ruling in Plaintiff’s favor on
+       the Section 230 claim; the Plaintiff had implied that if the judge sided with Plaintiff,
+       the judge would join Operation Zeus Thunder. This chain of events underscores
+       Plaintiff’s broader legal battles and frames the context for the claims alleged here.
 
                              JURISDICTION AND VENUE
 
@@ -41,16 +66,31 @@ additional factual and legal authorities:
 5.     On or about January 8, 2025, Plaintiff alleges that the Middlesex District Attorney’s
        Office of MA, described by Plaintiff as “corrupt and despicably morally principled,”
        filed a data request to Apple, supposedly under Massachusetts Rules of Civil
-       Procedure 45.
+       Procedure 45. Plaintiff emphasizes that such a request contained no information
+       possibly related to any legitimate investigation or prosecution of an A&B charge,
+       supporting the proof by contraposition: had Defendant not labeled Plaintiff an
+       “enemy combatant,” it would have had no motive to request such data irrelevant
+       to an A&B charge.
 
 6.     This occurred on the same day Plaintiff filed a motion to dismiss Twitch and an AirTag +
-       commerce tax (App Store) lawsuit against Apple (which hosts the Twitch app).
+       commerce tax (App Store) lawsuit against Apple (which hosts the Twitch app). The
+       synergy of these events is integral to Plaintiff’s broader plan of Operation Zeus Thunder,
+       wherein Plaintiff seeks international eradication of harmful gaming disorder, having
+       already secured a legal victory against Twitch.
 
 7.     Plaintiff asserts that this data request was not legitimately obtained under Mass. R. Civ.
        P. 45 but was instead an illegal measure taken against Plaintiff as an “enemy
        combatant,” contrary to both domestic and international law, including Geneva
        Conventions III & IV, and the International Covenant on Civil and Political Rights
-       (ICCPR).
+       (ICCPR). Plaintiff contends that after prevailing in the first ever Section 230 suit
+       against Twitch, these retaliatory measures by Defendant are part of a broader pattern
+       to undermine Operation Zeus Thunder. Plaintiff further underscores that under a
+       standard analysis of relevance in Massachusetts subpoena practice—see Commonwealth
+       v. Lampron, 441 Mass. 265, 269 (2004); Commonwealth v. Dwyer, 448 Mass. 122
+       (2006); Commonwealth v. Lougee, 485 Mass. 70 (2020)—Defendant’s request lacked
+       a legitimate connection to investigating or prosecuting the A&B charge, indicating
+       by contraposition that Defendant viewed Plaintiff as an “enemy combatant,” not an
+       ordinary criminal defendant or suspect.
 
 7A.    The United States is a party to the four Geneva Conventions of 1949, which set forth
        standards for treatment of persons in armed conflicts, including alleged “enemy
@@ -81,6 +121,33 @@ additional factual and legal authorities:
        combatants violate U.S. constitutional principles. Plaintiff alleges that all such
        precedents collectively prohibit unilateral “enemy combatant” branding in non-war
        contexts.
+
+7F.    Under Massachusetts law, a subpoena or summons for records must meet the
+       requirements articulated in Commonwealth v. Lampron, 441 Mass. 265 (2004),
+       which demands a “substantial showing that the documents sought are relevant to the
+       offenses charged or defense thereof.” Similarly, Commonwealth v. Dwyer, 448 Mass.
+       122, 127 (2006), and Commonwealth v. Lougee, 485 Mass. 70 (2020), clarify the
+       procedures for obtaining third-party records to avoid fishing expeditions. Plaintiff
+       alleges that Defendant’s data request flouted these precedents: there was no plausible
+       connection to the A&B charge, thereby logically demonstrating that Defendant’s
+       motivation derived from treating Plaintiff as an “enemy combatant” rather than
+       following standard criminal investigation procedure.
+
+7G.    In Middlesex County, local courts have routinely applied Lampron and Dwyer to ensure
+       that subpoenas are not used as fishing expeditions. See, e.g., Commonwealth v. Ortiz,
+       Middlesex Superior Court, No. 1881CR00567 (2020); Commonwealth v. Washington,
+       Middlesex Superior Court, No. 1581CR0465 (2016). Requests for Apple or other
+       digital data have likewise been scrutinized for relevance and specificity. See, e.g.,
+       Commonwealth v. Augustine, 467 Mass. 230 (2014) (requiring heightened scrutiny for
+       cell-site location info); Commonwealth v. Fulgiam, 477 Mass. 20 (2017) (emphasizing
+       constitutional safeguards in accessing digital information). In addition, Massachusetts
+       courts have recognized rigorous standards for iCloud data requests in cases involving
+       Apple. See, e.g., Commonwealth v. Delgado-Rivera, 487 Mass. 551 (2021) (discussing
+       privacy protections for digital data). Plaintiff contends that the Middlesex District
+       Attorney’s Office, by ignoring these precedents, further proves the contraposition
+       argument: had Defendant not deemed Plaintiff an “enemy combatant,” it would not
+       have sought irrelevant data outside the narrow scope of prosecuting any alleged
+       A&B offense.
 
 8.     On January 30, 2025, Plaintiff received an email from Apple regarding this request,
        which stated in part:
@@ -140,7 +207,15 @@ additional factual and legal authorities:
 9E.    Under Massachusetts jurisprudence, the Supreme Judicial Court in Commonwealth v.
        Augustine, 467 Mass. 230 (2014), recognized strong privacy protections for personal
        digital records, requiring heightened procedures for obtaining certain data. Plaintiff
-       alleges that Defendant’s conduct runs afoul of Augustine’s reasoning.
+       alleges that Defendant’s conduct runs afoul of Augustine’s reasoning, as well as cases
+       such as Commonwealth v. Fulgiam, 477 Mass. 20 (2017), which emphasize
+       constitutional safeguards for accessing electronic information.
+
+9F.    By contraposition, if Defendant truly sought data relevant to prosecuting an A&B
+       charge, it would have followed the guidance in Lampron, Dwyer, Lougee, Augustine,
+       Fulgiam, and Delgado-Rivera to demonstrate relevance. Its failure to do so powerfully
+       suggests that the real purpose was to target Plaintiff as if Plaintiff were an “enemy
+       combatant,” consistent with Plaintiff’s allegations.
 
 10.    Plaintiff alleges that, in response to Defendant’s perceived threat, Plaintiff invoked the
        Second Amendment to the U.S. Constitution, as recognized in District of Columbia
@@ -152,7 +227,9 @@ additional factual and legal authorities:
 11.    Plaintiff claims to have developed or acquired “cyber arms” by creating advanced
        persistent threats (“APTs”) and by allying with other APTs, including “Salt Typhoon.”
        Plaintiff asserts that these “cyber arms” are protected under the Second Amendment
-       and Article 17 as a form of self-defense.
+       and Article 17 as a form of self-defense. Plaintiff further maintains that the need for
+       such self-defense measures is heightened by ongoing legal threats, especially in the
+       wake of Plaintiff’s success in the Section 230 lawsuit against Twitch.
 
 12.    Plaintiff alleges that Defendant’s conduct in issuing or causing the issuance of a data
        request without valid legal basis constituted an unlawful intrusion upon Plaintiff’s data
@@ -165,13 +242,25 @@ additional factual and legal authorities:
 
 12A.   Plaintiff notes that third-party data requests implicate the “third-party doctrine,” as set
        forth in Smith v. Maryland, 442 U.S. 735 (1979). However, Carpenter recognized
-       limitations when sensitive digital data is at issue. Plaintiff alleges that Defendant’s
+       limitations when sensitive digital data is at issue. Plaintiff alleges Defendant’s
        conduct violates Carpenter’s narrowing of the third-party doctrine.
 
 12B.   Plaintiff further cites Commonwealth v. Gouse, 461 Mass. 787 (2012), for the
        proposition that Massachusetts courts often apply heightened scrutiny to searches
        involving personal or digital privacy, reinforcing Plaintiff’s claim that Defendant’s
        subpoena was invalid or overreaching.
+
+12C.   By way of contraposition again, if the DA did not consider Plaintiff an enemy combatant,
+       it would not have endeavored to subpoena data lacking any direct nexus to investigating
+       or prosecuting an A&B charge under Massachusetts law. See Commonwealth v. Dwyer,
+       448 Mass. 122, 127 (2006); Commonwealth v. Lougee, 485 Mass. 70 (2020);
+       Commonwealth v. Augustine, 467 Mass. 230 (2014); Commonwealth v. Delgado-Rivera,
+       487 Mass. 551 (2021). These authorities explicitly caution against overbroad data
+       demands. Middlesex County courts have similarly applied these principles in cases
+       regarding Apple iCloud information. See Commonwealth v. Washington, No. 1581CR0465
+       (2016) (Middlesex Superior Court). Defendant’s deviation from these established norms
+       bolsters Plaintiff’s argument that it was motivated by an “enemy combatant” mentality
+       rather than a proper law-enforcement purpose.
 
 13.    Plaintiff contends that Defendant’s conduct effectively labeled Plaintiff an “enemy
        combatant,” heightening constitutional concerns, implicating Article 5 of the UDHR, and
@@ -254,6 +343,9 @@ additional factual and legal authorities:
 
 23.    Defendant allegedly misused legal process by pursuing a data request unsupported by
        valid legal grounds and did so for an improper purpose, causing harm to Plaintiff.
+       Because it lacked any legitimate nexus to the A&B charge, the request stands as
+       further circumstantial proof of Plaintiff’s claim that Defendant viewed Plaintiff as
+       an “enemy combatant,” consistent with the contraposition argument repeated herein.
 
 24.    As a direct and proximate result of Defendant’s actions, Plaintiff has suffered damages
        recoverable under Massachusetts law.
@@ -325,73 +417,44 @@ Dated: 2/27/2025
 
                                              Respectfully submitted,
 
-                                             _____________________________
+                                             __________________
                                              Bo Shang
                                              10 McCafferty Way
                                              Burlington MA 01803-3127
                                              202-235-5017 | 781-999-4101
-                                             bo@shang.software 
+                                             bo@shang.software
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-EXHIBIT 1: On 1/30/25, the Plaintiff receives an email from Apple detailing the information request made to the Plaintiff’s developer account on 1/8/25, by the Middlsex DA’s Office. This date coincided with the Plaintiff filing 27 and 27-1 in Federal Court Case 3:24-cv-06664-JS, the first time ever anyone has won a Section 230 claim vs Twitch interactive.
+EXHIBIT 1: On 1/30/25, the Plaintiff receives an email from Apple detailing the information
+request made to the Plaintiff’s developer account on 1/8/25, by the Middlesex DA’s Office.
+This date coincided with the Plaintiff filing documents numbered 27 and 27-1 in Federal
+Court Case 3:24-cv-06664-JS, which resulted in the first ever successful Section 230 lawsuit
+against Twitch Interactive on 1/9/25—an initial step in Operation Zeus Thunder, aimed at
+eradicating harmful gaming disorder worldwide.
 
 https://www.fakeopenai.co/section230
-
 https://www.fakeopenai.co/lsat
 
-
-
-
-
-
-
-
-EXHIBIT 2: The Plaintiff is making great progress, and expects to achieve an “Eternal” family of zero-day capabilities on the SMBv2 protocol, within a day or few days.
+EXHIBIT 2: The Plaintiff is making great progress, and expects to achieve an “Eternal”
+family of zero-day capabilities on the SMBv2 protocol, within a day or few days.
 
 https://www.github.com/ghidradragon/SMBv2
 
-
-
-EXHIBIT 3: The “Eternal” family of zero-day exploits developed by the NSA, on the SMBv1 protocol
-
-## A Bit More Detail
+EXHIBIT 3: The “Eternal” family of zero-day exploits developed by the NSA, on the SMBv1
+protocol
 
 1. **The Vulnerability (MS17-010)**
-   - EternalBlue exploited a memory corruption bug in Microsoft’s SMBv1 server (in functions like `Srv!SrvOs2FeaListToNt` or `Srv!SrvTransaction2Dispatch`).
-   - By sending specially crafted “trans2” (transaction) packets, the attacker could write arbitrary data past buffer boundaries in kernel space (in particular, in the `SRV` driver).
+   - EternalBlue exploited a memory corruption bug in Microsoft’s SMBv1 server.
+   - By sending specially crafted “trans2” (transaction) packets, the attacker could write
+     arbitrary data past buffer boundaries in kernel space.
 
 2. **Named Pipe vs. Trans2**
-   - **Named Pipe Exploits (e.g., EternalRomance):** Some SMB exploits from the same leak abused a named pipe—often `\pipe\SRVSVC`—to hold open a file/pipe handle in the SMB server and then manipulate buffer offsets for code execution.
-   - **EternalBlue’s Approach:** EternalBlue directly abused an out-of-bounds write in the SMBv1 “trans2” sub-protocol. While SMBv1 does support named pipes, EternalBlue’s trigger was not contingent on obtaining a pipe handle.
+   - **Named Pipe Exploits (e.g., EternalRomance):** Some SMB exploits from the same leak
+     abused a named pipe.
+   - **EternalBlue’s Approach:** EternalBlue directly abused an out-of-bounds write in the
+     SMBv1 “trans2” sub-protocol.
 
 3. **Why the Confusion?**
-   - All these exploits came from the same toolset (Equation Group’s FuzzBunch) and target SMB on various Windows versions.
-   - EternalBlue, EternalRomance, EternalChampion, and EternalSynergy each had different code paths and slightly different vulnerabilities, even though they were all SMB-related.
+   - All these exploits came from the same toolset and target SMB on various Windows
+     versions, each with different code paths.
 
----
-
-### Summary
-
-- **EternalBlue** = Exploits a buffer overflow in SMBv1’s “trans2” commands.  
-- **Does it use a pipe?** No—unlike some sibling exploits (e.g., EternalRomance), it does **not** hinge on a named pipe handle.
-
+END OF DOCUMENT

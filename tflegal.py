@@ -1176,15 +1176,11 @@ def generate_legal_document(
         pdf_canvas.showPage()
         page_number += 1
         current_index = next_index
+
     idx = 0
     for ex_content, image_path in exhibits:
         idx += 1
-        lines = ex_content.split('\n', 1)
-        exhibit_title = lines[0].strip() if lines else "Untitled Exhibit"
-        label_for_toc = f"EXHIBIT {idx}: {exhibit_title}"
-        exhibit_start = page_number
-        heading_positions.append((label_for_toc, exhibit_start, 1, True))
-        exhibit_label = f"EXHIBIT {idx}"
+        exhibit_label = f"EXHIBIT {idx}:"
         page_number = draw_exhibit_text(
             pdf_canvas=pdf_canvas,
             page_width=page_width,
@@ -1217,6 +1213,7 @@ def generate_legal_document(
             )
             pdf_canvas.showPage()
             page_number += 1
+
     pdf_canvas.save()
     generate_complaint_docx(
         docx_filename=os.path.splitext(output_filename)[0] + ".docx",
@@ -1259,22 +1256,32 @@ def main():
 
     datetime_string = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     raw_text = read_input_file(args.file)
-    args.output = generate_smart_filename(args.output, raw_text, datetime_string)
-    args.index = generate_smart_filename(args.index, raw_text, datetime_string)
-    if args.pickle is not None:
-        if args.pickle:
-            args.pickle = generate_smart_filename(args.pickle, raw_text, datetime_string)
-        else:
-            default_pickle = f"lawsuit.pickle"
-            args.pickle = generate_smart_filename(default_pickle, raw_text, datetime_string)
-
-    db_conn = sqlite3.connect("cases.db")
 
     detected_cases = detect_case_numbers(raw_text)
+    db_conn = sqlite3.connect("cases.db")
     store_detected_cases_in_db(detected_cases, db_conn)
 
-    header_od, sections_od = parse_header_and_sections(raw_text)
-    text_exhibits_od = parse_exhibits_from_text(raw_text)
+    def separate_after_exhibit_1(full_text):
+        pattern_ex1 = re.compile(r'^\s*EXHIBIT\s+1\s*:', re.IGNORECASE)
+        lines = full_text.splitlines()
+        main_part = []
+        exhibits_part = []
+        found_ex1 = False
+        for line in lines:
+            if not found_ex1 and pattern_ex1.match(line):
+                found_ex1 = True
+                exhibits_part.append(line)
+            elif found_ex1:
+                exhibits_part.append(line)
+            else:
+                main_part.append(line)
+        return "\n".join(main_part), "\n".join(exhibits_part)
+
+    main_text, exhibit_text_after_1 = separate_after_exhibit_1(raw_text)
+    text_exhibits_od = parse_exhibits_from_text(exhibit_text_after_1)
+
+    header_od, sections_od = parse_header_and_sections(main_text)
+
     exhibits_od = OrderedDict()
     i = 1
     for ex_key in sorted(text_exhibits_od.keys(), key=lambda x: int(x)):
@@ -1293,6 +1300,15 @@ def main():
     for idx, doc_text in enumerate(found_documents, start=1):
         documents_od[str(idx)] = doc_text
 
+    args.output = generate_smart_filename(args.output, raw_text, datetime_string)
+    args.index = generate_smart_filename(args.index, raw_text, datetime_string)
+    if args.pickle is not None:
+        if args.pickle:
+            args.pickle = generate_smart_filename(args.pickle, raw_text, datetime_string)
+        else:
+            default_pickle = f"lawsuit.pickle"
+            args.pickle = generate_smart_filename(default_pickle, raw_text, datetime_string)
+
     lawsuit_obj = Lawsuit(
         sections=sections_od,
         exhibits=exhibits_od,
@@ -1303,7 +1319,6 @@ def main():
     )
 
     store_lawsuit_in_db(lawsuit_obj, db_conn)
-
     if args.set_case:
         set_active_case(args.set_case, db_conn)
 
@@ -1321,9 +1336,9 @@ def main():
                     with zipfile.ZipFile(reply_file, 'r') as z:
                         for name in z.namelist():
                             if name.lower().endswith('.pdf'):
+                                import io
+                                from PyPDF2 import PdfReader
                                 with z.open(name) as fpdf:
-                                    import io
-                                    from PyPDF2 import PdfReader
                                     pdf_bytes = fpdf.read()
                                     pdf_stream = io.BytesIO(pdf_bytes)
                                     reader = PdfReader(pdf_stream)
@@ -1373,7 +1388,7 @@ def main():
     else:
         pkl_path = "Not saved (not requested)."
 
-    print(f"PDF generated (no cover sheet): {args.output}")
+    print(f"PDF generated (exhibits + pre-exhibit content): {args.output}")
     print(f"DOCX Complaint generated: {os.path.splitext(args.output)[0] + '.docx'}")
     print(f"Index PDF generated: {args.index}")
     print(f"Index DOCX generated: {index_docx}")
