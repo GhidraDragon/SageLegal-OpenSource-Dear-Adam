@@ -1,215 +1,397 @@
-=== CIVIL CASE COVER SHEET ===
-(Case Information and Case Designation Form – King County Superior Court)
+COMMONWEALTH OF MASSACHUSETTS
+MIDDLESEX, SS.
+SUPERIOR COURT
+-------------------------------------------------------
+BO SHANG,
+
+       Plaintiff,
+
+v.
+
+MIDDLESEX COUNTY DISTRICT
+ATTORNEY’S OFFICE,
 
-1. Case Title:
-   Bo Shang v. Amazon.com, Inc.
+       Defendant.
+-------------------------------------------------------
+
+                   COMPLAINT AND JURY DEMAND (AS ENHANCED)
+
+       Plaintiff, Bo Shang (“Plaintiff”), brings this Complaint against Defendant Middlesex
+County District Attorney’s Office (“Defendant”) and alleges as follows, incorporating
+additional factual and legal authorities:
+
+1.     Plaintiff is an individual residing in 10 McCafferty Way, Burlington MA 01803.
+
+2.     Defendant is a public office located in Middlesex County, Massachusetts.
+
+                             JURISDICTION AND VENUE
+
+3.     This Court has subject matter jurisdiction pursuant to G.L. c. 212, § 4, and under
+       concurrent jurisdiction principles for claims brought under 42 U.S.C. § 1983. See
+       Haywood v. Drown, 556 U.S. 729 (2009). This Court also has jurisdiction over claims
+       arising under the Massachusetts Constitution, the Massachusetts Civil Rights Act
+       (MCRA), G.L. c. 12, §§ 11H & 11I, and other Massachusetts common law claims.
+
+4.     Venue is proper in this Court pursuant to G.L. c. 223, § 1, because the events or
+       omissions giving rise to this action occurred in Middlesex County and because
+       Defendant is located in Middlesex County.
+
+                              FACTUAL BACKGROUND
+
+5.     On or about January 8, 2025, Plaintiff alleges that the Middlesex District Attorney’s
+       Office of MA, described by Plaintiff as “corrupt and despicably morally principled,”
+       filed a data request to Apple, supposedly under Massachusetts Rules of Civil
+       Procedure 45.
+
+6.     This occurred on the same day Plaintiff filed a motion to dismiss Twitch and an AirTag +
+       commerce tax (App Store) lawsuit against Apple (which hosts the Twitch app).
+
+7.     Plaintiff asserts that this data request was not legitimately obtained under Mass. R. Civ.
+       P. 45 but was instead an illegal measure taken against Plaintiff as an “enemy
+       combatant,” contrary to both domestic and international law, including Geneva
+       Conventions III & IV, and the International Covenant on Civil and Political Rights
+       (ICCPR).
+
+7A.    The United States is a party to the four Geneva Conventions of 1949, which set forth
+       standards for treatment of persons in armed conflicts, including alleged “enemy
+       combatants.” Plaintiff maintains that labeling Plaintiff as an “enemy combatant”
+       without due process violates customary international humanitarian law and Supreme
+       Court precedent concerning the rights of such individuals. See, e.g., Hamdi v.
+       Rumsfeld, 542 U.S. 507 (2004); Rasul v. Bush, 542 U.S. 466 (2004); Boumediene v.
+       Bush, 553 U.S. 723 (2008).
+
+7B.    The United States is also a State Party to the ICCPR, which, under Article 9, protects
+       against arbitrary arrest or detention and, under Article 14, protects due process rights.
+       Plaintiff alleges that classifying Plaintiff as an “enemy combatant” in a civilian context,
+       and thereby circumventing ordinary legal process, violates the ICCPR’s guarantees of
+       fundamental procedural protections.
+
+7C.    The Supreme Court has further clarified the rights of individuals designated as “enemy
+       combatants” in Padilla v. Rumsfeld, 542 U.S. 426 (2004), emphasizing the need for
+       proper legal process. Plaintiff alleges these precedents reinforce the argument that
+       civilian processes cannot be bypassed via “enemy combatant” designations.
+
+7D.    In Ex parte Milligan, 71 U.S. (4 Wall.) 2 (1866), the Supreme Court held that applying
+       military or martial process to civilians, when civil courts are open, is unconstitutional.
+       Plaintiff contends this principle applies here, making any civilian “enemy combatant”
+       label unlawful.
+
+7E.    The Supreme Court in Hamdan v. Rumsfeld, 548 U.S. 557 (2006), further confirmed
+       that efforts to circumvent civilian courts through alternative proceedings for alleged
+       combatants violate U.S. constitutional principles. Plaintiff alleges that all such
+       precedents collectively prohibit unilateral “enemy combatant” branding in non-war
+       contexts.
+
+8.     On January 30, 2025, Plaintiff received an email from Apple regarding this request,
+       which stated in part:
+
+       “Apple
+        NOTE: THIS NOTICE IS BEING SENT FROM A NO-REPLY EMAIL ACCOUNT—ANY RESPONSE
+        TO THIS EMAIL WILL NOT RECEIVE A RESPONSE
+
+        Dear Account Holder/Customer:
+
+        On 2025-01-08, Apple Inc. (“Apple”) received a legal request from Middlesex District
+        Attorney's Office requesting information regarding your Apple account.
+
+        The contact information in relation to the request:
+        Requesting Agency: Middlesex District Attorney's Office
+        Requesting Agency Location: Woburn, MA - Massachusetts
+        Requesting Agency Case Number: 2024-398
+        Legal Request Type: Subpoena / Summons
+
+        Pursuant to the applicable Terms of Service and Apple’s Privacy Policy,
+        http://www.apple.com/legal/privacy/en-ww/, and as required by U.S. law, Apple
+        will be producing the requested data in a timely manner as required by the legal
+        process. If you have questions about the legal request or the information requested,
+        please contact the requesting agency.
+
+        Sincerely,
+        Apple Privacy & Law Enforcement Compliance
+        Apple Inc.”
+
+9.     Plaintiff maintains that Defendant violated Plaintiff’s rights under federal and state law
+       by improperly obtaining and misusing personal data. Plaintiff asserts a violation of
+       privacy rights under G.L. c. 214, § 1B (right against unreasonable, substantial or
+       serious interference with privacy), Article 14 of the Massachusetts Declaration of
+       Rights (protection against unreasonable searches and seizures), the Fourth Amendment
+       to the U.S. Constitution, and international human rights norms including Article 17 of
+       the ICCPR and Article 12 of the Universal Declaration of Human Rights (UDHR).
+
+9A.    The UDHR, though not a binding treaty, informs customary international law and reflects
+       global human rights standards. Article 12 states that “[n]o one shall be subjected to
+       arbitrary interference with his privacy,” a principle Plaintiff contends was violated.
+
+9B.    The United States is also a State Party to the Convention Against Torture (CAT),
+       highlighting due process norms. Plaintiff claims that Defendant’s labeling and treatment
+       of Plaintiff as an “enemy combatant” violate the spirit of these international
+       commitments.
+
+9C.    In United States v. Warshak, 631 F.3d 266 (6th Cir. 2010), the court recognized a
+       reasonable expectation of privacy in certain electronic communications, requiring
+       proper legal process for data access. Plaintiff alleges Defendant’s conduct flouts
+       Warshak’s privacy rationale.
+
+9D.    In Kyllo v. United States, 533 U.S. 27 (2001), the Supreme Court held that obtaining
+       information through technology not otherwise accessible without physical intrusion
+       implicates the Fourth Amendment. Plaintiff characterizes Defendant’s subpoena or
+       data request as an analogous overreach.
+
+9E.    Under Massachusetts jurisprudence, the Supreme Judicial Court in Commonwealth v.
+       Augustine, 467 Mass. 230 (2014), recognized strong privacy protections for personal
+       digital records, requiring heightened procedures for obtaining certain data. Plaintiff
+       alleges that Defendant’s conduct runs afoul of Augustine’s reasoning.
+
+10.    Plaintiff alleges that, in response to Defendant’s perceived threat, Plaintiff invoked the
+       Second Amendment to the U.S. Constitution, as recognized in District of Columbia
+       v. Heller, 554 U.S. 570 (2008), McDonald v. City of Chicago, 561 U.S. 742 (2010), and
+       Caetano v. Massachusetts, 577 U.S. 411 (2016). Plaintiff also invokes Article 17 of
+       the Massachusetts Declaration of Rights, contending these decisions protect an
+       individual right to bear “arms,” which Plaintiff interprets to include “cyber arms.”
+
+11.    Plaintiff claims to have developed or acquired “cyber arms” by creating advanced
+       persistent threats (“APTs”) and by allying with other APTs, including “Salt Typhoon.”
+       Plaintiff asserts that these “cyber arms” are protected under the Second Amendment
+       and Article 17 as a form of self-defense.
+
+12.    Plaintiff alleges that Defendant’s conduct in issuing or causing the issuance of a data
+       request without valid legal basis constituted an unlawful intrusion upon Plaintiff’s data
+       privacy, in violation of the Fourth Amendment (as incorporated by Mapp v. Ohio, 367
+       U.S. 643 (1961), and recognized in Katz v. United States, 389 U.S. 347 (1967), Terry v.
+       Ohio, 392 U.S. 1 (1968), Carpenter v. United States, 138 S. Ct. 2206 (2018), Riley v.
+       California, 573 U.S. 373 (2014)), Article 14 of the Massachusetts Declaration of Rights,
+       the Stored Communications Act (18 U.S.C. §§ 2701–2712), Article 17 of the ICCPR,
+       and Article 12 of the UDHR.
+
+12A.   Plaintiff notes that third-party data requests implicate the “third-party doctrine,” as set
+       forth in Smith v. Maryland, 442 U.S. 735 (1979). However, Carpenter recognized
+       limitations when sensitive digital data is at issue. Plaintiff alleges that Defendant’s
+       conduct violates Carpenter’s narrowing of the third-party doctrine.
+
+12B.   Plaintiff further cites Commonwealth v. Gouse, 461 Mass. 787 (2012), for the
+       proposition that Massachusetts courts often apply heightened scrutiny to searches
+       involving personal or digital privacy, reinforcing Plaintiff’s claim that Defendant’s
+       subpoena was invalid or overreaching.
+
+13.    Plaintiff contends that Defendant’s conduct effectively labeled Plaintiff an “enemy
+       combatant,” heightening constitutional concerns, implicating Article 5 of the UDHR, and
+       prompting Plaintiff’s reliance on the Second Amendment and Article 17 to protect
+       “cyber arms” from confiscation, regulation, or direct infringement.
+
+13A.   Plaintiff invokes Hamdan v. Rumsfeld, 548 U.S. 557 (2006), to underscore the illegality
+       of any extrajudicial designation of “enemy combatant” status. Plaintiff argues that
+       under both domestic and international law, such designations cannot bypass civilian
+       jurisdiction in ordinary contexts.
+
+14.    Plaintiff asserts that Defendant’s actions violate customary international law norms
+       related to privacy, as recognized by multiple treaties and conventions to which the
+       United States is a party or signatory, including the ICCPR, and contravene prohibitions
+       on arbitrary interference under global human rights standards.
+
+14A.   The United States is a signatory to the Budapest Convention on Cybercrime, addressing
+       lawful cooperation in criminal cyber matters. Plaintiff contends that Defendant’s
+       allegedly improper “cyber” classification and data request contravene the spirit of
+       privacy protections contemplated by such instruments.
+
+14B.   Although the United States has not ratified Additional Protocol I or II to the Geneva
+       Conventions, Plaintiff argues that certain principles therein reflect customary
+       international humanitarian law, prohibiting arbitrary or extrajudicial designations
+       of civilians as combatants.
+
+14C.   The United States is also a member of the Organization of American States and is bound
+       by certain obligations under the American Declaration of the Rights and Duties of Man,
+       which can inform interpretations of privacy and due process in conjunction with other
+       international norms.
+
+14D.   In addition, N.Y. State Rifle & Pistol Assn. v. Bruen, 597 U.S. ___ (2022), further
+       clarified the scope of the Second Amendment right to bear arms. Plaintiff references
+       Bruen to argue that Defendant’s attempts to limit, seize, or regulate “cyber arms”
+       are inconsistent with the broad individual right recognized by the Supreme Court.
+
+                                 CAUSES OF ACTION
+
+                                     COUNT I
+                             (Violation of 42 U.S.C. § 1983)
+
+15.    Plaintiff repeats and re-alleges all preceding paragraphs as though fully set forth herein.
+
+16.    Defendant, acting under color of state law, allegedly caused the issuance of a subpoena
+       or summons without proper legal basis in violation of Plaintiff’s constitutional rights,
+       including but not limited to the Fourth Amendment right to be free from unreasonable
+       searches and seizures as recognized in Katz, Terry, Mapp, Carpenter, Riley, and related
+       precedent.
+
+17.    By issuing or causing this allegedly improper process, Defendant deprived Plaintiff of
+       rights secured by the Constitution and laws of the United States, in contravention of
+       42 U.S.C. § 1983.
+
+                                     COUNT II
+                    (Violation of Massachusetts Civil Rights Act)
+
+18.    Plaintiff repeats and re-alleges all preceding paragraphs as though fully set forth herein.
+
+19.    Defendant’s conduct—issuing a data request under color of law without legitimate
+       basis—constitutes interference or attempted interference with Plaintiff’s exercise or
+       enjoyment of rights secured by the Constitutions and laws of the United States and
+       the Commonwealth, including the right against unreasonable searches (Article 14) and
+       the right to keep arms (Article 17), by means of threats, intimidation, or coercion, in
+       violation of G.L. c. 12, §§ 11H & 11I. See Batchelder v. Allied Stores Int’l, Inc.,
+       388 Mass. 83 (1983); Buster v. George W. Moore, Inc., 438 Mass. 635 (2003);
+       Commonwealth v. Powell, 459 Mass. 572 (2011).
+
+20.    As a direct and proximate result of Defendant’s actions, Plaintiff has suffered and will
+       continue to suffer damages recoverable under the MCRA.
 
-2. Cause of Action:
-   TTO – Tort / Other
+                                   COUNT III
+                     (Abuse of Process Under Massachusetts Law)
 
-3. Case Category:
-   Civil – Tort / Other
+21.    Plaintiff repeats and re-alleges all preceding paragraphs as though fully set forth herein.
 
-4. Case Type Designation:
-   SEA – Seattle (King County Superior Court, Seattle Courthouse)
+22.    Under Massachusetts law, an abuse of process claim arises when legal process is used
+       for an ulterior or illegitimate purpose. See Cohen v. Hurley, 20 Mass. App. Ct. 439
+       (1985); Kelley v. Stop & Shop Cos., 26 Mass. App. Ct. 557 (1988); Lorusso v. Bloom,
+       321 Mass. 9 (1947).
 
-5. Plaintiff(s):
-   Name:       Bo Shang
-   Address:    10 McCafferty Way
-   Phone:      781-999-4101
-   Email:      bo@shang.software
+23.    Defendant allegedly misused legal process by pursuing a data request unsupported by
+       valid legal grounds and did so for an improper purpose, causing harm to Plaintiff.
 
-6. Defendant(s):
-   Name:       Amazon.com, Inc.
-   Address:    410 Terry Avenue North, Seattle, WA 98109
+24.    As a direct and proximate result of Defendant’s actions, Plaintiff has suffered damages
+       recoverable under Massachusetts law.
 
-7. Attorney/Pro Se:
-   Pro Se (self-represented litigant)
+                                   COUNT IV
+                    (Injunctive Relief Under Federal and State Law)
 
-8. I certify that this case meets the case assignment criteria for King County Superior Court.
-   Dated: February 27, 2025
+25.    Plaintiff repeats and re-alleges all preceding paragraphs as though fully set forth herein.
 
-   ___________________________________
-   Signature:  ________________________
-   Printed Name:  _____________________
-   (Pro Se)
+26.    As a result of Defendant’s conduct, Plaintiff seeks injunctive relief prohibiting
+       Defendant from further unlawful use of subpoenas, summonses, or other legal process
+       to access Plaintiff’s personal data without proper justification. Plaintiff seeks to enjoin
+       any acts by Defendant that violate Plaintiff’s rights under federal and state law,
+       including the Fourth Amendment, Article 14, G.L. c. 214, § 1B, the MCRA, the Stored
+       Communications Act, and international human rights treaties such as the ICCPR.
 
-================================================================================
+                                  COUNT V
+                    (Assertion of the Second Amendment and
+              Article 17 of the Massachusetts Declaration of Rights)
 
-=== SUMMONS ===
-(SUPERIOR COURT OF WASHINGTON FOR KING COUNTY)
+27.    Plaintiff repeats and re-alleges all preceding paragraphs as though fully set forth herein.
 
-Plaintiff:  BO SHANG, an individual
+28.    The Second Amendment states that “the right of the people to keep and bear Arms,
+       shall not be infringed.” As held in District of Columbia v. Heller, 554 U.S. 570 (2008),
+       this right is individual in nature, and in McDonald v. City of Chicago, 561 U.S. 742
+       (2010), it applies to the states. In Caetano v. Massachusetts, 577 U.S. 411 (2016),
+       the Supreme Court reiterated its broad scope. Article 17 of the Massachusetts
+       Declaration of Rights similarly protects the right to keep and bear arms. N.Y. State
+       Rifle & Pistol Assn. v. Bruen, 597 U.S. ___ (2022), further refines these constitutional
+       principles.
 
-Defendant:  AMAZON.COM, INC., a Delaware corporation
+29.    Plaintiff asserts that “cyber arms” (i.e., advanced persistent threats, digital tools, or
+       alliances with groups such as “Salt Typhoon”) constitute protected “arms” under the
+       Second Amendment and Article 17. Plaintiff alleges that any attempt by Defendant
+       to seize, regulate, or otherwise interfere with these “cyber arms” without due process
+       violates Plaintiff’s federal and state constitutional rights.
 
-Case No. __________
+30.    Plaintiff further alleges that Defendant’s labeling of Plaintiff as an “enemy combatant”
+       or any related act to disarm Plaintiff’s “cyber capacity” contravenes Heller, McDonald,
+       Caetano, Bruen, and Article 17 of the Massachusetts Declaration of Rights.
 
-                                   SUMMONS
+31.    Plaintiff therefore seeks declaratory relief that any effort by Defendant to restrict
+       Plaintiff’s possession or development of “cyber arms” violates the Second Amendment
+       and Article 17, and that such restriction contravenes self-defense principles acknowledged
+       by various human rights instruments, including the UN Charter’s Article 51 (albeit in
+       state contexts) and related customary international law.
 
-TO: AMAZON.COM, INC.
-    410 Terry Avenue North
-    Seattle, WA 98109
+                              REQUEST FOR RELIEF
 
-A lawsuit has been started against you in the above-entitled court. The plaintiff’s Complaint, which is attached, states the basis for this lawsuit.
+WHEREFORE, Plaintiff respectfully requests that this Court:
 
-In order to defend against this lawsuit, you must respond to the Complaint by stating your defense in writing and serving a copy upon the person signing this Summons within twenty (20) days after the service of this Summons (or sixty (60) days if you are served outside the State of Washington), not counting the day of service. If you fail to do so, a default judgment may be entered against you without further notice for the relief demanded in the Complaint.
+A.     Enter judgment in favor of Plaintiff and against Defendant on all causes of action;
+B.     Award Plaintiff compensatory, consequential, and punitive damages in an amount to be
+       determined at trial;
+C.     Grant injunctive relief restraining Defendant from seeking or using Plaintiff’s personal
+       data without proper legal justification;
+D.     Declare that Plaintiff’s “cyber arms” are protected under the Second Amendment and
+       Article 17, and that any attempt by Defendant to restrict or confiscate them, if any,
+       violates federal and state constitutions and relevant international human rights standards;
+E.     Award Plaintiff’s reasonable attorneys’ fees and costs pursuant to 42 U.S.C. § 1988,
+       G.L. c. 12, §§ 11H & 11I, or as otherwise provided by law;
+F.     Grant such other and further relief as the Court deems just and proper.
 
-If you serve a Notice of Appearance on the undersigned person, you are entitled to notice before a default judgment may be entered.
+                           DEMAND FOR JURY TRIAL
 
-You may demand that the plaintiff file this lawsuit with the court. If you do so, the demand must be in writing and served upon the person signing this Summons. Within fourteen (14) days after you serve the demand, the plaintiff must file this lawsuit with the court or the service on you of this Summons and Complaint will be void.
+Plaintiff demands a trial by jury on all issues so triable.
 
-Dated: February 27, 2025
+Dated: 2/27/2025
 
-_____________________________________
-Signature:  __________________________
-Printed Name:  ______________________
-Pro Se
-10 McCafferty Way
-781-999-4101
-bo@shang.software
+                                             Respectfully submitted,
 
-================================================================================
+                                             _____________________________
+                                             Bo Shang
+                                             10 McCafferty Way
+                                             Burlington MA 01803-3127
+                                             202-235-5017 | 781-999-4101
+                                             bo@shang.software 
 
-=== COMPLAINT FOR DAMAGES, INJUNCTIVE RELIEF, AND OTHER RELIEF ===
-(SUPERIOR COURT OF WASHINGTON FOR KING COUNTY)
 
-BO SHANG, an individual,                      )
-                                              )   Case No. __________
-              Plaintiff,                      )
-                                              )   COMPLAINT FOR DAMAGES,
-       v.                                     )   INJUNCTIVE RELIEF,
-                                              )   AND OTHER RELIEF
-AMAZON.COM, INC., a Delaware                  )
-corporation,                                  )
-                                              )
-              Defendant.                      )
 
-I. INTRODUCTION
 
-1. Plaintiff, Bo Shang (“Plaintiff”), brings this action against Amazon.com, Inc. (“Amazon” or “Defendant”), alleging that Defendant sold or facilitated the sale of a stolen Google Pixel 7A smartphone through its Prime shipping program. Plaintiff contends that after discovering the phone was stolen, Amazon:
-   1. Required Plaintiff to drop off the return in person at an Amazon-approved location; and
-   2. Imposed a 20% restocking fee due to a purported 90-day return limit — even though the device’s stolen status was unknown to Plaintiff until after that period.
 
-2. Plaintiff seeks compensatory damages, equitable relief, attorneys’ fees (if permitted by law), and any other relief deemed just and proper.
 
-II. JURISDICTION AND VENUE
 
-3. Subject Matter Jurisdiction: This Court has jurisdiction over the claims asserted herein under RCW 2.08.010, which grants the Superior Court original jurisdiction in all civil actions where the value of the claim exceeds the jurisdictional limits of inferior courts.
 
-4. Personal Jurisdiction: Defendant Amazon.com, Inc. is headquartered in Seattle, Washington, transacts substantial business in King County, and has purposely availed itself of the benefits and protections of Washington laws. Therefore, personal jurisdiction is proper under RCW 4.28.185 and general principles of due process.
 
-5. Venue: Venue is proper in King County under RCW 4.12.025(1) because Defendant’s principal place of business is in King County, and a substantial part of the events or omissions giving rise to Plaintiff’s claims occurred in King County.
 
-III. PARTIES
 
-6. Plaintiff, Bo Shang (“Plaintiff”), is an individual residing in [County/State], who purchased a Pixel 7A smartphone from Amazon’s platform under the Amazon Prime shipping program.
 
-7. Defendant, Amazon.com, Inc. (“Amazon” or “Defendant”), is a Delaware corporation with its principal place of business located at 410 Terry Avenue North, Seattle, Washington 98109.
 
-IV. FACTUAL BACKGROUND
 
-8. Purchase and Discovery of Stolen Status:
-   • On or about [date of purchase], Plaintiff purchased a Google Pixel 7A smartphone from Amazon. The product was labeled “Prime,” suggesting either it was sold by Amazon or fulfilled by Amazon on behalf of a third-party seller.
-   • Plaintiff received and used the phone but subsequently discovered, through [documentation from manufacturer/mobile carrier/police report/other source], that the device had been reported stolen before Plaintiff’s purchase.
 
-9. Notification to Amazon:
-   • Plaintiff promptly informed Amazon Customer Service of the phone’s stolen status and requested a refund.
-   • Amazon instructed Plaintiff to drop off the device at an approved Amazon or carrier location. Plaintiff was forced to personally handle and transport the stolen item at his own expense and inconvenience.
 
-10. Restocking Fee Imposed:
-   • Amazon refused to process the return without a 20% restocking fee, asserting that the phone was outside the 90-day return window.
-   • Plaintiff contends that the stolen status was not discoverable through normal use until after this arbitrary deadline; moreover, it is unconscionable to charge any restocking fee for returning a stolen product that never should have been sold in the first place.
 
-11. Harm to Plaintiff:
-   • Plaintiff relied on Amazon’s representations of safety, security, and product legitimacy, especially for “Prime” products.
-   • Plaintiff incurred financial, legal, and practical harm, including the inconvenience and potential liability of possessing stolen goods, time and travel costs for dropping off the return, and the 20% restocking fee demanded by Amazon.
 
-12. Amazon’s Role and Representations:
-   • By labeling the Pixel 7A purchase with “Prime,” Amazon effectively represented to Plaintiff that the item was vetted or at least subject to certain quality and authenticity controls.
-   • Plaintiff contends Amazon either owned the device before sale (as part of its Fulfillment by Amazon stock) or acted as a primary facilitator, thus materially controlling the transaction.
-   • In numerous marketing statements, Amazon promotes its marketplace as safe and reliable, guaranteeing customers they can “buy with confidence” under programs such as “A-to-Z Guarantee.” However, these assurances proved hollow in Plaintiff’s case.
 
-V. CAUSES OF ACTION
 
-Plaintiff realleges and incorporates by reference each of the preceding paragraphs as though fully set forth herein.
 
-COUNT I – VIOLATION OF THE WASHINGTON CONSUMER PROTECTION ACT (RCW 19.86)
 
-13. The Washington Consumer Protection Act (“WCPA”), codified at RCW 19.86, prohibits unfair or deceptive acts or practices in the conduct of trade or commerce.
+EXHIBIT 1: On 1/30/25, the Plaintiff receives an email from Apple detailing the information request made to the Plaintiff’s developer account on 1/8/25, by the Middlsex DA’s Office. This date coincided with the Plaintiff filing 27 and 27-1 in Federal Court Case 3:24-cv-06664-JS, the first time ever anyone has won a Section 230 claim vs Twitch interactive.
 
-14. Defendant, by enabling the sale of stolen goods under the Amazon Prime program and by imposing an unconscionable restocking fee when the item was finally discovered to be stolen, committed one or more unfair or deceptive acts or practices likely to mislead a reasonable consumer.
+https://www.fakeopenai.co/section230
 
-15. Case Law Support:
-   • Hangman Ridge Training Stables, Inc. v. Safeco Title Ins. Co., 105 Wn.2d 778, 784–85 (1986).
-   • Klem v. Washington Mut. Bank, 176 Wn.2d 771, 787 (2013).
+https://www.fakeopenai.co/lsat
 
-16. Amazon’s acts and omissions proximately caused injury to Plaintiff’s business or property, including monetary loss and other damages, thus violating RCW 19.86.020.
 
-17. Pursuant to RCW 19.86.090, Plaintiff seeks actual damages, treble damages up to statutory limits, and reasonable attorneys’ fees and costs.
 
-COUNT II – BREACH OF IMPLIED WARRANTY OF MERCHANTABILITY (RCW 62A.2-314)
 
-18. Under RCW 62A.2-314, every contract for the sale of goods includes an implied warranty of merchantability, which ensures the product is fit for the ordinary purposes for which goods of that kind are used, and that the product is lawfully sold (not stolen).
 
-19. By advertising and fulfilling the sale of a stolen Google Pixel 7A, Defendant breached the implied warranty of merchantability, as stolen merchandise cannot be lawfully resold and is inherently unfit for normal ownership and use.
 
-20. Case Law Support:
-   • Baughn v. Honda Motor Co., Ltd., 107 Wn.2d 127, 151 (1986).
-   • Touchet Valley Grain Growers, Inc. v. Opp & Seibold Gen. Constr., Inc., 119 Wn.2d 334, 341 (1992).
 
-21. As a direct and proximate result of Defendant’s breach, Plaintiff suffered damages in an amount to be proven at trial.
 
-COUNT III – NEGLIGENCE / NEGLIGENT MISREPRESENTATION
+EXHIBIT 2: The Plaintiff is making great progress, and expects to achieve an “Eternal” family of zero-day capabilities on the SMBv2 protocol, within a day or few days.
 
-22. Defendant owed a duty of care to Plaintiff as a consumer who relied on Defendant’s platform and “Prime” services. Given Amazon’s representations of safety and security, it had a duty to prevent the sale of stolen goods or at least conduct reasonable checks.
+https://www.github.com/ghidradragon/SMBv2
 
-23. Defendant breached this duty by failing to implement adequate inventory control, screening, or verification processes to ensure that items sold or fulfilled via Amazon Prime were not stolen property.
 
-24. Case Law Support:
-   • Mbewe v. Amazon.com, Inc., No. 2:18-cv-00848-RAJ, 2019 WL 2994693 (W.D. Wash. July 9, 2019).
-   • Erie Ins. Co. v. Amazon.com, Inc., 925 F.3d 135 (4th Cir. 2019).
 
-25. Plaintiff relied on Amazon’s statements and “Prime” labeling, believing the product was legitimate and non-stolen. Plaintiff would not have purchased the phone had he known it was stolen.
+EXHIBIT 3: The “Eternal” family of zero-day exploits developed by the NSA, on the SMBv1 protocol
 
-26. This reliance was justifiable given Amazon’s longstanding marketing as a trusted e-commerce platform. Defendant’s negligent conduct directly and proximately caused harm to Plaintiff, including but not limited to the cost of the phone, the time and expense of the forced return, and the imposed restocking fee.
+## A Bit More Detail
 
-VI. DAMAGES AND RELIEF SOUGHT
+1. **The Vulnerability (MS17-010)**
+   - EternalBlue exploited a memory corruption bug in Microsoft’s SMBv1 server (in functions like `Srv!SrvOs2FeaListToNt` or `Srv!SrvTransaction2Dispatch`).
+   - By sending specially crafted “trans2” (transaction) packets, the attacker could write arbitrary data past buffer boundaries in kernel space (in particular, in the `SRV` driver).
 
-WHEREFORE, Plaintiff respectfully requests judgment in his favor as follows:
+2. **Named Pipe vs. Trans2**
+   - **Named Pipe Exploits (e.g., EternalRomance):** Some SMB exploits from the same leak abused a named pipe—often `\pipe\SRVSVC`—to hold open a file/pipe handle in the SMB server and then manipulate buffer offsets for code execution.
+   - **EternalBlue’s Approach:** EternalBlue directly abused an out-of-bounds write in the SMBv1 “trans2” sub-protocol. While SMBv1 does support named pipes, EternalBlue’s trigger was not contingent on obtaining a pipe handle.
 
-1. Compensatory Damages: For all losses, including but not limited to the purchase price of the Pixel 7A, related fees, costs incurred to return the stolen device, and any other economic losses.
+3. **Why the Confusion?**
+   - All these exploits came from the same toolset (Equation Group’s FuzzBunch) and target SMB on various Windows versions.
+   - EternalBlue, EternalRomance, EternalChampion, and EternalSynergy each had different code paths and slightly different vulnerabilities, even though they were all SMB-related.
 
-2. Treble Damages: As allowed under RCW 19.86.090 for violations of the Washington Consumer Protection Act, up to the statutory maximum.
+---
 
-3. Injunctive Relief:
-   • Enjoining Defendant from imposing restocking fees on products that turn out to be stolen.
-   • Requiring Defendant to improve inventory and fulfillment procedures to prevent future sales of stolen property.
+### Summary
 
-4. Attorneys’ Fees and Costs: Pursuant to RCW 19.86.090 (for CPA violations) and any other applicable provision of law.
+- **EternalBlue** = Exploits a buffer overflow in SMBv1’s “trans2” commands.  
+- **Does it use a pipe?** No—unlike some sibling exploits (e.g., EternalRomance), it does **not** hinge on a named pipe handle.
 
-5. Pre- and Post-Judgment Interest: As permitted by law.
-
-6. Such Other and Further Relief as the Court deems just, equitable, and proper.
-
-VII. JURY DEMAND
-
-Pursuant to CR 38 of the Washington Superior Court Civil Rules, Plaintiff demands trial by jury on all issues so triable.
-
-PRAYER FOR RELIEF
-
-WHEREFORE, Plaintiff, Bo Shang, prays for judgment against Defendant, Amazon.com, Inc., in an amount to be proven at trial, including but not limited to compensatory and statutory damages, along with equitable relief, interest, costs, and attorneys’ fees (if allowed by law), and for such other relief as this Court deems just and proper.
-
-DATED this 4 day of Feb, 2025.
-
-Respectfully submitted,
-
-__________________________________
-Signature:  _______________________
-Printed Name:  ____________________
-Pro Se
-10 McCafferty Way
-781-999-4101
-bo@shang.software
-
-================================================================================
