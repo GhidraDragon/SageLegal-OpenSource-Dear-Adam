@@ -1,0 +1,43 @@
+=========================
+SUMMONS
+=========================
+SUPERIOR COURT OF WASHINGTON
+IN AND FOR THE COUNTY OF KING
+
+----------------------------------------------------
+ BO SHANG,
+                            Plaintiff,
+         v.
+ MICROSOFT CORPORATION
+ (d/b/a Microsoft Azure),
+                            Defendant.
+----------------------------------------------------
+
+Case No. __________________________
+SUMMONS
+
+TO: MICROSOFT CORPORATION (d/b/a Microsoft Azure)
+
+A lawsuit has been started against you in the above-entitled court. The Plaintiff’s Complaint for Damages is attached to this Summons. In order to defend against this lawsuit, you must respond to the Complaint by stating your defense in writing, and you must serve a copy upon the Plaintiff within twenty (20) days after the service of this Summons (or sixty (60) days if this Summons was served outside of the State of Washington), excluding the day of service. If you fail to do so, a default judgment may be entered against you without notice.
+
+You must also file your written response with the Clerk of the Court at:
+    King County Superior Court
+    516 Third Avenue
+    Seattle, WA 98104
+
+You may demand that the Plaintiff file this lawsuit with the Court. If the Plaintiff fails to do so, the Summons will be void.
+
+If you wish to seek the advice of an attorney in this matter, you should do so promptly so that your written response, if any, may be served on time.
+
+This Summons is issued pursuant to Rule 4 of the Superior Court Civil Rules of the State of Washington.
+
+DATED this ____ day of ______________, 2025.
+
+___________________________________
+[Signature of Plaintiff if pro se or Attorney for Plaintiff]
+[Printed Name]
+[Address]
+[Phone Number]
+[Email Address]
+
+--------------------------------------------------------------------------------

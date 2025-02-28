@@ -1,0 +1,42 @@
+=========================
+CIVIL CASE COVER SHEET
+=========================
+Case Title: Shang v. Microsoft Corporation (d/b/a Microsoft Azure)
+
+Court: Superior Court of Washington for King County
+
+Case Designation:
+SEA – Seattle (Case Location)
+
+Cause of Action:
+TTO – Tort / Other
+
+Case Category:
+Tort / Other (e.g., breach of contract / tort claims / discrimination)
+
+Plaintiff(s):
+Name:     Bo Shang
+Address:  [Plaintiff’s Address]
+Phone:    [Plaintiff’s Phone Number]
+Email:    [Plaintiff’s Email Address]
+
+Defendant(s):
+Name:     Microsoft Corporation (d/b/a Microsoft Azure)
+Address:  One Microsoft Way, Redmond, WA 98052
+
+Attorney for Plaintiff:
+[If pro se, leave blank or indicate “Pro Se”]
+
+Case Number: _______________________ (Clerk to assign upon filing)
+
+=========================
+SIGNATURE
+=========================
+I certify that the information provided in this cover sheet is true and correct to the best of my knowledge.
+
+Date: ______________________
+
+Signature: __________________________
+Printed Name: _______________________
+
+--------------------------------------------------------------------------------

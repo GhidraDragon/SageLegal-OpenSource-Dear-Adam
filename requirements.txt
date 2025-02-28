@@ -4,3 +4,4 @@ odf
 PyPDF2
 opendocument
 tensorflow
+scikit-learn
