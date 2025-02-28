@@ -1,3 +1,3 @@
 python3.12 tflegal.py --firm_name "PDFSage Inc." \
-  --case "Superior Court of Massachusetts, Middlesex County" \
+  --case "Washington State Superior Court, King County" \
   --file lawsuit.txt
