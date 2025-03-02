@@ -1244,7 +1244,7 @@ def filter_headings_for_toc(heading_positions):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--firm_name", required=True)
+    parser.add_argument("--firm_name", default="PDFSage Inc.")
     parser.add_argument("--case", required=True)
     parser.add_argument("--output", default="lawsuit.pdf")
     parser.add_argument("--file", required=True)
