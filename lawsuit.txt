@@ -1,238 +1,169 @@
 COMMONWEALTH OF MASSACHUSETTS
-MIDDLESEX SUPERIOR COURT
+MIDDLESEX COUNTY SUPERIOR COURT
 
-CIVIL ACTION NO. ______
-
-________________
-
-BO SHANG,
-      Plaintiff,
+-----------------------------------------------------------
+Plaintiff:
+    BO SHANG,
+    10 McCafferty Way
+    Burlington, MA 01803
 
 v.
 
-THE EDINBURGH CENTER PACT PROGRAM,
-      Defendant.
+Defendants:
+    1. GEJING DENG
+       10 McCafferty Way
+       Burlington, MA 01803
 
-________________
+    2. FU SHANG
+       10 McCafferty Way
+       Burlington, MA 01803
+-----------------------------------------------------------
 
-                                  COMPLAINT
+INTRODUCTION
+1. This is a civil action brought by Plaintiff, Bo Shang (“Plaintiff”), against Defendants,
+   identified herein as Gejing Deng and Fu Shang (“Defendants”), arising out of Defendants’
+   alleged false report to the Burlington Police Department on or about February 8, 2025,
+   regarding Plaintiff’s pretrial release conditions. Plaintiff seeks damages and injunctive relief,
+   including protective orders, for Defendants’ conduct pursuant to G.L. c. 231 (see, e.g., G.L.
+   c. 231, § 1 et seq.), and generally recognized common law torts in Massachusetts (see Stone
+   v. Essex County Newspapers, Inc., 367 Mass. 849 (1975); Ravnikar v. Bogojavlensky, 438
+   Mass. 627 (2003); and related case law).
 
-1. PARTIES
+PARTIES
+2. Plaintiff, Bo Shang, is an individual residing at 10 McCafferty Way, Burlington,
+   Massachusetts 01803.
+3. Upon information and belief, Defendant, Gejing Deng, is an individual who resides in
+   Massachusetts at the same address.
+4. Upon information and belief, Defendant, Fu Shang, is an individual who resides in
+   Massachusetts at the same address.
 
-   1.1. Plaintiff, Bo Shang, is an individual residing in Middlesex County, Commonwealth of
-        Massachusetts.
+JURISDICTION AND VENUE
+5. This Court has subject matter jurisdiction over this action because the amount in controversy
+   exceeds the jurisdictional minimum of this Court. See G.L. c. 212, § 3; see also G.L. c. 214
+   (equitable jurisdiction) and G.L. c. 231, § 2.
+6. Venue is proper in Middlesex County pursuant to G.L. c. 223 because the events at issue
+   occurred in Burlington, Massachusetts, which is located in Middlesex County, and because
+   Defendants’ actions caused injury to Plaintiff in Middlesex County (see G.L. c. 223, § 1
+   et seq.; Nixon v. Littleston, 341 Mass. 611 (1961) for venue considerations).
 
-   1.2. Upon information and belief, The Edinburgh Center PACT Program is a healthcare
-        provider located in Middlesex County, Commonwealth of Massachusetts, and is
-        subject to the laws of the Commonwealth regarding the practice of mental health
-        treatment and related services. See G.L. c. 112, § 129A; G.L. c. 111, § 203; see also
-        G.L. c. 123, § 1 et seq. Healthcare providers in Massachusetts, including mental
-        health providers, must comply with the standards of professional conduct established
-        by boards of registration and applicable statutes, and they may be held liable in tort
-        if they deviate from the accepted standard of care. See Santos v. Kim, 429 Mass. 130,
-        133 (1999); Kapp v. Ballantine, 380 Mass. 186, 193 (1980); Forlano v. Hughes, 393
-        Mass. 502, 505–06 (1984); Felton v. Spiro, 188 Mass. 563, 567–68 (1905); Morgan
-        v. Lalumiere, 22 Mass. App. Ct. 262, 265 (1986). Under the doctrine of respondeat
-        superior, a facility can be liable for the negligence of its employees acting within the
-        scope of employment. See Dias v. Brigham Med. Assocs., Inc., 438 Mass. 317, 319
-        n.1 (2002).
+STATEMENT OF FACTS
+7. Plaintiff was previously under certain pretrial release conditions and was no longer required to
+   see a therapist, identified only as “Frank,” whom Plaintiff is suing for malpractice in the
+   Middlesex Superior Court, alleging 4+ years of misdiagnosed schizophrenia resulting in
+   substantial harm, including unemployment and pain and suffering (see G.L. c. 231, § 60B
+   regarding medical malpractice tribunal procedures).
+8. On or about February 8, 2025, Defendants called the Burlington Police Department and falsely
+   informed the police that Plaintiff was in violation of a pretrial release condition by not
+   attending therapy with “Frank” (see G.L. c. 268, §§ 1–6 regarding perjury and false reports;
+   also see G.L. c. 269, § 13A for false reports to police in certain contexts).
+9. Defendants knew or should have known that Plaintiff’s pretrial release conditions did not
+   require continued therapy with “Frank,” and that calling the police based on this false claim
+   would subject Plaintiff to humiliation, emotional distress, and potential adverse legal
+   consequences (see G.L. c. 231, §§ 92–93 governing certain aspects of defamation and
+   false statements; Noonan v. Staples, Inc., 556 F.3d 20, 25 (1st Cir. 2009) discussing
+   Massachusetts defamation standards; Jones v. Taibbi, 400 Mass. 786, 791–92 (1987)
+   regarding falsity and harm).
+10. Defendants’ false statements to law enforcement were malicious and intended to harm
+    Plaintiff’s reputation, undermine Plaintiff’s ongoing malpractice lawsuit, and disrupt
+    Plaintiff’s daily life (see Mass. R. Civ. P. 11(b) as to pleadings not made for improper
+    purpose; see also Correllas v. Viveiros, 410 Mass. 314 (1991) regarding malicious
+    prosecution/abuse of process considerations; Appleby v. Daily Hampshire Gazette, 395
+    Mass. 32, 37–38 (1985) regarding defamatory intent).
+11. As a direct and proximate result of Defendants’ actions, Plaintiff has suffered damages
+    including, but not limited to, emotional distress, fear, reputational harm, additional legal
+    expenses, and other consequential losses (see G.L. c. 231, § 6F regarding frivolous claims
+    and costs; see also Draghetti v. Chmielewski, 416 Mass. 808 (1994) discussing
+    defamation-related harm and proof of damages; Hazen v. Att’y Gen., 97 Mass. App. Ct.
+    205, 209 (2020) regarding proof of reputational injury).
 
-2. JURISDICTION AND VENUE
+COUNT I – DEFAMATION
+12. Plaintiff realleges and incorporates by reference all preceding paragraphs as if fully set forth
+    herein.
+13. Defendants published false statements regarding Plaintiff’s compliance with his pretrial
+    release conditions to third parties, specifically the Burlington Police Department (see Yohe
+    v. Nugent, 321 F.3d 35, 40–41 (1st Cir. 2003) regarding publication to third parties; Reilly
+    v. Associated Press, 59 Mass. App. Ct. 764, 770 (2003) discussing publication).
+14. These statements were false and defamatory, as they portrayed Plaintiff as violating legal
+    conditions when, in fact, Plaintiff was under no such obligation (see Jones v. Taibbi,
+    400 Mass. 786, 790 (1987), defining defamatory statements; King v. Globe Newspaper
+    Co., 400 Mass. 705, 709 (1987) discussing defamatory meaning).
+15. Defendants acted negligently, recklessly, or with actual malice in making such statements.
+    See Stone v. Essex County Newspapers, Inc., 367 Mass. 849, 851–52 (1975) (setting forth
+    standard of fault in defamation actions); Ravnikar v. Bogojavlensky, 438 Mass. 627, 629
+    (2003) (reciting elements of defamation in Massachusetts); Hazen v. Att’y Gen., 97 Mass.
+    App. Ct. 205, 209 n.5 (2020) (further clarifying fault and damages); New York Times Co.
+    v. Sullivan, 376 U.S. 254 (1964) (defining actual malice in constitutional context).
+16. As a direct and proximate result of these defamatory statements, Plaintiff suffered harm
+    including injury to reputation, emotional distress, humiliation, and other losses. See G.L.
+    c. 231, § 92 (addressing certain damages issues in defamation); Sindi v. El-Moslimany,
+    896 F.3d 1, 15 (1st Cir. 2018) (discussing reputational harm); Shaari v. Harvard Univ.,
+    90 Mass. App. Ct. 80, 91 (2016) (regarding damages in defamation).
 
-   2.1. This Court has subject matter jurisdiction over this action pursuant to G.L. c. 212,
-        § 4, as the amount in controversy exceeds the jurisdictional threshold of the Superior
-        Court, and the claims arise under the laws of the Commonwealth of Massachusetts.
-        See Maxwell v. AIG Domestic Claims, Inc., 460 Mass. 91, 99 (2011); G.L. c. 231,
-        § 60B; Mello v. Stop & Shop Cos., 402 Mass. 555, 557 (1988). See also the general
-        requirement that medical malpractice claims be brought in the Superior Court. Held
-        v. Bail, 28 Mass. App. Ct. 919, 920 (1989).
+COUNT II – INTENTIONAL INFLICTION OF EMOTIONAL DISTRESS
+17. Plaintiff realleges and incorporates by reference all preceding paragraphs as if fully set forth
+    herein.
+18. Defendants’ conduct, including falsely reporting Plaintiff to law enforcement for a violation of
+    nonexistent therapy requirements, was extreme and outrageous. See Agis v. Howard Johnson
+    Co., 371 Mass. 140, 144–45 (1976) (defining extreme and outrageous conduct); Nancy P.
+    v. D’Amato, 401 Mass. 516, 521 (1988) (recognizing severity in emotional distress claims);
+    Sena v. Commonwealth, 417 Mass. 250, 263–64 (1994) (applying the standard).
+19. Defendants intended to cause emotional distress or knew, or should have known, that such
+    conduct would likely result in severe emotional distress to Plaintiff (see Doyle v. Hasbro,
+    Inc., 103 F.3d 186, 195 (1st Cir. 1996) discussing intent and foreseeability of distress;
+    Conway v. Smerling, 37 Mass. App. Ct. 1, 8–9 (1994) regarding intent).
+20. As a direct and proximate result of Defendants’ conduct, Plaintiff has experienced severe
+    emotional distress, resulting in damages. See Wright v. Shriners Hosp. for Crippled Children,
+    412 Mass. 469, 473–74 (1992) (discussing severe emotional distress); Payton v. Abbott
+    Labs, 386 Mass. 540, 555 (1982) (elements of emotional distress and required proof); Polay
+    v. McMahon, 468 Mass. 379, 385 (2014) (addressing severity of distress).
 
-   2.2. Venue is proper in Middlesex County under G.L. c. 223, §§ 1, 2, because the cause of
-        action arose in Middlesex County and Defendant conducts business and provides
-        services in Middlesex County. See Salomon S. v. C., 360 Mass. 795, 796 (1972); see
-        also G.L. c. 223, § 5; Dall v. Kaylor, 88 Mass. App. Ct. 1112 (2015) (Rule 1:28
-        decision).
+COUNT III – ABUSE OF PROCESS (Alternatively, Malicious Prosecution)
+21. Plaintiff realleges and incorporates by reference all preceding paragraphs as if fully set forth
+    herein.
+22. Defendants used the legal or law enforcement process (calling the police under false pretenses)
+    for an improper and malicious purpose, intending to harm or harass Plaintiff. See Fishman v.
+    Brooks, 396 Mass. 643, 649–52 (1986) (examining abuse of process and malicious
+    prosecution); Jones v. Brockton Pub. Mkts., Inc., 369 Mass. 387, 389 (1975) (same);
+    Correllas v. Viveiros, 410 Mass. 314 (1991) (discussing misuse of legal process);
+    Kelley v. LaForce, 288 F.3d 1, 10–11 (1st Cir. 2002) (describing elements of abuse of process).
+23. The use of such process was not justified by any legitimate cause or reason (see Kelley v.
+    LaForce, 288 F.3d 1, 10–11 (1st Cir. 2002) discussing improper purpose in abuse of
+    process; Lorusso v. Bloom, 321 Mass. 9, 11 (1947) regarding lack of probable cause).
+24. As a direct and proximate result, Plaintiff has incurred damages including emotional distress,
+    legal fees, and other related harms. See Chervin v. Travelers Ins. Co., 448 Mass. 95, 111–12
+    (2006) (noting damages available for misuse of process); Wynne v. Rosen, 391 Mass. 797
+    (1984) (discussing requisite elements for malicious prosecution/abuse of process).
 
-3. FACTUAL ALLEGATIONS
+PRAYER FOR RELIEF
+WHEREFORE, Plaintiff respectfully requests that this Court enter judgment in favor of Plaintiff
+and grant the following relief:
+A. Compensatory damages in an amount to be determined at trial (see G.L. c. 231, §§ 85–85R
+   for general personal injury and tort damages guidance; Haddad v. Gonzalez, 410 Mass. 855
+   (1991) regarding compensatory damages; White v. Moss, 464 Mass. 64, 82 (2013) for
+   valuation);
+B. Punitive damages, where allowed by law (see G.L. c. 231, § 85K for certain limitations;
+   International Fid. Ins. Co. v. Wilson, 387 Mass. 841, 856–57 (1983) discussing punitive
+   damages availability; Bain v. Cont’l Title Holding Co., 419 Mass. 140, 151–52 (1994));
+C. Costs, disbursements, and reasonable attorney’s fees as allowed by law (see G.L. c. 231,
+   § 6F; Fabre v. Walton, 441 Mass. 9, 10–11 (2004) regarding attorney fees in certain
+   circumstances);
+D. Issuance of protective orders as described herein or as the Court deems appropriate (see G.L.
+   c. 209A, c. 258E, and other applicable provisions if relevant to restraining or harassment
+   prevention orders; C.O. v. M.M., 442 Mass. 648, 655–56 (2004));
+E. Such other and further relief as the Court deems just and proper.
 
-   3.1. Plaintiff sought mental health care from Defendant beginning in or around September
-        2021. See G.L. c. 123, § 1 et seq.; Toste v. Somerset County Guidance Ctr., 5 Mass.
-        App. Ct. 326, 329 (1977).
+JURY DEMAND
+Plaintiff demands a trial by jury on all issues so triable.
 
-   3.2. Between approximately September 2021 and December 2024, Defendant misdiagnosed
-        Plaintiff as suffering from schizophrenia. This alleged diagnosis remained on
-        Plaintiff’s medical records and was relied upon by Defendant’s employees and agents
-        when determining courses of treatment. See Kapp v. Ballantine, 380 Mass. 186, 193,
-        402 N.E.2d 463 (1980); N.L. v. Children’s Hosp. Boston, 450 Mass. 109, 114 (2007);
-        Glicklich v. Spievack, 16 Mass. App. Ct. 488, 492 (1983); Forlano v. Hughes, 393
-        Mass. 502, 505–06 (1984); Morgan, 22 Mass. App. Ct. at 265.
+Respectfully submitted,
 
-   3.3. As a result of this misdiagnosis, Plaintiff was unable to obtain the necessary and
-        appropriate medication for Attention Deficit Hyperactivity Disorder (“ADHD”).
-        Without proper ADHD medication, Plaintiff’s ability to function as a software
-        engineer was severely compromised. See Palandjian v. Foster, 446 Mass. 100, 105
-        (2006); Vaidyanathan v. Days Inns of Am., Inc., 7 Mass. L. Rptr. 512, 1997 WL
-        94544, at *5 (Mass. Super. Ct. 1997); Walsh v. Baxter Healthcare Corp., 62 Mass.
-        App. Ct. 853, 855–56 (2005); Glenn v. Aiken, 409 Mass. 699, 706 (1991) (plaintiff
-        must show negligence was a substantial factor in bringing about harm).
 
-   3.4. Plaintiff experienced extended periods of unemployment from September 2021
-        through December 2024 directly attributable to the lack of proper ADHD treatment.
-        He also endured pain and suffering, mental anguish, and stress due to the incorrect
-        diagnosis and the failure to treat his actual condition. See Rodgers v. Boynton, 315
-        Mass. 279, 280 (1943); Franklyn v. Peabody, 249 Mass. 478, 482 (1924); Conway v.
-        Smerling, 37 Mass. App. Ct. 1, 9 (1994); Goguen v. Taylor, 374 Mass. 152, 160
-        (1978); Anderson v. Nat’l Union Fire Ins. Co., 45 Mass. App. Ct. 288, 294 (1998)
-        (mental anguish compensable in negligence).
+________________________________
+Plaintiff, Bo Shang
 
-   3.5. During this same period, Nurse Practitioner Pam Miller, employed or affiliated with
-        Defendant, attempted to prescribe a game purportedly authorized by the U.S. Food
-        and Drug Administration to address ADHD in children aged eight to seventeen.
-        Plaintiff, then age 36, was outside the indicated age range for such therapy. See Harlow
-        v. Chin, 405 Mass. 697, 702 (1989); Koch v. Kennedy, 398 Mass. 421, 426 (1986);
-        Fearon v. Dermody, 72 Mass. App. Ct. 88, 93 (2008).
+Date: ___________________
 
-   3.6. The above actions and omissions by Defendant represent a departure from accepted
-        standards of mental health care, proximately caused Plaintiff’s injuries, and
-        contributed to his damages as more fully described below. See Brune v. Belinkoff, 354
-        Mass. 102, 109 (1968); Zeller v. Cantu, 395 Mass. 76, 79 (1985); Kelly v. Rossi, 395
-        Mass. 659, 662 (1985); Matsuyama v. Birnbaum, 452 Mass. 1, 17–18 (2008); Morgan,
-        22 Mass. App. Ct. at 265.
+Address: 10 McCafferty Way
+         Burlington, MA 01803
 
-4. COUNT I – MEDICAL NEGLIGENCE (MEDICAL MALPRACTICE)
 
-   4.1. Plaintiff restates and re-alleges each and every allegation set forth above as if fully
-        set forth herein.
-
-   4.2. Under Massachusetts law, a medical provider owes a duty to exercise that degree of
-        care and skill of the average qualified practitioner in the field. See Brune v. Belinkoff,
-        354 Mass. 102, 109 (1968); Kapp v. Ballantine, 380 Mass. 186, 193 (1980). This
-        standard of care applies equally to mental health professionals. See Zeller v. Cantu,
-        395 Mass. 76, 79 (1985); Blood v. Lea, 403 Mass. 430, 434–35 (1988); Morgan,
-        22 Mass. App. Ct. at 265. Liability arises when there is a deviation from this standard
-        of care that proximately causes harm to the patient. See Harlow v. Chin, 405 Mass.
-        697, 702 (1989); Glicklich v. Spievack, 16 Mass. App. Ct. 488, 492 (1983); Glenn v.
-        Aiken, 409 Mass. 699, 706 (1991).
-
-   4.3. Defendant and its agents and employees owed Plaintiff a duty of reasonable care in
-        providing accurate diagnoses and appropriate treatment for his mental health
-        condition(s). See Stepakoff v. Kantar, 393 Mass. 836, 841 (1985); Santos v. Kim, 429
-        Mass. 130, 133 (1999); Kapp v. Ballantine, 380 Mass. 186, 193 (1980); Fearon,
-        72 Mass. App. Ct. 88, 93 (2008).
-
-   4.4. By misdiagnosing Plaintiff as schizophrenic from September 2021 through December
-        2024, and by failing to prescribe or facilitate appropriate ADHD medication,
-        Defendant breached its duty to Plaintiff. See Brune, 354 Mass. at 109; Harlow, 405
-        Mass. at 702; N.L. v. Children’s Hosp. Boston, 450 Mass. 109, 114 (2007); Forlano,
-        393 Mass. at 505–06; McGuinness v. Cotter, 412 Mass. 617, 624 (1992) (breach of
-        the applicable standard of care).
-
-   4.5. The improper diagnosis and consequent failure to provide effective ADHD medication
-        were the direct and proximate cause of Plaintiff’s damages, including unemployment
-        and pain and suffering. See Mays v. Babenko, 37 Mass. App. Ct. 495, 498 (1994);
-        Doherty v. Hellman, 406 Mass. 330, 333–34 (1989); Kent v. Commonwealth, 437
-        Mass. 312, 320 (2002); Glicklich, 16 Mass. App. Ct. at 492; Matsuyama, 452 Mass.
-        at 25.
-
-   4.6. As a foreseeable result of Defendant’s negligence, Plaintiff was unable to maintain
-        consistent employment, leading to significant financial losses and ongoing mental and
-        emotional distress. See Rodgers, 315 Mass. at 280; Conway v. Smerling, 37 Mass. App.
-        Ct. 1, 9 (1994); Halley v. Birbiglia, 390 Mass. 540, 546 (1983); Goguen, 374 Mass.
-        at 160; Anderson, 45 Mass. App. Ct. at 294.
-
-   4.7. Pursuant to G.L. c. 231, § 60B, this claim is subject to a medical malpractice tribunal.
-        If the tribunal finds that Plaintiff’s allegations present a legitimate question of liability,
-        the matter shall proceed in this Court. See Denton v. Beth Israel Hosp., 392 Mass. 277,
-        279–81 (1984); Little v. Rosenthal, 376 Mass. 573, 575–76 (1978); Faircloth v.
-        DiLillo, 33 Mass. App. Ct. 928, 928–29 (1992). The statute of limitations for
-        medical malpractice in Massachusetts is generally three years from the date the
-        cause of action accrues, subject to the discovery rule. See G.L. c. 260, § 4; Franklin
-        v. Albert, 381 Mass. 611, 618 (1980).
-
-5. COUNT II – NEGLIGENT INFLICTION OF EMOTIONAL DISTRESS
-
-   5.1. Plaintiff restates and re-alleges each and every allegation set forth above as if fully
-        set forth herein.
-
-   5.2. Under Massachusetts law, a claim for negligent infliction of emotional distress
-        requires the plaintiff to demonstrate (a) negligence, (b) causation, (c) that emotional
-        distress was foreseeable, and (d) that the emotional distress was severe. See Payton v.
-        Abbott Labs, 386 Mass. 540, 557–58 (1982); Sullivan v. Boston Gas Co., 414 Mass.
-        129, 132 (1993); Cohen v. McDonnell Douglas Corp., 389 Mass. 327, 336 (1983).
-
-   5.3. Defendant’s conduct in misdiagnosing Plaintiff’s mental health condition and failing
-        to provide appropriate treatment fell below the standard of care, constituting
-        negligence. See Brune, 354 Mass. at 109; Zeller, 395 Mass. at 79; Miles v. Edward
-        O. Tabor, M.D., Inc., 387 Mass. 783, 785–86 (1982); Blood, 403 Mass. at 434–35.
-
-   5.4. The misdiagnosis and inadequate treatment caused severe and ongoing emotional
-        distress to Plaintiff, who struggled without effective treatment and experienced
-        significant disruptions to his professional livelihood. See Payton, 386 Mass. at 557–58;
-        Cohen, 389 Mass. at 336; O’Connor v. Raymark Indus., Inc., 401 Mass. 586, 591–92
-        (1988).
-
-   5.5. It was reasonably foreseeable that the failure to provide appropriate care and the
-        continued misdiagnosis would cause severe emotional distress to an individual seeking
-        competent mental health treatment. See Sullivan, 414 Mass. at 137; Aldoupolis v.
-        Globe Newspaper Co., 398 Mass. 731, 737 (1986); Mullins v. Pine Manor Coll., 389
-        Mass. 47, 51 (1983); Goguen, 374 Mass. at 160.
-
-   5.6. Plaintiff sustained severe emotional distress, including anxiety, humiliation, and
-        depression, as a direct and proximate result of Defendant’s negligence. See Sullivan,
-        414 Mass. at 137–38; Wyman v. Ayer Properties, LLC, 469 Mass. 64, 75 (2014);
-        Rodgers, 315 Mass. at 280; Trudel v. Gagne, 328 Mass. 464, 468 (1952) (mental
-        anguish as recoverable harm).
-
-6. DAMAGES
-
-   6.1. As a result of Defendant’s negligence, Plaintiff suffered:
-
-        a. Loss of gainful employment and income from September 2021 through December
-           2024;
-
-        b. Ongoing pain and suffering, mental anguish, and emotional distress;
-
-        c. Medical expenses related to inappropriate or ineffective treatments and any
-           subsequent treatments required to address the misdiagnosis;
-
-        d. Diminished earning capacity due to the extended disruption in Plaintiff’s career,
-           given the nature of software engineering employment; and
-
-        e. Other damages as shall be proven at trial.
-
-7. PRAYER FOR RELIEF
-
-   WHEREFORE, Plaintiff respectfully requests that this Honorable Court:
-
-   A. Enter judgment in Plaintiff’s favor on all counts;
-
-   B. Award Plaintiff compensatory damages, including but not limited to lost wages, lost
-      earning capacity, medical expenses, and pain and suffering, in an amount to be
-      determined at trial; see Kapp v. Ballantine, 380 Mass. 186, 193 (1980); G.L. c. 231,
-      § 85K; G.L. c. 231, § 60H; Matsuyama, 452 Mass. at 27;
-
-   C. Award Plaintiff interest, costs, and attorney’s fees as permitted by law; see G.L. c. 231,
-      § 6B; G.L. c. 261, §§ 1 et seq.; Waldman v. American Honda Motor Co., 413 Mass.
-      320, 322 (1992);
-
-   D. Grant such other and further relief as this Court deems just and proper.
-
-8. JURY DEMAND
-
-   Plaintiff hereby demands a trial by jury on all claims so triable pursuant to Mass. R. Civ. P.
-   38(b).
-
-                                            Respectfully submitted,
-                                            BO SHANG,
-                                            By his own act of filing,
-
-Date: 3/1/2025                   Signature: ________________________________
-                                           Printed Name:  Bo Shang
-                                           Address:        10 McCafferty Way
-                                                           Burlington, MA 01803
-                                           Phone:          781-999-4101
-                                           Email:          bo@shang.software
-
-EXHIBIT 1: Plaintiff Bo is misdiagnosed as schizophrenic, for over over 4 years by PACT.
-
-EXHIBIT 2: PACT nurse practitioner Pam Miller attempts to prescribe a game, FDA approved for ages 8-17 to treat ADHD.
