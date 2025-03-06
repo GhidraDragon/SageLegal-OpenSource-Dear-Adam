@@ -53,7 +53,25 @@ def read_input_file(filepath):
         with open(filepath, 'r', encoding='utf-8') as f:
             return f.read()
 
+def detect_case_numbers(text):
+    pattern = re.compile(r'\b([A-Z]{1,5}\s*\d{1,}-\d+)\b', re.IGNORECASE)
+    return set(re.findall(pattern, text))
+
+def detect_document_type(text):
+    doc_types = ["complaint", "motion", "answer", "order", "brief", "notice", "subpoena"]
+    txt = text.lower()
+    for dt in doc_types:
+        if dt in txt:
+            return dt.capitalize()
+    return "Document"
+
 def generate_smart_filename(original_filename, text, dt_string):
+    cases = detect_case_numbers(text)
+    case_part = ""
+    if cases:
+        first_case = sorted(list(cases))[0]
+        case_part = first_case.replace(" ", "_")
+    doc_type = detect_document_type(text)
     vectorizer = CountVectorizer(stop_words='english', max_features=50)
     X = vectorizer.fit_transform([text])
     word_counts = X.toarray().sum(axis=0)
@@ -62,9 +80,12 @@ def generate_smart_filename(original_filename, text, dt_string):
     top_words = []
     for idx in sorted_indices[:3]:
         top_words.append(feature_names[idx])
-    base, ext = os.path.splitext(original_filename)
     top_part = "_".join(top_words)
-    return f"{base}_{top_part}_{dt_string}{ext}"
+    base, ext = os.path.splitext(original_filename)
+    if case_part:
+        return f"{case_part}_{doc_type}_{top_part}_{dt_string}{ext}"
+    else:
+        return f"{doc_type}_{top_part}_{dt_string}{ext}"
 
 def is_exhibit_reference(line_str):
     return bool(re.search(r'\bEXHIBIT\s+\d+:', line_str, re.IGNORECASE))
@@ -1040,10 +1061,6 @@ class Lawsuit:
             f"  {self.agi_legal_professional_output}\n"
         )
 
-def detect_case_numbers(text):
-    pattern = re.compile(r'\b([A-Z]{1,5}\s*\d{1,}-\d+)\b', re.IGNORECASE)
-    return set(re.findall(pattern, text))
-
 def store_lawsuit_in_db(lawsuit_obj, db_conn):
     db_conn.execute("""
         CREATE TABLE IF NOT EXISTS cases (
@@ -1252,6 +1269,7 @@ def main():
     parser.add_argument("--pickle", nargs='?', const=None)
     parser.add_argument("--set-case", help="Set the specified case number as active in the database", required=False)
     parser.add_argument("--reply", nargs='*', help="Reply with advanced tensorflow if PDF or ZIP is provided")
+    parser.add_argument("--exhibits", nargs='*', help="Optional image paths for exhibits")
     args = parser.parse_args()
 
     datetime_string = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -1317,6 +1335,14 @@ def main():
         case_information=args.case,
         law_firm_information=args.firm_name
     )
+
+    if args.exhibits:
+        i = 1
+        for ex_image in args.exhibits:
+            ex_key = str(i)
+            if ex_key in lawsuit_obj.exhibits:
+                lawsuit_obj.exhibits[ex_key]['image_path'] = ex_image
+            i += 1
 
     store_lawsuit_in_db(lawsuit_obj, db_conn)
     if args.set_case:

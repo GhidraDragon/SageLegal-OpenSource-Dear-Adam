@@ -1,169 +1,371 @@
-COMMONWEALTH OF MASSACHUSETTS
-MIDDLESEX COUNTY SUPERIOR COURT
+SUPERIOR COURT OF THE STATE OF CALIFORNIA
+COUNTY OF SAN FRANCISCO
 
------------------------------------------------------------
-Plaintiff:
-    BO SHANG,
-    10 McCafferty Way
-    Burlington, MA 01803
+BO SHANG (In Pro Per),
+    Plaintiff,
 
 v.
 
-Defendants:
-    1. GEJING DENG
-       10 McCafferty Way
-       Burlington, MA 01803
+TWITCH INTERACTIVE, INC.;
+IMANE “POKIMANE” ANYS;
+POKIMANE LLC,
 
-    2. FU SHANG
-       10 McCafferty Way
-       Burlington, MA 01803
------------------------------------------------------------
+    Defendants.
 
-INTRODUCTION
-1. This is a civil action brought by Plaintiff, Bo Shang (“Plaintiff”), against Defendants,
-   identified herein as Gejing Deng and Fu Shang (“Defendants”), arising out of Defendants’
-   alleged false report to the Burlington Police Department on or about February 8, 2025,
-   regarding Plaintiff’s pretrial release conditions. Plaintiff seeks damages and injunctive relief,
-   including protective orders, for Defendants’ conduct pursuant to G.L. c. 231 (see, e.g., G.L.
-   c. 231, § 1 et seq.), and generally recognized common law torts in Massachusetts (see Stone
-   v. Essex County Newspapers, Inc., 367 Mass. 849 (1975); Ravnikar v. Bogojavlensky, 438
-   Mass. 627 (2003); and related case law).
+Case No.: [To Be Assigned]
 
-PARTIES
-2. Plaintiff, Bo Shang, is an individual residing at 10 McCafferty Way, Burlington,
-   Massachusetts 01803.
-3. Upon information and belief, Defendant, Gejing Deng, is an individual who resides in
-   Massachusetts at the same address.
-4. Upon information and belief, Defendant, Fu Shang, is an individual who resides in
-   Massachusetts at the same address.
+INITIAL COMPLAINT
 
-JURISDICTION AND VENUE
-5. This Court has subject matter jurisdiction over this action because the amount in controversy
-   exceeds the jurisdictional minimum of this Court. See G.L. c. 212, § 3; see also G.L. c. 214
-   (equitable jurisdiction) and G.L. c. 231, § 2.
-6. Venue is proper in Middlesex County pursuant to G.L. c. 223 because the events at issue
-   occurred in Burlington, Massachusetts, which is located in Middlesex County, and because
-   Defendants’ actions caused injury to Plaintiff in Middlesex County (see G.L. c. 223, § 1
-   et seq.; Nixon v. Littleston, 341 Mass. 611 (1961) for venue considerations).
+FOR:
+1. Injunctive Relief
+2. Damages
+3. Declaratory Judgment
+4. Breach of Contract
+5. Breach of Express Warranty
+6. Violations of the Consumers Legal Remedies Act (CLRA) [Cal. Civ. Code § 1750 et seq.]
+7. Violations of the False Advertising Law (FAL) [Cal. Bus. & Prof. Code § 17500 et seq.]
+8. Violations of the Unfair Competition Law (UCL) [Cal. Bus. & Prof. Code § 17200 et seq.]
+9. Negligent or Reckless Misrepresentation
+10. Intentional or Negligent Infliction of Emotional Distress
 
-STATEMENT OF FACTS
-7. Plaintiff was previously under certain pretrial release conditions and was no longer required to
-   see a therapist, identified only as “Frank,” whom Plaintiff is suing for malpractice in the
-   Middlesex Superior Court, alleging 4+ years of misdiagnosed schizophrenia resulting in
-   substantial harm, including unemployment and pain and suffering (see G.L. c. 231, § 60B
-   regarding medical malpractice tribunal procedures).
-8. On or about February 8, 2025, Defendants called the Burlington Police Department and falsely
-   informed the police that Plaintiff was in violation of a pretrial release condition by not
-   attending therapy with “Frank” (see G.L. c. 268, §§ 1–6 regarding perjury and false reports;
-   also see G.L. c. 269, § 13A for false reports to police in certain contexts).
-9. Defendants knew or should have known that Plaintiff’s pretrial release conditions did not
-   require continued therapy with “Frank,” and that calling the police based on this false claim
-   would subject Plaintiff to humiliation, emotional distress, and potential adverse legal
-   consequences (see G.L. c. 231, §§ 92–93 governing certain aspects of defamation and
-   false statements; Noonan v. Staples, Inc., 556 F.3d 20, 25 (1st Cir. 2009) discussing
-   Massachusetts defamation standards; Jones v. Taibbi, 400 Mass. 786, 791–92 (1987)
-   regarding falsity and harm).
-10. Defendants’ false statements to law enforcement were malicious and intended to harm
-    Plaintiff’s reputation, undermine Plaintiff’s ongoing malpractice lawsuit, and disrupt
-    Plaintiff’s daily life (see Mass. R. Civ. P. 11(b) as to pleadings not made for improper
-    purpose; see also Correllas v. Viveiros, 410 Mass. 314 (1991) regarding malicious
-    prosecution/abuse of process considerations; Appleby v. Daily Hampshire Gazette, 395
-    Mass. 32, 37–38 (1985) regarding defamatory intent).
-11. As a direct and proximate result of Defendants’ actions, Plaintiff has suffered damages
-    including, but not limited to, emotional distress, fear, reputational harm, additional legal
-    expenses, and other consequential losses (see G.L. c. 231, § 6F regarding frivolous claims
-    and costs; see also Draghetti v. Chmielewski, 416 Mass. 808 (1994) discussing
-    defamation-related harm and proof of damages; Hazen v. Att’y Gen., 97 Mass. App. Ct.
-    205, 209 (2020) regarding proof of reputational injury).
+JURY TRIAL DEMANDED
 
-COUNT I – DEFAMATION
-12. Plaintiff realleges and incorporates by reference all preceding paragraphs as if fully set forth
-    herein.
-13. Defendants published false statements regarding Plaintiff’s compliance with his pretrial
-    release conditions to third parties, specifically the Burlington Police Department (see Yohe
-    v. Nugent, 321 F.3d 35, 40–41 (1st Cir. 2003) regarding publication to third parties; Reilly
-    v. Associated Press, 59 Mass. App. Ct. 764, 770 (2003) discussing publication).
-14. These statements were false and defamatory, as they portrayed Plaintiff as violating legal
-    conditions when, in fact, Plaintiff was under no such obligation (see Jones v. Taibbi,
-    400 Mass. 786, 790 (1987), defining defamatory statements; King v. Globe Newspaper
-    Co., 400 Mass. 705, 709 (1987) discussing defamatory meaning).
-15. Defendants acted negligently, recklessly, or with actual malice in making such statements.
-    See Stone v. Essex County Newspapers, Inc., 367 Mass. 849, 851–52 (1975) (setting forth
-    standard of fault in defamation actions); Ravnikar v. Bogojavlensky, 438 Mass. 627, 629
-    (2003) (reciting elements of defamation in Massachusetts); Hazen v. Att’y Gen., 97 Mass.
-    App. Ct. 205, 209 n.5 (2020) (further clarifying fault and damages); New York Times Co.
-    v. Sullivan, 376 U.S. 254 (1964) (defining actual malice in constitutional context).
-16. As a direct and proximate result of these defamatory statements, Plaintiff suffered harm
-    including injury to reputation, emotional distress, humiliation, and other losses. See G.L.
-    c. 231, § 92 (addressing certain damages issues in defamation); Sindi v. El-Moslimany,
-    896 F.3d 1, 15 (1st Cir. 2018) (discussing reputational harm); Shaari v. Harvard Univ.,
-    90 Mass. App. Ct. 80, 91 (2016) (regarding damages in defamation).
+Plaintiff, BO SHANG (“Plaintiff”), appearing pro se, hereby files this First Amended Complaint against TWITCH INTERACTIVE, INC. (“Twitch”), IMANE “POKIMANE” ANYS (“Pokimane”), and POKIMANE LLC (collectively, “Defendants”), and alleges on personal knowledge as to his own acts and on information and belief as to all other matters as follows:
 
-COUNT II – INTENTIONAL INFLICTION OF EMOTIONAL DISTRESS
-17. Plaintiff realleges and incorporates by reference all preceding paragraphs as if fully set forth
-    herein.
-18. Defendants’ conduct, including falsely reporting Plaintiff to law enforcement for a violation of
-    nonexistent therapy requirements, was extreme and outrageous. See Agis v. Howard Johnson
-    Co., 371 Mass. 140, 144–45 (1976) (defining extreme and outrageous conduct); Nancy P.
-    v. D’Amato, 401 Mass. 516, 521 (1988) (recognizing severity in emotional distress claims);
-    Sena v. Commonwealth, 417 Mass. 250, 263–64 (1994) (applying the standard).
-19. Defendants intended to cause emotional distress or knew, or should have known, that such
-    conduct would likely result in severe emotional distress to Plaintiff (see Doyle v. Hasbro,
-    Inc., 103 F.3d 186, 195 (1st Cir. 1996) discussing intent and foreseeability of distress;
-    Conway v. Smerling, 37 Mass. App. Ct. 1, 8–9 (1994) regarding intent).
-20. As a direct and proximate result of Defendants’ conduct, Plaintiff has experienced severe
-    emotional distress, resulting in damages. See Wright v. Shriners Hosp. for Crippled Children,
-    412 Mass. 469, 473–74 (1992) (discussing severe emotional distress); Payton v. Abbott
-    Labs, 386 Mass. 540, 555 (1982) (elements of emotional distress and required proof); Polay
-    v. McMahon, 468 Mass. 379, 385 (2014) (addressing severity of distress).
+1. INTRODUCTION
 
-COUNT III – ABUSE OF PROCESS (Alternatively, Malicious Prosecution)
-21. Plaintiff realleges and incorporates by reference all preceding paragraphs as if fully set forth
-    herein.
-22. Defendants used the legal or law enforcement process (calling the police under false pretenses)
-    for an improper and malicious purpose, intending to harm or harass Plaintiff. See Fishman v.
-    Brooks, 396 Mass. 643, 649–52 (1986) (examining abuse of process and malicious
-    prosecution); Jones v. Brockton Pub. Mkts., Inc., 369 Mass. 387, 389 (1975) (same);
-    Correllas v. Viveiros, 410 Mass. 314 (1991) (discussing misuse of legal process);
-    Kelley v. LaForce, 288 F.3d 1, 10–11 (1st Cir. 2002) (describing elements of abuse of process).
-23. The use of such process was not justified by any legitimate cause or reason (see Kelley v.
-    LaForce, 288 F.3d 1, 10–11 (1st Cir. 2002) discussing improper purpose in abuse of
-    process; Lorusso v. Bloom, 321 Mass. 9, 11 (1947) regarding lack of probable cause).
-24. As a direct and proximate result, Plaintiff has incurred damages including emotional distress,
-    legal fees, and other related harms. See Chervin v. Travelers Ins. Co., 448 Mass. 95, 111–12
-    (2006) (noting damages available for misuse of process); Wynne v. Rosen, 391 Mass. 797
-    (1984) (discussing requisite elements for malicious prosecution/abuse of process).
+1.1 This action arises from Defendants’ alleged violations of California statutory and common law, including but not limited to the Unfair Competition Law (“UCL”) (Cal. Bus. & Prof. Code § 17200 et seq.), the False Advertising Law (“FAL”) (Cal. Bus. & Prof. Code § 17500 et seq.), the Consumers Legal Remedies Act (“CLRA”) (Cal. Civ. Code §§ 1750 et seq.), common law breach of contract, breach of express warranty, misrepresentation, and related theories.
 
-PRAYER FOR RELIEF
-WHEREFORE, Plaintiff respectfully requests that this Court enter judgment in favor of Plaintiff
-and grant the following relief:
-A. Compensatory damages in an amount to be determined at trial (see G.L. c. 231, §§ 85–85R
-   for general personal injury and tort damages guidance; Haddad v. Gonzalez, 410 Mass. 855
-   (1991) regarding compensatory damages; White v. Moss, 464 Mass. 64, 82 (2013) for
-   valuation);
-B. Punitive damages, where allowed by law (see G.L. c. 231, § 85K for certain limitations;
-   International Fid. Ins. Co. v. Wilson, 387 Mass. 841, 856–57 (1983) discussing punitive
-   damages availability; Bain v. Cont’l Title Holding Co., 419 Mass. 140, 151–52 (1994));
-C. Costs, disbursements, and reasonable attorney’s fees as allowed by law (see G.L. c. 231,
-   § 6F; Fabre v. Walton, 441 Mass. 9, 10–11 (2004) regarding attorney fees in certain
-   circumstances);
-D. Issuance of protective orders as described herein or as the Court deems appropriate (see G.L.
-   c. 209A, c. 258E, and other applicable provisions if relevant to restraining or harassment
-   prevention orders; C.O. v. M.M., 442 Mass. 648, 655–56 (2004));
-E. Such other and further relief as the Court deems just and proper.
+1.2 Plaintiff contends that Twitch, in partnership with high-profile streamers such as Pokimane, has engaged in or facilitated unfair, deceptive, or unlawful practices under California law, including but not limited to:
+   1.2.1 Advertising intangible subscription benefits such as “undying love and appreciation,” which were never actually provided to Plaintiff;
+   1.2.2 Restricting user investigations and reverse engineering (“RE”) attempts that could detect or expose suspicious large-scale financial transactions or potential money laundering on the platform.
 
-JURY DEMAND
-Plaintiff demands a trial by jury on all issues so triable.
+1.3 Specifically, Plaintiff alleges he was induced to purchase subscriptions by relying on Twitch’s and Pokimane’s advertised claims, and that he suffered emotional distress and economic harm when those promises went unfulfilled or were misrepresented.
 
-Respectfully submitted,
+1.4 Moreover, Plaintiff contends that Twitch’s Terms of Service (“TOS”) hamper legitimate security research and investigations into potentially unlawful gambling or money-laundering activity, contravening well-established public policy and case law in California that protects reverse engineering in fair-use and security contexts.
+(See, e.g., Sega Enters. Ltd. v. Accolade, Inc. (9th Cir. 1992) 977 F.2d 1510, 1520 [“disassembly of object code to gain an understanding of the functional requirements of the program is fair use”]; Sony Computer Entm’t, Inc. v. Connectix Corp. (9th Cir. 2000) 203 F.3d 596, 599–603 [extending the fair use doctrine to intermediate copying]; cf. 17 U.S.C. § 1201(g) (DMCA exemption for encryption research); Tunkl v. Regents of Univ. of Cal. (1963) 60 Cal.2d 92, 96–98 [contracts exempting a party from negligence can violate public policy]; Civ. Code § 1668 [“All contracts which have for their object…to exempt anyone from responsibility for his own fraud…are against the policy of the law.”].)
+
+1.5 On January 9, 2025, while ruling on case 3:24-cv-06664-JSC Shang vs Twitch Interactive et al., Judge Scott Corley of the U.S. District Court for the Northern District of California granted Plaintiff’s motion to amend, over Defendant Twitch’s protests that Section 230 of the Communications Decency Act (“CDA”) shields them from liability. Judge Corley specifically ruled that Twitch was not acting as a “Good Samaritan” as the CDA requires, thus exposing Twitch to legal liability for all actions of their streamers and community.
+
+1.6 Section 230 of the Communications Decency Act provides, in part, verbatim:
+   “(c) Protection for ‘Good Samaritan’ blocking and screening of offensive material
+   (1) Treatment of publisher or speaker
+   No provider or user of an interactive computer service shall be treated as the publisher or speaker of any information provided by another information content provider.”
+
+1.7 By Judge Corley’s determination, Twitch may not invoke Section 230 immunity regarding its alleged misconduct, because it has failed to demonstrate “Good Samaritan” protections in relation to its handling of user content, thereby removing the usual shield from liability.
+
+2. JURISDICTION AND VENUE
+
+2.1 Subject Matter Jurisdiction
+
+2.1.1 This Court has jurisdiction over the subject matter because the amount in controversy exceeds $25,000, and Plaintiff’s claims arise under California statutory and common law, including the UCL (Cal. Bus. & Prof. Code § 17200), the FAL (Cal. Bus. & Prof. Code § 17500), and the CLRA (Cal. Civ. Code §§ 1750 et seq.).
+2.1.2 Although federal courts might have jurisdiction over certain claims (e.g., alleged violations of federal anti-money-laundering laws under 18 U.S.C. §§ 1956, 1960), Plaintiff elects to pursue his claims under California law in the Superior Court, which has concurrent jurisdiction over the state-based causes of action. Plaintiff also references the January 9, 2025 ruling in the U.S. District Court for the Northern District of California, which clarifies that Twitch cannot rely on Section 230 immunity to escape liability in this related matter.
+
+2.2 Venue
+
+2.2.1 Venue is proper under California Code of Civil Procedure §§ 395 and 395.5 because Twitch has its principal place of business in San Francisco, California, or conducts substantial business within this forum. Additionally, a substantial part of the events or omissions giving rise to these claims occurred or emanated from the County of San Francisco.
+
+3. THE PARTIES
+
+3.1 Plaintiff
+
+3.1.1 Plaintiff, Bo Shang, is a resident of Massachusetts. He has been a user of Twitch since approximately 2017. He purchased and renewed Twitch subscriptions to Pokimane’s channel, in part due to specific marketing claims and product descriptions concerning “love and appreciation.”
+
+3.2 Defendants
+
+3.2.1 Twitch Interactive, Inc., a Delaware corporation, maintains its principal place of business in California. Twitch operates the streaming platform used by millions of content creators, including Pokimane. As recognized by Judge Corley on January 9, 2025, Twitch cannot escape liability by invocation of Section 230’s “Good Samaritan” defense, because it has not met the statutory requirements thereunder.
+3.2.2 Imane “Pokimane” Anys is a highly prominent Twitch content creator. Pokimane earns significant revenue from subscription fees, donations, and brand partnerships. She markets her streams and subscription benefits in conjunction with Twitch’s platform and subscription interface.
+
+4. FACTUAL BACKGROUND
+
+4.1 Twitch Platform and Potential Unlawful Activities
+
+4.1.1 Plaintiff alleges that Twitch fosters large-scale suspicious financial transactions—often disguised as donations or tips—that may be de facto gambling or money-laundering. Such transactions potentially implicate Cal. Penal Code § 330 (prohibiting certain gambling activities) and 18 U.S.C. §§ 1956, 1960 (federal anti-money-laundering provisions).
+
+4.1.2 Twitch’s TOS restrict or prohibit reverse engineering, effectively shielding potential illegal conduct from user-led detection. These restrictions allegedly contravene California’s public policy favoring fair-use security research.
+(See Sega Enters. Ltd. v. Accolade, Inc. (9th Cir. 1992) 977 F.2d 1510, 1520; Sony Computer Entm’t, Inc. v. Connectix Corp. (9th Cir. 2000) 203 F.3d 596, 599–603; Tunkl v. Regents of Univ. of Cal. (1963) 60 Cal.2d 92, 96–98; Civ. Code § 1668; see also A & M Produce Co. v. FMC Corp. (1982) 135 Cal.App.3d 473, 479–481 [contractual unconscionability test].)
+
+4.1.3 Pokimane benefits from or participates in the Twitch monetization and donation system. Whether or not she directly engages in wrongdoing, her large-scale revenue streams exemplify the environment where suspicious or unregulated transactions may take place.
+
+4.1.4 Following Judge Corley’s January 9, 2025 ruling rejecting Twitch’s Section 230 defense, Twitch can no longer claim blanket immunity for conduct related to these suspicious transactions or the actions of its content creators.
+
+4.2 Pokimane’s Role and Promised Subscription Benefits
+
+4.2.1 Pokimane’s popularity is heavily promoted by Twitch. Her channel often advertises “subscriber benefits,” including special emoticons, badges, and—per the marketing language used—“undying love and appreciation.”
+
+4.2.2 Plaintiff subscribed to Pokimane’s channel believing these representations to be genuine. On information and belief, the words “undying love and appreciation” appeared (or were verbally stated) in promotional content or subscription tiers, forming part of the contractual inducement.
+
+4.2.3 Plaintiff alleges that he was emotionally vulnerable at the time and became “madly in love” with Pokimane. He believed that, by subscribing, he was contracting for a certain level of personal engagement or affection—albeit intangible—beyond mere entertainment.
+
+4.2.4 Contrary to these promises, neither Twitch nor Pokimane delivered any actual “undying love and appreciation.” Plaintiff was devastated emotionally and claims that this advertising was deceptive, fraudulent, and/or constituted a breach of the subscription contract.
+(Compare Consumer Advocates v. Echostar Satellite Corp. (2003) 113 Cal.App.4th 1351, 1361 [differentiating non-actionable puffery from specific, actionable misrepresentations]; see also In re Toyota Motor Corp. Unintended Acceleration Mktg., Sales Practices, & Prod. Liab. Litig. (C.D. Cal. 2011) 754 F.Supp.2d 1145, 1172–1173 [discussing the threshold for plausibly misleading statements].)
+
+4.3 Reverse Engineering Restrictions and Public Policy
+
+4.3.1 The importance of reverse engineering in cybersecurity is well recognized.
+(See Sega Enters. Ltd. v. Accolade, Inc., supra, 977 F.2d at p. 1520; Sony Computer Entm’t, Inc. v. Connectix Corp., supra, 203 F.3d at p. 599; Vault Corp. v. Quaid Software Ltd. (5th Cir. 1988) 847 F.2d 255, 267–270.)
+
+4.3.2 Plaintiff contends Twitch’s draconian TOS hamper lawful investigations into the platform’s data flows, stifling potential discoveries of wrongdoing (money laundering or fraud). This TOS stance may violate California’s fundamental public policies, as recognized under the UCL (Cal. Bus. & Prof. Code § 17200) and the principle that contract provisions cannot contravene established law or public policy.
+(See Civ. Code § 1668; Tunkl, supra, 60 Cal.2d at pp. 96–98; A & M Produce, supra, 135 Cal.App.3d at pp. 479–481.)
+
+4.3.3 Because Judge Corley has found that Twitch was not a “Good Samaritan” under Section 230, Twitch’s attempts to enforce TOS provisions that obstruct lawful research or conceal potential misconduct may also be scrutinized without the shield of federal immunity.
+
+4.4 Plaintiff’s Alleged Government Torture and Emotional Turmoil
+
+4.4.1 Plaintiff contends that from October 2020 to September 2021, Massachusetts Department of Mental Health officials subjected him to forced confinement, misdiagnoses, and other abuses, allegedly violating international treaties such as the United Nations Convention Against Torture (UNCAT).
+
+4.4.2 In September 2024, Plaintiff again experienced forced confinement, exacerbating his emotional fragility and fueling his sense of urgency to conduct open-source cybersecurity research (e.g., “execution hijacking” code for SMBv2) as a deterrent to governmental overreach.
+
+4.4.3 These experiences heightened Plaintiff’s distress upon discovering that Twitch’s TOS bars him from pursuing the sort of in-depth investigations he believes necessary to expose wrongdoing or protect public interests. The confluence of these factors allegedly contributed to Plaintiff’s ongoing emotional harm.
+
+5. CAUSES OF ACTION
+
+COUNT I  
+BREACH OF CONTRACT  
+(Against All Defendants)
+
+5.1 Plaintiff incorporates by reference all preceding paragraphs as though fully set forth herein.
+
+5.2 Formation of Contract
+
+5.2.1 Under California Civil Code § 1550, a valid contract requires (1) parties capable of consent, (2) a lawful object, (3) consideration, and (4) consent.  
+    - Cal. Civ. Code § 1550: “It is essential to the existence of a contract that there should be: 1. Parties capable of contracting; 2. Their consent; 3. A lawful object; and 4. A sufficient cause or consideration.”
+5.2.2 Plaintiff alleges he entered into a subscription contract with Defendants by paying recurring fees in exchange for benefits, including the stated “undying love and appreciation.”
+(See also Sateriale v. R.J. Reynolds Tobacco Co. (9th Cir. 2012) 697 F.3d 777, 788 [an advertisement may create a unilateral contract offer if it calls for performance and the terms are reasonably clear].)
+
+5.3 Breach
+
+5.3.1 Defendants failed to provide the promised intangible benefit or any semblance of personal “love and appreciation.”
+5.3.2 The breach is material because it goes to the heart of the subscription’s advertised value to Plaintiff.
+(See Central Valley Gen. Hosp. v. Smith (2008) 162 Cal.App.4th 501, 513–514 [material breach “goes to the essence of the agreement”].)
+
+5.4 Damages
+
+5.4.1 As a direct and proximate result, Plaintiff suffered monetary loss (subscription fees) and severe emotional distress due to unmet expectations of personal connection.
+(But see Erlich v. Menezes (1999) 21 Cal.4th 543, 558–559 [emotional distress damages generally not recoverable in contract actions unless tied to a tort].)
+5.4.2 However, Plaintiff alleges that the breach is intertwined with tortious conduct (fraud/misrepresentation), potentially allowing for broader recovery.
+(See Robinson Helicopter Co. v. Dana Corp. (2004) 34 Cal.4th 979, 991 [tort damages permissible where conduct also breaches a non-contractual duty].)
+
+5.5 Prayer
+
+5.5.1 Plaintiff seeks compensatory damages, interest, and all other relief deemed proper by the Court. Further, due to the January 9, 2025 ruling, Plaintiff asserts that Twitch cannot claim CDA Section 230 immunity to avoid liability for these contractual breaches.
+
+COUNT II  
+BREACH OF EXPRESS WARRANTY  
+(Against All Defendants)
+
+6.1 Plaintiff incorporates by reference all preceding paragraphs as though fully set forth herein.
+
+6.2 Under California law, an express warranty is created by an affirmation of fact or promise that relates to goods or services, forming part of the basis of the bargain.
+(See Cal. Com. Code § 2313; Hauter v. Zogarts (1975) 14 Cal.3d 104, 112 [“Any affirmation of fact or promise can create an express warranty if it becomes part of the basis of the bargain.”]; Greenman v. Yuba Power Prods., Inc. (1963) 59 Cal.2d 57, 61.)
+
+6.3 Express Representation
+
+6.3.1 The statement “undying love and appreciation” constituted a specific promise about the nature and quality of the subscription service—even if intangible.
+(See Keith v. Buchanan (1985) 173 Cal.App.3d 13, 21 [express warranties can arise from product descriptions and advertising statements that go beyond mere puffery].)
+
+6.4 Breach of Warranty
+
+6.4.1 Defendants failed to fulfill that representation. Despite collecting subscription fees, they did not provide any actual affection or personal recognition.
+6.4.2 Plaintiff reasonably relied on that warranty, to his detriment.
+(See Weinstat v. Dentsply Int’l, Inc. (2010) 180 Cal.App.4th 1213, 1227–1228 [reliance on express warranty is presumed if the statement was part of the basis of the bargain].)
+
+6.5 Damages
+
+6.5.1 Plaintiff seeks damages for the subscription amounts paid, plus any consequential damages allowed under California law.
+6.5.2 Plaintiff also reserves the right to seek restitution and incidental damages as permitted by Cal. Com. Code §§ 2714, 2715.
+6.5.3 Judge Corley’s January 9, 2025 ruling underscores that Twitch is not insulated by Section 230’s “Good Samaritan” provision from these warranty-based allegations.
+
+COUNT III  
+VIOLATION OF THE CONSUMERS LEGAL REMEDIES ACT (CLRA)  
+[Cal. Civ. Code § 1750 et seq.]  
+(Against All Defendants)
+
+7.1 Plaintiff incorporates by reference all preceding paragraphs as though fully set forth herein.
+
+7.2 The CLRA prohibits unfair or deceptive acts in the sale or lease of goods or services to consumers.
+(Cal. Civ. Code § 1770(a); see also Colgan v. Leatherman Tool Grp., Inc. (2006) 135 Cal.App.4th 663, 680–681 [discussing CLRA requirements].)
+
+7.3 Misrepresentation
+
+7.3.1 Defendants advertised intangible benefits—personal emotional support or affection—as part of the subscription, an inherently deceptive tactic when it is never provided.
+(See Cal. Civ. Code § 1770(a)(5), (7) [prohibiting misrepresentations regarding characteristics, uses, benefits, or quality of services].)
+7.3.2 Such conduct may violate Cal. Civ. Code § 1770(a)(5) and § 1770(a)(7).
+
+7.4 Reliance and Harm
+
+7.4.1 Plaintiff justifiably relied on these statements when purchasing subscriptions.
+(See In re Tobacco II Cases (2009) 46 Cal.4th 298, 312 [only named plaintiff need show actual reliance, so long as it was substantial factor].)
+7.4.2 Plaintiff was harmed when the promised benefits were nonexistent.
+
+7.5 Prayer
+
+7.5.1 Plaintiff seeks actual damages, injunctive relief, and other remedies available under Cal. Civ. Code § 1780, including costs and any applicable attorneys’ fees (though Plaintiff is pro se).
+7.5.2 Plaintiff further notes that the District Court has found that Twitch may not rely on Section 230’s broad protections, reinforcing Plaintiff’s CLRA claims against Twitch.
+
+COUNT IV  
+VIOLATION OF THE FALSE ADVERTISING LAW (FAL)  
+[Cal. Bus. & Prof. Code § 17500 et seq.]  
+(Against All Defendants)
+
+8.1 Plaintiff incorporates by reference all preceding paragraphs as though fully set forth herein.
+
+8.2 The FAL makes it unlawful to disseminate any statement concerning real or personal property or services that is untrue or misleading, and which is known (or reasonably should be known) to be untrue or misleading.
+(Cal. Bus. & Prof. Code § 17500; see McAdams v. Monier, Inc. (2010) 182 Cal.App.4th 174, 186–187.)
+
+8.3 False or Misleading Statements
+
+8.3.1 Defendants represented that Pokimane subscribers would receive “undying love and appreciation.” This is, at best, a misleading marketing ploy that offers unwarranted personal illusions.
+(See Committee on Children’s Television, Inc. v. Gen. Foods Corp. (1983) 35 Cal.3d 197, 211 [“misleading” is broadly construed under consumer protection statutes].)
+
+8.4 Materiality and Injury
+
+8.4.1 These statements influenced Plaintiff’s decision to purchase subscriptions.
+(See Kwikset Corp. v. Superior Court (2011) 51 Cal.4th 310, 327–328 [material misrepresentations confer standing under FAL/UCL].)
+8.4.2 Plaintiff was thereby deceived and suffered monetary loss.
+
+8.5 Prayer
+
+8.5.1 Plaintiff seeks an injunction prohibiting such misleading marketing claims, restitution of subscription fees, and all other relief the Court deems proper.
+8.5.2 Plaintiff contends that Twitch, having been denied “Good Samaritan” status by Judge Corley, remains liable for these deceptive practices hosted or facilitated on its platform.
+
+COUNT V  
+VIOLATION OF THE UNFAIR COMPETITION LAW (UCL)  
+[Cal. Bus. & Prof. Code § 17200 et seq.]  
+(Against All Defendants)
+
+9.1 Plaintiff incorporates by reference all preceding paragraphs as though fully set forth herein.
+
+9.2 Under Cal. Bus. & Prof. Code § 17200, “unfair competition” includes any unlawful, unfair, or fraudulent business act or practice.
+(Cel-Tech Commc’ns, Inc. v. L.A. Cellular Tel. Co. (1999) 20 Cal.4th 163, 180.)
+
+9.3 Unlawful
+
+9.3.1 Defendants’ conduct violates multiple statutes (e.g., the CLRA, the FAL, or federal anti-money-laundering provisions).
+(See Cel-Tech, supra, at p. 180; Korea Supply Co. v. Lockheed Martin Corp. (2003) 29 Cal.4th 1134, 1143.)
+
+9.4 Unfair
+
+9.4.1 The TOS restrictions on reverse engineering unduly burden lawful security research and hamper detection of potential money laundering, contravening public policy.
+(See Drum v. San Fernando Valley Bar Ass’n (2010) 182 Cal.App.4th 247, 257; South Bay Chevrolet v. Gen. Motors Acceptance Corp. (1999) 72 Cal.App.4th 861, 886.)
+9.4.2 Similarly, marketing intangible emotional benefits that are not actually provided is unfair and unethical, taking advantage of vulnerable consumers.
+
+9.5 Fraudulent
+
+9.5.1 Defendants’ marketing of a safe and transparent platform—while failing to disclose the possibility of suspicious large-scale transactions—and promising intangible emotional benefits never provided is fraudulent under the UCL’s broad coverage.
+(See In re Tobacco II Cases, supra; Pfizer Inc. v. Superior Court (2010) 182 Cal.App.4th 622, 630.)
+
+9.6 Prayer
+
+9.6.1 Plaintiff seeks injunctive relief to prohibit Defendants from enforcing TOS provisions that bar legitimate forensic or security research and from continuing to misrepresent subscription benefits.
+9.6.2 Plaintiff also seeks restitution and disgorgement of any ill-gotten gains pursuant to Cal. Bus. & Prof. Code § 17203.
+(See Cortez v. Purolator Air Filtration Prods. Co. (2000) 23 Cal.4th 163, 177–178; Korea Supply, supra, 29 Cal.4th at p. 1149.)
+9.6.3 Plaintiff emphasizes that, in light of the January 9, 2025 federal court decision declaring Twitch ineligible for “Good Samaritan” immunity, these UCL violations are not shielded under Section 230.
+
+COUNT VI  
+NEGLIGENT OR RECKLESS MISREPRESENTATION  
+(Against All Defendants)
+
+10.1 Plaintiff incorporates by reference all preceding paragraphs as though fully set forth herein.
+
+10.2 Negligent or reckless misrepresentation requires:
+   (1) Misrepresentation of a material fact,
+   (2) Without reasonable grounds for believing it to be true,
+   (3) Intent to induce reliance,
+   (4) Justifiable reliance, and
+   (5) Resulting damage.
+(See Bily v. Arthur Young & Co. (1992) 3 Cal.4th 370, 407–408; Civ. Code §§ 1709–1710.)
+
+10.3 Application
+
+10.3.1 Defendants’ statements regarding “love and appreciation” were made either recklessly or negligently, without regard for whether they could be realistically fulfilled.
+(See Gagne v. Bertran (1954) 43 Cal.2d 481, 487–488 [negligent misrepresentation requires a positive assertion without reasonable grounds].)
+10.3.2 Plaintiff justifiably relied on these statements and suffered damages in the form of subscription fees and emotional distress.
+(See Lazar v. Superior Court (1996) 12 Cal.4th 631, 637 [plaintiff must allege facts showing “actual reliance” on misrepresentation].)
+
+10.4 Damages
+
+10.4.1 Plaintiff seeks compensatory damages for the subscription fees lost and for emotional harm arising directly from the misrepresentations.
+10.4.2 Because Judge Corley has ruled Twitch is not entitled to Section 230 immunity, Defendants cannot avoid liability for these misrepresentations by invoking “Good Samaritan” defenses.
+
+COUNT VII  
+INTENTIONAL OR NEGLIGENT INFLICTION OF EMOTIONAL DISTRESS  
+(Against All Defendants)
+
+11.1 Plaintiff incorporates by reference all preceding paragraphs as though fully set forth herein.
+
+11.2 Intentional Infliction of Emotional Distress (IIED)
+
+11.2.1 A cause of action for IIED requires:
+   (1) Extreme and outrageous conduct by the defendant,
+   (2) Intent to cause, or reckless disregard of the probability of causing, emotional distress,
+   (3) The plaintiff’s suffering severe or extreme emotional distress, and
+   (4) Actual and proximate causation.
+(See Hughes v. Pair (2009) 46 Cal.4th 1035, 1050; Potter v. Firestone Tire & Rubber Co. (1993) 6 Cal.4th 965, 1001.)
+
+11.2.2 Defendants’ conduct in promising personal love—an intrinsically emotional matter—while knowing it was illusory or false may be deemed outrageous and intended (or undertaken with reckless disregard) to cause severe emotional harm.
+(See KOVR-TV, Inc. v. Superior Court (1995) 31 Cal.App.4th 1023, 1030 [defining outrageous conduct].)
+
+11.3 Negligent Infliction of Emotional Distress (NIED)
+
+11.3.1 Alternatively, if Defendants did not intend to harm Plaintiff, they acted negligently in making statements likely to cause emotional turmoil to vulnerable individuals.
+(See Dillon v. Legg (1968) 68 Cal.2d 728, 739–740 [foreseeability test]; Burgess v. Superior Court (1992) 2 Cal.4th 1064, 1072–1073.)
+11.3.2 California courts have recognized NIED claims where a special relationship or foreseeability of emotional harm is established.
+(See Molien v. Kaiser Found. Hosps. (1980) 27 Cal.3d 916, 928–929.)
+
+11.4 Severe Emotional Distress
+
+11.4.1 Plaintiff’s confinement history and emotional vulnerability magnify the harm from Defendants’ conduct.
+(See Molien, supra, at p. 928.)
+
+11.5 Prayer
+
+11.5.1 Plaintiff seeks compensatory damages for emotional distress, punitive damages if Defendants’ conduct is found sufficiently outrageous, and all other relief deemed just.
+(See Restatement (Second) of Torts § 46, cmt. d [describing severe emotional distress and outrageous conduct]; KOVR-TV, Inc. v. Superior Court, supra.)
+11.5.2 In light of the January 9, 2025 ruling, Twitch is not immune under Section 230, and its actions or failures to act that contributed to Plaintiff’s distress must be fully adjudicated.
+
+6. PRAYER FOR RELIEF
+
+WHEREFORE, Plaintiff prays for judgment against Defendants as follows:
+
+A. Declaratory Judgment
+   1. Declaring that Twitch’s TOS restrictions on reverse engineering are unconscionable, void, or unenforceable under California law and public policy;
+   2. Declaring that advertisements or marketing referencing “undying love and appreciation” are deceptive or misleading if not genuinely provided;
+   3. Recognizing the January 9, 2025 determination by Judge Scott Corley that Section 230 does not shield Twitch from liability because it is not acting as a “Good Samaritan”;
+
+B. Injunctive Relief
+   1. Enjoining Twitch from enforcing TOS that prohibit good-faith, lawful security or forensic research aimed at detecting potential money laundering or other illegal activities;
+   2. Enjoining Defendants from advertising intangible emotional benefits (e.g., “love” or “appreciation”) without making clear that these are entertainment-only or purely figurative statements;
+   3. Requiring corrective advertising and disclosure of the speculative or figurative nature of intangible benefits;
+
+C. Restitution, Disgorgement, and Damages
+   1. Restitution and/or disgorgement of subscription fees and any ill-gotten gains derived from misleading promises;
+   2. Compensatory and consequential damages for emotional distress and related harm;
+   3. Punitive damages as allowed by law, given the potential outrageousness of false emotional promises;
+
+D. CLRA & FAL Remedies
+   1. Awarding all remedies authorized under the Consumers Legal Remedies Act and False Advertising Law, including actual damages, injunctive relief, and, where permitted, attorneys’ fees and costs (though Plaintiff is pro se);
+
+E. Costs and Other Relief
+   1. Awarding costs of suit, pre- and post-judgment interest, and any other relief the Court deems just and proper.
+
+7. DEMAND FOR JURY TRIAL
+
+Pursuant to California law, Plaintiff demands a trial by jury on all causes of action so triable.
+
+Dated: February 14, 2025 (Valentine’s Day)
+
+/s/ Bo Shang (In Pro Per)
+__________________________________
+BO SHANG (In Pro Per)
+10 McCafferty Way
+Burlington, MA 01803
+Phone: (781) 999-4101 or (617) 618-8279
+Email: bo@pdfsage.org | boshangsoftware@proton.me
+Plaintiff, In Pro Per
 
 
-________________________________
-Plaintiff, Bo Shang
+EXHIBIT 1: Twitch Terms of Sale and Pokimane (subsequently Pokimane LLC) sold her ‘undying love and appreciation’ as a subscription product continuously from 2013 - 2020, and Pokimane is the most followed female TV channel on Twitch! A “gamin’” website!
 
-Date: ___________________
-
-Address: 10 McCafferty Way
-         Burlington, MA 01803
-
+EXHIBIT 2: CALIFORNIA IS SMOKING TOO MUCH WEED BY ALLOWING POKIMANE TO OPERATE AS A “LAWFUL” BUSINESS
 
