@@ -17,6 +17,7 @@ from docx import Document
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.shared import Pt
 from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction._stop_words import ENGLISH_STOP_WORDS
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras import layers, models
@@ -54,7 +55,11 @@ def read_input_file(filepath):
             return f.read()
 
 def generate_smart_filename(original_filename, text, dt_string):
-    vectorizer = CountVectorizer(stop_words='english', max_features=50)
+    custom_stop_words = set(ENGLISH_STOP_WORDS).union({
+        "plaintiff", "plaintiffs", "defendant", "defendants",
+        "petitioner", "respondent", "respondents"
+    })
+    vectorizer = CountVectorizer(stop_words=custom_stop_words, max_features=50)
     X = vectorizer.fit_transform([text])
     word_counts = X.toarray().sum(axis=0)
     sorted_indices = np.argsort(-word_counts)
@@ -1310,7 +1315,6 @@ def main():
             default_pickle = f"lawsuit.pickle"
             args.pickle = generate_smart_filename(default_pickle, raw_text, datetime_string)
 
-    # Create the Lawsuit object
     lawsuit_obj = Lawsuit(
         sections=sections_od,
         exhibits=exhibits_od,
@@ -1320,7 +1324,6 @@ def main():
         law_firm_information=args.firm_name
     )
 
-    # Update exhibit image paths if provided
     if args.exhibits:
         i = 1
         for ex_image in args.exhibits:
