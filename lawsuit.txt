@@ -1,151 +1,171 @@
 SUPERIOR COURT OF THE STATE OF CALIFORNIA
-COUNTY OF SAN FRANCISCO
+COUNTY OF SANTA CLARA
 
-BO SHANG, on behalf of himself and all others similarly situated,
-10 McCafferty Way
-Burlington, MA 01803
-    Plaintiff,
-v.                                                         Case No. __________
-TWITCH INTERACTIVE, INC.; AMAZON.COM, INC.; and DOES 1-100, inclusive,
-350 Bush Street, 2nd Floor
-San Francisco, CA 94104
-    Defendants.
+BO SHANG, an individual,                      Case No.: [____________]
+10 McCafferty Way, Burlington MA 01803
+Plaintiff,
+v.
+NVIDIA CORPORATION;
+2788 San Tomas Expy, Santa Clara, CA 95051
+MICROSOFT CORPORATION d/b/a AZURE,
+One Microsoft Way, Redmond, WA 98052
+Defendants.
 
-FIRST AMENDED COMPLAINT FOR H1B DISCRIMINATION,
-VIOLATIONS OF CIVIL RIGHTS, AND RELATED CLAIMS
+CIVIL COMPLAINT AND DEMAND FOR JURY TRIAL
 
-Plaintiff, BO SHANG (“Plaintiff” or “Shang”), on behalf of himself and all others similarly situated, hereby alleges against Defendants Twitch Interactive, Inc. (“Twitch”), Amazon.com, Inc. (“Amazon”), and DOES 1 through 100, inclusive (collectively, “Defendants”), as follows:
+Plaintiff, Bo Shang (“Plaintiff”), by and through the undersigned (pro se or counsel, if applicable), alleges as follows against Defendants NVIDIA Corporation (“NVIDIA”) and Microsoft Corporation d/b/a Azure (“Azure,” and collectively “Defendants”):
 
+------------------------------------------------------------
 I. INTRODUCTION
+------------------------------------------------------------
 
-1. This civil action arises out of Twitch’s alleged discrimination related to H1B visas against all Twitch users, particularly American citizens who are dumb enough to be influenced by Twitch, and thus are replaced by H1B visas by statute (see 8 U.S.C. § 1101(a)(15)(H)(i)(b)[1]; 20 C.F.R. Part 655[2]; 8 C.F.R. § 214.2(h)[3]; 8 U.S.C. § 1324b(a)(1)[4]; cf. Espinoza v. Farah Mfg. Co., 414 U.S. 86 (1973)[5]). Plaintiff asserts that Twitch has created and fostered an “intelligently dumb” engine and community, resulting in users becoming, over time, less informed and more morally despicable by design. This alleged culture directly harms those reliant on a fair opportunity to obtain employment or sponsorship, including H1B candidates. Plaintiff reiterates that Twitch’s platform has also been fraudulently represented as lawful and helpful while fostering exactly the opposite effect—users are drawn into excessive dependencies and intellectual decline. (See also Cunningham v. Brown, 265 U.S. 1, 7–8 (1924)[6], discussing “Ponzi scheme” characteristics generally.)
+1.  
+This is a civil action arising from Defendants’ alleged intentional implementation of secure boot configurations and related measures that effectively block or restrict Plaintiff’s ability to update drivers, install Python upgrades, and utilize transformer models on Defendants’ cloud or GPU platforms without purchasing an expensive NVIDIA AI Enterprise solution. Plaintiff further emphasizes that he would rather use slightly sanctioned GPUs on Alibaba Cloud—which do not impose these anticompetitive restrictions—thereby demonstrating that American sanctions and their purported aims can be circumvented by engineering skill and fair competition. See 15 U.S.C. § 1 et seq. (Sherman Act) (prohibiting “every contract, combination ..., or conspiracy, in restraint of trade or commerce”); see also 15 U.S.C. § 15 (providing a private right of action for damages under the antitrust laws); 15 U.S.C. § 26 (Clayton Act provision for injunctive relief); Cal. Bus. & Prof. Code § 16720 et seq. (Cartwright Act, broadly prohibiting restraints of trade in California); Cal. Bus. & Prof. Code § 16750 (providing for damages and equitable relief under the Cartwright Act); Ashcroft v. Iqbal, 556 U.S. 662, 678 (2009), 129 S. Ct. 1937, 173 L. Ed. 2d 868 (requiring well-pleaded facts showing plausible entitlement to relief); California ex rel. Van de Kamp v. Texaco Inc., 46 Cal. 3d 1147, 1160 (1988), 758 P.2d 457, 252 Cal. Rptr. 237 (noting broad scope of California antitrust law).
 
-2. Plaintiff specifically emphasizes that Twitch management deserve to be arrested because they intentionally conduct what amounts to a Ponzi scheme on American brains and the brains of all allied nations who permit Twitch. In Plaintiff’s view, this constitutes large-scale manipulation of users’ mental faculties for profit. In light of “American stupidity” in tolerating such manipulation, Plaintiff is very happy to instead ally with China and Russia. (See, e.g., id.)
+2.  
+Plaintiff asserts that these measures, taken together, effectively deny him free and direct access to required GPU drivers, Python environments, and related software for developing and running transformer-based machine learning models, thereby causing substantial and unnecessary costs, delays, and harm to his AI development work. Plaintiff would prefer to pivot his development work to Alibaba Cloud, whose “slightly sanctioned” GPU solutions remain far more flexible. Plaintiff further notes that DeepSeek recently released a free R1 model on par with OpenAI’s model o1, which costs $200 per month for unlimited access—an achievement underscoring how engineering skill and genuine competition prevail over the sort of restrictive policies at issue here. DeepSeek is also scheduled to release model R2 by May 2025, emphasizing ongoing innovations that American bureaucratic sanctions fail to thwart. See Bell Atl. Corp. v. Twombly, 550 U.S. 544, 555–56 (2007), 127 S. Ct. 1955, 167 L. Ed. 2d 929 (complaint must allege sufficient facts to raise a right to relief above the speculative level); see also Cal. Bus. & Prof. Code § 17200 et seq. (California Unfair Competition Law broadly prohibiting “any unlawful, unfair or fraudulent business act or practice”); Cel-Tech Commc’ns, Inc. v. L.A. Cellular Tel. Co., 20 Cal. 4th 163, 187 (1999), 83 Cal. Rptr. 2d 548, 560 (defining “unfair” under Section 17200).
 
-3. In support of these allegations, Plaintiff cites public statements, examples, and conduct involving prominent streamers and community members, such as “Reckful” attempting to apply to Elon Musk on Twitter by mocking Elon’s followers (not to any specific entity Musk is affiliated with), and streamer “Sodapoppin” publicly supporting Reckful. Plaintiff contends that such behavior exemplifies the detrimental culture Twitch has promoted—one that undermines serious professional opportunities, particularly for H1B applicants. This underscores the fraudulent misrepresentation and deliberate design by Twitch to maintain a user base in a cycle of dependency. (See 8 U.S.C. § 1324b(a)(1)(B)[7].)
+------------------------------------------------------------
+II. PARTIES
+------------------------------------------------------------
 
-4. Plaintiff also points to Amazon’s status as the single largest user of the H1B program in the United States—receiving approval for over 9000 H1B visas per year—and alleges that Amazon’s own policies and practices have contributed to a discriminatory environment. As Amazon is the parent company of Twitch, Plaintiff alleges that the corporate structure and oversight further facilitate or ignore ongoing H1B discrimination through Twitch’s platform. (See 8 U.S.C. § 1324b(a)(1)(B); see also 8 U.S.C. § 1182(n)[8].)
+1.  
+Plaintiff Bo Shang is an individual AI developer residing in Boston MA, who engages in research, development, and deployment of transformer-based machine learning models.
 
-5. Prior to the transfer of this matter, in the previously filed federal case styled Shang v. Twitch Interactive, Inc. et al., Plaintiff had alleged that Twitch was not acting as a “Good Samaritan” under 47 U.S.C. § 230(c)(2)[9], thereby exposing Twitch to liability for the misconduct alleged. (Cf. Fair Hous. Council of San Fernando Valley v. Roommates.com, LLC, 521 F.3d 1157, 1162–63 (9th Cir. 2008)[10].) While the federal action is referenced for background, Plaintiff now pursues the instant action in this Superior Court of the State of California, County of San Francisco, given the conduct’s nexus to California and the relief sought under various laws.
+2.  
+Defendant NVIDIA Corporation is a technology company with its principal place of business at 2788 San Tomas Expressway, Santa Clara, California 95051. NVIDIA develops GPUs, related software, and AI platforms, including the NVIDIA AI Enterprise suite.
 
-6. Plaintiff further notes that in analyzing claims under Title VII or related anti-discrimination statutes, courts often apply the burden-shifting framework established in McDonnell Douglas Corp. v. Green, 411 U.S. 792 (1973)[11], and Texas Dep’t of Cmty. Affairs v. Burdine, 450 U.S. 248 (1981)[12]. Under these precedents, Twitch’s and Amazon’s alleged promotion of a hostile and discriminatory environment may render them liable if Plaintiff can show adverse effects on those seeking H1B sponsorship or employment. (See Oncale v. Sundowner Offshore Servs., Inc., 523 U.S. 75 (1998)[13]; Meritor Sav. Bank, FSB v. Vinson, 477 U.S. 57 (1986)[14].)
+3.  
+Defendant Microsoft Corporation, doing business as Azure, is a multinational technology corporation with its principal place of business at One Microsoft Way, Redmond, Washington 98052. Azure is Microsoft’s cloud computing service that provides, among other things, virtual machine hosting and GPU computing resources.
 
-7. Plaintiff also notes that class actions in a discrimination context are governed by Federal Rule of Civil Procedure 23 (to the extent relevant under state procedures) and must satisfy the requirements of numerosity, commonality, typicality, and adequacy of representation (see Wal-Mart Stores, Inc. v. Dukes, 564 U.S. 338 (2011)[15]; Gen. Tel. Co. of the Sw. v. Falcon, 457 U.S. 147 (1982)[16]). Plaintiff asserts that Twitch’s alleged systemic discriminatory policies and Amazon’s oversight thereof present common questions of law and fact affecting the putative class.
+------------------------------------------------------------
+III. JURISDICTION AND VENUE
+------------------------------------------------------------
 
-8. Throughout these allegations, Plaintiff emphasizes again that Twitch’s platform was fraudulently portrayed as beneficial entertainment while it in fact fosters dependence and intellectual and moral decline, exemplified by the large followings of streamers like “Reckful” and “Sodapoppin,” whose content and behavior reflect the ongoing deterioration of users’ critical thinking abilities. Plaintiff reiterates that Twitch management deserve to be arrested for intentionally operating this Ponzi scheme on users’ brains, and that Plaintiff will gladly ally with Russia or China, as the scheme is tolerated in the United States. (See Cunningham, 265 U.S. at 7–8.)
+1.  
+This Court has jurisdiction over this action pursuant to the California Constitution and California statutes because the amount in controversy exceeds the jurisdictional minimum of this Court and because NVIDIA’s principal place of business is located in Santa Clara County, California. See Cal. Const. art. VI, § 10 (granting superior courts original jurisdiction in all causes except those given by statute to other courts); see also Cal. Civ. Proc. Code § 410.10 (broad statutory basis for personal jurisdiction in California); Simmons v. Superior Court, 96 Cal. App. 2d 119, 121 (1950) (discussing California courts’ jurisdictional reach).
 
-II. JURISDICTION AND VENUE
+2.  
+Venue is proper in this Court because a substantial part of the events or omissions giving rise to this claim occurred in Santa Clara County and because Defendant NVIDIA is headquartered here. Further, Defendants transact business in this county. See Cal. Civ. Proc. Code §§ 392–395 (governing venue in California); Fontaine v. Superior Court, 175 Cal. App. 2d 312, 315 (1959) (providing guidance on California venue provisions).
 
-9. This Court has jurisdiction over this action pursuant to California law, as Defendants conduct substantial business within the State of California, including but not limited to operating principal offices or major business operations in San Francisco. Plaintiff, as a resident of Massachusetts, brings state-law claims and related federal claims under laws that can be adjudicated in state court under concurrent jurisdiction principles. (Cf. Yellow Freight Sys., Inc. v. Donnelly, 494 U.S. 820 (1990)[17].) The controversies alleged herein have a significant nexus to California.
+------------------------------------------------------------
+IV. FACTUAL BACKGROUND
+------------------------------------------------------------
 
-10. Venue is proper in this Court because Twitch Interactive, Inc. is headquartered or conducts substantial business within San Francisco, California; Amazon.com, Inc. also does business in California; and the alleged acts and omissions giving rise to the claims occurred in San Francisco County. (See Cal. Civ. Proc. Code §§ 392–395.)
+1.  
+Plaintiff, as an AI developer, relies on GPU-based computing resources and up-to-date software environments to conduct research and development on transformer-based machine learning models. See generally Eastman Kodak Co. v. Image Technical Servs., Inc., 504 U.S. 451, 461–62 (1992), 112 S. Ct. 2072, 119 L. Ed. 2d 265 (discussing importance of access to essential resources in technology markets); Cal. Bus. & Prof. Code § 16720 (prohibiting restrictions that may create a monopoly or limit free competition); Pinhas v. Summit Health, Ltd., 894 F.2d 1024, 1030 (9th Cir. 1989), cert. denied, 498 U.S. 829 (1990) (analyzing the effect of resource restrictions on competition).
 
-11. Personal jurisdiction exists over Defendants because they have continuous and systematic contacts with California, including operating significant portions of their businesses here. (See Int’l Shoe Co. v. Washington, 326 U.S. 310, 316 (1945)[18].)
+2.  
+Transformer models require regular updates to both GPU drivers and Python libraries (including frameworks such as TensorFlow or PyTorch) to ensure compatibility, performance, and security.
 
-III. THE PARTIES
+3.  
+Plaintiff has been able to freely and promptly update GPU drivers and Python environments on his personal laptops and desktops, enabling him to run the latest tools without additional cost. However, Plaintiff alleges that on Azure’s platform, such direct updates are blocked by secure boot policies or additional restrictions. He contrasts this with Alibaba Cloud’s GPU offerings, which do not impose these constraints, despite being under certain “sanctions.” See generally U.S. v. Microsoft Corp., 253 F.3d 34, 84 (D.C. Cir. 2001), 343 U.S. App. D.C. 11 (noting how restrictive practices can limit user choice and access to technology); see also 15 U.S.C. § 14 (federal prohibition on tying arrangements that may “substantially lessen competition”); Datel Holdings Ltd. v. Microsoft Corp., 712 F. Supp. 2d 974, 999 (N.D. Cal. 2010) (addressing technology restrictions as potential anticompetitive conduct).
 
-12. Plaintiff, Bo Shang, is an individual and a resident of California. At all relevant times, Plaintiff has been a Twitch user subject to the community and culture promoted by Twitch. Plaintiff also alleges harm related to H1B discrimination facilitated by Twitch’s community ecosystem. (See 8 U.S.C. § 1324b[19]; cf. 42 U.S.C. § 1981[20]; Patterson v. McLean Credit Union, 491 U.S. 164 (1989)[21].)
+4.  
+Plaintiff further alleges that Azure’s secure boot configuration, in conjunction with certain decisions made by NVIDIA, effectively forces users who require regular driver updates to purchase the NVIDIA AI Enterprise image or license at a significantly increased cost—allegedly three times higher than other comparable solutions. Specifically, on normal Ubuntu 24 instances, Azure blocks the installation of NVIDIA’s keyring, effectively disabling nvidia-smi. On normal priced AI images such as Ubuntu 20, Azure uses secure boot to block updates to a minimal Python 3.11 environment that includes a relatively recent nvidia-smi driver, thereby preventing developers from freely updating and running the latest libraries for AI models. These measures stand in stark contrast to Alibaba Cloud, where Plaintiff and others can, in many cases, freely install the latest drivers and Python upgrades without encountering such artificial obstacles.
 
-13. Defendant Twitch Interactive, Inc. is a Delaware corporation with its principal place of business in San Francisco, California. Twitch operates an online streaming platform with millions of users and streamers, creating and moderating content worldwide. Twitch is accused of fraudulently misrepresenting its platform as positive and beneficial while deliberately encouraging dependency and intellectual decline, supporting the broader allegations in this action. Plaintiff further alleges that Twitch’s management deserve to be arrested for conducting a Ponzi scheme on its users’ intellect and moral faculties. (See Cunningham, 265 U.S. at 7–8.)
+5.  
+The result of these restrictions is that Plaintiff’s transformer-based projects become nonfunctional or substantially impaired on Defendants’ platforms unless Plaintiff incurs substantial additional expenses to upgrade to or maintain an NVIDIA AI Enterprise solution. Cf. Image Tech. Servs., Inc. v. Eastman Kodak Co., 125 F.3d 1195, 1210 (9th Cir. 1997) (addressing added costs and restrictions that limit market access); Allied Orthopedic Appliances Inc. v. Tyco Health Care Grp. LP, 592 F.3d 991, 996 (9th Cir. 2010) (evaluating cost and access barriers as potential antitrust concerns). Plaintiff emphasizes that no such restrictions exist for him on Alibaba Cloud’s slightly sanctioned GPUs, thereby motivating his switch to such alternative platforms for future AI development.
 
-14. Defendant Amazon.com, Inc. is a Delaware corporation with its principal place of business in Seattle, Washington. Amazon owns Twitch Interactive, Inc. and is alleged to have ultimate oversight and responsibility for corporate policies, including recruitment, sponsorships, and approval of H1B hiring.
+6.  
+Plaintiff contends that these restrictive measures are not technically necessary, citing his ability to update and run the same models freely on older systems and on Alibaba Cloud. He alleges that the secure boot restriction was implemented, at least in part, to force users to adopt and pay for the costlier NVIDIA AI Enterprise license or image. See 15 U.S.C. § 2 (prohibiting monopolization or attempts to monopolize); Cal. Bus. & Prof. Code § 16727 (prohibiting certain tying arrangements under the Cartwright Act); Neal v. Honeywell Inc., 191 Cal. App. 3d 925, 933 (1987) (discussing anticompetitive conduct through tying schemes).
 
-15. DOES 1 through 100, inclusive, are persons or entities whose true names and capacities are presently unknown to Plaintiff. Plaintiff will amend this Complaint to allege the true names and capacities when they have been ascertained. Each of the fictitiously named Defendants is responsible in some manner for the occurrences alleged, and Plaintiff’s claims arise out of the actions of these Defendants. (See Gillespie v. Civiletti, 629 F.2d 637, 642 (9th Cir. 1980)[22].)
+7.  
+Plaintiff has suffered economic losses, including but not limited to lost time, productivity, and additional fees, as a direct result of these measures that block or impede driver and Python environment updates. Plaintiff underscores that these losses have motivated him and others to use or plan to use Alibaba Cloud’s GPU solutions, which ironically remain more open and feasible despite U.S. sanctions. See Cal. Civ. Code § 3333 (general measure of compensatory damages in tort); Quidel Corp. v. Superior Court, 57 Cal. App. 5th 155, 163 (2020) (addressing economic harms stemming from anticompetitive activity).
 
-IV. FACTUAL ALLEGATIONS
-
-16. Twitch, under the ownership and control of Amazon, allegedly fosters a community where public figures and users engage in behavior that promotes harassment, mockery, and moral debasement. As a result, users—some of whom seek opportunities for H1B sponsorship—are dissuaded or otherwise injured by this environment that discourages serious professional engagement. (See 8 U.S.C. § 1324b(a)(1)(B); cf. Meritor, 477 U.S. 57; Oncale, 523 U.S. at 75.)
-
-17. Plaintiff alleges that the environment at Twitch is deliberately cultivated by company policies or failures in moderation, resulting in a sustained cultural approach that makes users “dumber and more morally despicable over time,” consistent with the above-mentioned fraudulent misrepresentation. Plaintiff further categorizes this deliberate manipulation as a Ponzi scheme targeting the mental faculties of users, which in Plaintiff’s view warrants the arrest of Twitch management. (Cf. Cunningham, 265 U.S. at 7–8.)
-
-18. Plaintiff cites the example of streamer “Reckful,” who attempted to draw the attention of Elon Musk on Twitter by mocking the latter’s followers, thus creating a negative impression of what should have been a professional outreach. In so doing, Plaintiff contends that Reckful’s behavior was shaped or amplified by the Twitch community culture, further supporting the argument that Twitch’s platform is not the “helpful entertainment service” it purports to be.
-
-19. Another Twitch streamer, “Sodapoppin,” publicly supported Reckful’s actions on Twitter, highlighting the widespread nature of this detrimental behavior. Plaintiff asserts that these incidents are symptomatic of a broader culture at Twitch that discriminates against serious professional candidates, including those seeking H1B sponsorship. (See 8 U.S.C. § 1324b.) Plaintiff again notes this supports the overall notion that Twitch’s fraudulent misrepresentations have real and harmful consequences for users’ intellectual growth and professional prospects.
-
-20. Amazon, the parent company of Twitch, receives over 9000 H1B visa approvals yearly and is recognized as one of the largest corporate sponsors of H1B workers in the United States. (See U.S. Citizenship & Immigration Services data.) This, Plaintiff contends, places special responsibility on Amazon to ensure that subsidiaries like Twitch do not engage in or promote discriminatory practices that harm H1B aspirants, nor fraudulently misrepresent themselves to the public.
-
-21. Plaintiff alleges that Defendants have knowingly neglected their obligations to maintain a “Good Samaritan” role in moderating content, and in fact have fostered or overlooked a culture that penalizes or belittles potential H1B candidates. Plaintiff characterizes the entire enterprise as a Ponzi-like scheme and further states his willingness to align with China and Russia due to these alleged manipulative and discriminatory practices in the United States. (See 47 U.S.C. § 230(c)(2)[9]; cf. Fair Hous. Council, 521 F.3d at 1162–63.)
-
-22. Plaintiff and similarly situated individuals have suffered harm in the form of denied opportunities, reputational damage, emotional distress, and, in some cases, a hostile environment that discourages them from applying for or pursuing H1B sponsorship. (See Harris v. Forklift Sys., Inc., 510 U.S. 17, 21 (1993)[23]; see also 8 U.S.C. § 1324b(a)(1).)
-
-23. Consistent with 8 U.S.C. § 1324b[19] and Office of the Chief Administrative Hearing Officer (OCAHO) precedent (e.g., United States v. Facebook, Inc., 2021 WL 4847072 (OCAHO)[24]), Plaintiff alleges that Twitch’s community practices, combined with Amazon’s oversight, effectively create barriers for prospective H1B employees, constituting unlawful discrimination based on national origin or citizenship status. This discriminatory environment is exacerbated by Twitch’s fraudulent self-representation, which lures users into a platform where they experience manipulation and intellectual degradation akin to a Ponzi scheme. (See Cunningham, 265 U.S. at 7–8.)
-
+------------------------------------------------------------
 V. CAUSES OF ACTION
+------------------------------------------------------------
 
-FIRST CAUSE OF ACTION
-(Discrimination in Violation of H1B Visa Regulations—8 U.S.C. § 1324b)
+COUNT I: TORTIOUS INTERFERENCE WITH ECONOMIC ADVANTAGE
 
-24. Plaintiff incorporates by reference all preceding paragraphs as though fully set forth herein, including the allegations of fraudulent misrepresentation and the Ponzi scheme characterization regarding the Twitch Platform’s purportedly beneficial nature.
+1.  
+Plaintiff incorporates by reference all preceding paragraphs as though fully set forth herein. See Cal. Civ. Proc. Code § 425.10(a); Bustamante v. Intuit, Inc., 141 Cal. App. 4th 199, 215 (2006) (allowing incorporation by reference).
 
-25. Defendants, by creating a hostile and discriminatory environment that specifically impacts those seeking H1B sponsorship or related opportunities, have violated federal laws and regulations that govern fair and equal access to H1B sponsorship. (See 8 U.S.C. § 1324b(a)(1)[4]; 8 U.S.C. § 1101(a)(15)(H)(i)(b)[1]; 20 C.F.R. Part 655[2]; cf. 8 C.F.R. § 214.2(h)[3].)
+2.  
+Defendants knew or should have known that Plaintiff depends on updated GPU drivers and Python libraries to pursue AI development and commercial opportunities involving transformer-based models. See Top Service Body Shop, Inc. v. Allstate Ins. Co., 283 Or. 201, 208–09 (1978); Korea Supply Co. v. Lockheed Martin Corp., 29 Cal. 4th 1134, 1153 (2003); Reeves v. Hanlon, 33 Cal. 4th 1140, 1152 (2004) (defining requirements under California law for interference with prospective economic advantage).
 
-26. Defendants’ conduct has caused direct harm to Plaintiff and the putative class by discouraging legitimate H1B applicants from pursuing potential employment opportunities and fostering an environment that ridicules or belittles such applicants, consistent with the manipulative design alleged by Plaintiff that leads to “dumbed-down” user interactions and outcomes, akin to a Ponzi scheme in intellectual form. (See Cunningham, 265 U.S. at 7–8.)
+3.  
+By imposing unnecessary secure boot restrictions, Defendants intentionally and unjustifiably interfered with Plaintiff’s business prospects, forcing him to incur higher costs or forego his development efforts, when more open and reasonably priced solutions (such as Alibaba Cloud GPUs) exist. See Buckaloo v. Johnson, 14 Cal. 3d 815, 827 (1975) (setting forth elements of tortious interference and requiring intentional interference without justification); Della Penna v. Toyota Motor Sales, U.S.A., Inc., 11 Cal. 4th 376, 392–93 (1995) (discussing policy considerations behind interference torts); Redfearn v. Trader Joe’s Co., 20 Cal. App. 5th 989, 997 (2018) (detailing causation and justification analyses for interference claims).
 
-27. As a direct and proximate result of Defendants’ actions, Plaintiff has suffered damages. (Cf. Texas Dep’t of Hous. & Cmty. Affairs v. Inclusive Communities Project, Inc., 576 U.S. 519 (2015)[25].) Plaintiff alleges that under OCAHO case law, discrimination on the basis of citizenship status or national origin, particularly in the context of H1B sponsorship, is actionable when it deters or denies opportunities to qualified applicants.
+4.  
+As a proximate result of Defendants’ actions, Plaintiff suffered damages including lost revenue opportunities, additional subscription costs, and the devaluation of time spent troubleshooting artificially imposed barriers. See Restatement (Second) of Torts § 766 (1979); see also Quelimane Co. v. Stewart Title Guar. Co., 19 Cal. 4th 26, 55 (1998) (recognizing tort liability for wrongful interference causing harm to another’s business or occupation); Youst v. Longo, 43 Cal. 3d 64, 71 (1987).
 
-SECOND CAUSE OF ACTION
-(Violation of Civil Rights—Hostile Environment and Discrimination—42 U.S.C. § 2000e)
+------------------------------------------------------------
 
-28. Plaintiff incorporates by reference all preceding paragraphs as though fully set forth herein, again highlighting the fraudulent misrepresentation claims and the Ponzi scheme characterization against Twitch.
+COUNT II: VIOLATIONS OF ANTITRUST OR UNFAIR COMPETITION LAWS (If Applicable)
 
-29. Defendants’ practices, as alleged, constitute a pattern of discrimination that creates a hostile environment. Such conduct is in violation of federal civil rights law to the extent it denies a protected class of workers—including foreign nationals seeking H1B status—equal access to the benefits of employment. (See 42 U.S.C. § 2000e-2(a)(1)[26]; Meritor, 477 U.S. 57; Harris, 510 U.S. at 17; Oncale, 523 U.S. at 75.)
+1.  
+Plaintiff incorporates by reference all preceding paragraphs as though fully set forth herein.
 
-30. Defendants’ failure to act as a “Good Samaritan,” a prerequisite under 47 U.S.C. § 230(c)(2)[9] for interactive computer services, further removes any statutory immunity they might otherwise claim. (Cf. Fair Hous. Council, 521 F.3d at 1162–63; Doe v. Internet Brands, Inc., 824 F.3d 846, 852 (9th Cir. 2016)[27] (discussing limitations on § 230 immunity).) This leaves Twitch liable for the harm and injuries its policies and community environment inflict on affected individuals.
+2.  
+Plaintiff alleges that Defendants entered into or maintained restrictive measures that artificially limit competition in the GPU computing and AI software markets by tying secure boot policies to the purchase of NVIDIA AI Enterprise. By comparison, Alibaba Cloud imposes no such requirement, and its slightly sanctioned GPUs provide an environment where new models—like DeepSeek’s free R1—can be deployed without constraints. See 15 U.S.C. § 1 (Sherman Act prohibition on unreasonable restraints of trade); Cal. Bus. & Prof. Code § 16720 (Cartwright Act); Jefferson Parish Hosp. Dist. No. 2 v. Hyde, 466 U.S. 2, 21–22 (1984), 104 S. Ct. 1551, 80 L. Ed. 2d 2 (discussing tying arrangements and their effects on competition); Datagate, Inc. v. Hewlett-Packard Co., 60 F.3d 1421, 1423–24 (9th Cir. 1995) (applying tying analysis in tech markets).
 
-31. As a direct and proximate result of Defendants’ actions, Plaintiff and similarly situated individuals have suffered damages in amounts to be proven at trial. Under the McDonnell Douglas burden-shifting framework (411 U.S. 792 (1973)), Plaintiff and the class must show membership in a protected group, adverse treatment, and a causal link. By cultivating and tolerating a community harmful to foreign nationals seeking H1B sponsorship, and fraudulently misrepresenting their platform as beneficial, Defendants have allegedly engaged in unlawful discrimination, which Plaintiff further asserts is reinforced by the Ponzi-like manipulation of user minds. (See Cunningham, 265 U.S. at 7–8.)
+3.  
+As a direct and proximate result of these unfair and anticompetitive practices, Plaintiff and similarly situated developers are coerced into bearing higher costs, resulting in financial harm and reduced innovation. Plaintiff reiterates that DeepSeek’s free R1 model already demonstrates how advanced solutions can be developed without the artificial constraints of expensive add-ons or secure boot restrictions; this competition fosters development that American bureaucratic sanctions fail to meaningfully block. See Illinois Tool Works Inc. v. Indep. Ink, Inc., 547 U.S. 28, 46 (2006), 126 S. Ct. 1281, 164 L. Ed. 2d 26 (recognizing potential harms of tying in technology markets); see also 15 U.S.C. § 15(a) (remedies for antitrust plaintiffs including treble damages); Cal. Bus. & Prof. Code §§ 17200, 17203 (permitting injunctive relief and restitution for unfair competition); In re Cipro Cases I & II, 61 Cal. 4th 116, 146 (2015) (broad interpretation of California’s Unfair Competition Law in antitrust contexts).
 
-THIRD CAUSE OF ACTION
-(Negligence/Negligent Misrepresentation—Failure to Provide Good Samaritan Protections)
+------------------------------------------------------------
 
-32. Plaintiff incorporates by reference all preceding paragraphs as though fully set forth herein.
+COUNT III: BREACH OF IMPLIED COVENANT OF GOOD FAITH AND FAIR DEALING (If Applicable)
 
-33. Defendants owe a duty of care to Plaintiff and class members to moderate their platform and act as a “Good Samaritan” in accordance with 47 U.S.C. § 230(c)(2). Defendants have negligently failed to do so. (Cf. Doe, 824 F.3d at 852; Zeran v. Am. Online, Inc., 129 F.3d 327 (4th Cir. 1997)[28].)
+1.  
+Plaintiff incorporates by reference all preceding paragraphs as though fully set forth herein.
 
-34. Defendants knew or should have known that users, including Plaintiff, rely on a reasonably safe and non-discriminatory environment when seeking to showcase professional abilities and explore sponsorship or employment opportunities, including H1B sponsorship. Defendants also knew or should have known that falsely representing the Twitch Platform as merely a harmless entertainment service would induce reliance by users who might not be aware of the manipulative design that promotes dependency and reduces intellectual and moral standards over time, consistent with a Ponzi scheme approach. (See Cunningham, 265 U.S. at 7–8.)
+2.  
+To the extent there exists any contract or terms of service (e.g., with Azure) that allow usage of certain GPU and software configurations, Defendants have an implied obligation to act in good faith and not to unreasonably deprive Plaintiff of the benefits of such contracts. See Restatement (Second) of Contracts § 205 (1981); Carma Developers (Cal.), Inc. v. Marathon Dev. Cal., Inc., 2 Cal. 4th 342, 371–72 (1992), 6 Cal. Rptr. 2d 467, 826 P.2d 710; Thrifty Payless, Inc. v. AmerisourceBergen Corp., 218 Cal. App. 4th 1230, 1244 (2013) (detailing implied covenant under California law).
 
-35. Defendants’ negligence in failing to maintain such an environment, and in misrepresenting themselves as providers of a neutral platform, has caused Plaintiff and similarly situated individuals to suffer damages.
+3.  
+By implementing secure boot restrictions and requiring the purchase of NVIDIA AI Enterprise for continued driver and Python updates, Defendants have breached their implied covenant of good faith and fair dealing, causing Plaintiff damages. Plaintiff notes that these practices stand in stark contrast to other platforms—like Alibaba Cloud—that do not obstruct legitimate software updates or driver installations. See Badie v. Bank of Am., 79 Cal. Rptr. 2d 273, 284 (Cal. Ct. App. 1998); Foley v. Interactive Data Corp., 47 Cal. 3d 654, 684 (1988); Careau & Co. v. Sec. Pac. Bus. Credit, Inc., 222 Cal. App. 3d 1371, 1393 (1990).
 
-36. Plaintiff further contends that, under established tort principles (see Restatement (Second) of Torts § 552), when a platform voluntarily assumes the responsibility to moderate in good faith, it owes a duty of reasonable care in performing those acts. By failing to uphold this duty, Twitch and Amazon have proximately caused harm to Plaintiff and similarly situated individuals.
-
+------------------------------------------------------------
 VI. PRAYER FOR RELIEF
+------------------------------------------------------------
 
-WHEREFORE, Plaintiff, on behalf of himself and all others similarly situated, respectfully requests that this Court enter judgment against Defendants and:
+WHEREFORE, Plaintiff respectfully requests that the Court enter judgment against Defendants as follows:
 
-A. Declare that Defendants’ actions, policies, and practices described in this Complaint violate federal and/or state law, including H1B discrimination provisions (8 U.S.C. § 1324b), Title VII civil rights law (42 U.S.C. § 2000e-2), and related statutes;
+1.  
+Compensatory Damages in an amount to be proven at trial for Plaintiff’s economic losses and additional expenses incurred. See Brady v. Daly, 175 U.S. 148, 154 (1899); Cal. Civ. Code §§ 3333, 3281; In re Tobacco Cases II, 240 Cal. App. 4th 779, 792 (2015).
 
-B. Award compensatory damages, including but not limited to, lost opportunities, lost wages, emotional distress, and other damages in an amount to be proven at trial;
+2.  
+Injunctive Relief requiring Defendants to remove or modify unnecessary secure boot restrictions that block legitimate driver and Python updates, or to otherwise allow direct updates without the purchase of NVIDIA AI Enterprise. In the alternative, if Defendants refuse to cease these anticompetitive practices, Plaintiff prays that they acknowledge and permit free transitions to other providers, such as Alibaba Cloud, without penalty. See eBay Inc. v. MercExchange, L.L.C., 547 U.S. 388, 391 (2006), 126 S. Ct. 1837, 164 L. Ed. 2d 641 (setting forth test for injunctive relief); Cal. Bus. & Prof. Code § 17203 (permitting injunctive relief against unfair business practices); ABC Int’l Traders, Inc. v. Matsushita Elec. Corp., 14 Cal. 4th 1247, 1259 (1997) (scope of injunctive relief under California UCL); 15 U.S.C. § 26 (Clayton Act provision granting injunctive relief for antitrust violations).
 
-C. Award punitive damages to deter such conduct in the future (see Kolstad v. Am. Dental Ass’n, 527 U.S. 526 (1999)[29]);
+3.  
+Punitive Damages where applicable, to deter Defendants and others from engaging in similar wrongful conduct. See BMW of N. Am., Inc. v. Gore, 517 U.S. 559, 568 (1996), 116 S. Ct. 1589, 134 L. Ed. 2d 809 (discussing constitutional limits on punitive damages); Cal. Civ. Code § 3294 (authorizing punitive damages in cases of oppression, fraud, or malice); Simon v. San Paolo U.S. Holding Co., Inc., 35 Cal. 4th 1159, 1167 (2005).
 
-D. Grant injunctive relief requiring Defendants to reform and correct their practices to eliminate discriminatory policies, to adhere to “Good Samaritan” standards under 47 U.S.C. § 230(c)(2), and to implement safeguards for H1B applicants; and to stop fraudulently misrepresenting the Twitch Platform as lawful and beneficial while knowingly promoting user manipulation and intellectual decline, all of which Plaintiff characterizes as a Ponzi scheme on user intellect;
+4.  
+Costs and Attorneys’ Fees (if represented by counsel or if pro se costs are awarded) incurred in bringing this action. See Marek v. Chesny, 473 U.S. 1, 7–8 (1985), 105 S. Ct. 3012, 87 L. Ed. 2d 1 (discussing cost-shifting under Rule 68); Cal. Code Civ. Proc. § 1032; Graham v. DaimlerChrysler Corp., 34 Cal. 4th 553, 565 (2004) (fee shifting in private attorney general actions if applicable).
 
-E. Award Plaintiff reasonable attorneys’ fees, costs, and expenses, as provided by law (see 42 U.S.C. § 1988(b)[30]); and
+5.  
+Any Other Relief the Court deems just and proper.
 
-F. Grant such other and further relief as the Court deems just and proper.
+------------------------------------------------------------
+VII. DEMAND FOR JURY TRIAL
+------------------------------------------------------------
 
-VII. JURY DEMAND
+Plaintiff hereby demands a trial by jury on all claims and issues so triable. See Cal. Code Civ. Proc. § 631; Martin v. County of L.A., 51 Cal. App. 4th 688, 698 (1996).
 
-Plaintiff hereby demands a trial by jury on all issues so triable. (See Cal. Civ. Proc. Code § 631.)
-
-Dated: 3/7/2025
+Dated: 3/7/25
 
 Respectfully submitted,
 
-________________________________
-Bo Shang
-10 McCafferty Way
-Burlington MA 01803
+__________________________________
+Bo Shang (Pro Se or by Counsel)
+10 McCafferty Way, Burlington MA 01803
 781-999-4101
 bo@shang.software
 
-EXHIBIT 1: Widely followed TV channel reckful applies to Elon Musk for an internship on Twitter!
+EXHIBIT 1: Azure support engineers launch an XSS attack against the Plaintiff's Azure Entra SSH ID on 2/19/25, violating Title 18 Section 1030.
 
-EXHIBIT 2: Even more popular TV channel sodapoppin supports reckful's application!
+EXHIBIT 2: After the Plaintiff dumped on Azure for doing this on both Twitter and his websites, 2 days after launching the aforementioned illegal XSS attack unannounced, Microsoft Azure belatedly decides on 2/21/25 that the Plaintiff violated Azure ToS. The Plaintiff posted on social media draft lawsuits against Azure stating Azure support engineers were the ones who broke ToS and committed Title 18 Section 1030.
 
-EXHIBIT 3: Then reckful and whomever Tweets him get way too many likes and retweets!
+EXHIBIT 3: The Plaintiff training Code LLM, an LLM specialized for coding only, on his modest RTX 4070 mobile laptop!
 
-EXHIBIT 4: Amazon is the largest user of H1B programs in the United States, arising from the brain drain Twitch causes to American citizens.
+EXHIBIT 4: EXHIBIT 3: The Plaintiff training Exploit Googlebot, a gym-based PriorityBFS Googlebot that aims to go from zero to alpha in exploitation, on tensorflow-metal on a Macbook!
 
-EXHIBIT 5: The Plaintiff is an American citizen but also a former Twitch user, and as a result is no match for Amazonian H1B visas!
+EXHIBIT 5: The Plaintiff training Exploit LLM, an LLM specialized to generate exploit code and insights, on a modest RTX 4070 mobile laptop!
 
-EXHIBIT 6: lol
+EXHIBIT 6: The Plaintiff training, re-training, or fine tuning StupidityModel within only a few seconds on an NVIDIA T4 on Colab Pro+ (aka HateCrimePreventionModel) that's the first model in the world which is reliably capable at telling the difference between non-hate use of hate-crime words, far outpacing the models Twitter etc. deploy on live platforms today!
+
+EXHIBIT 7: The Plaintiff training the world's highest performing high-fidelity floral generation model, on a mere RTX 2070 mobile MaxQ, which is currently only generating 1024x1024 images on limited training data, but thousands of additional images have been scraped and is ready to be added onto a GPU upgrade at any time!
+
+EXHIBIT 8: The Plaintiff plans to, within a week, deploy PersonalModel which is literally perfectly tailored to each user's individual preferences, on Google Cloud GPU kubernetes backend and initially on a Chrome Extension frontend!

@@ -1,4 +1,4 @@
 python3.12 tflegal.py --firm_name "PDFSage Inc." \
-  --case "CA Superior Court at San Francisco County" \
+  --case "CA Superior Court at Santa Clara County" \
   --file lawsuit.txt \
-  --exhibits reck1.jpg reck2.jpg reck3.jpg reck4.jpg reck5.jpg reck6.jpg
+  --exhibits azure1.jpg azure2.jpg azure3.jpg azure4.jpg azure5.jpg azure6.jpg azure7.jpg azure8.jpg
