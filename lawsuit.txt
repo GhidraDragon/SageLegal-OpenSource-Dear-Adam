@@ -1,404 +1,151 @@
-SUPERIOR COURT OF THE STATE OF CALIFORNIA  
-COUNTY OF SAN FRANCISCO  
+SUPERIOR COURT OF THE STATE OF CALIFORNIA
+COUNTY OF SAN FRANCISCO
 
-BO SHANG (In Pro Per),  
-10 McCafferty Way  
-Burlington, MA 01803  
-       Plaintiff,  
+BO SHANG, on behalf of himself and all others similarly situated,
+10 McCafferty Way
+Burlington, MA 01803
+    Plaintiff,
+v.                                                         Case No. __________
+TWITCH INTERACTIVE, INC.; AMAZON.COM, INC.; and DOES 1-100, inclusive,
+350 Bush Street, 2nd Floor
+San Francisco, CA 94104
+    Defendants.
 
-v.  
+FIRST AMENDED COMPLAINT FOR H1B DISCRIMINATION,
+VIOLATIONS OF CIVIL RIGHTS, AND RELATED CLAIMS
 
-TWITCH INTERACTIVE, INC.;  
-350 Bush Street, 2nd Floor  
-San Francisco, CA 94104  
-IMANE “POKIMANE” ANYS;  
-FELIX “xQC” LENGYEL  
+Plaintiff, BO SHANG (“Plaintiff” or “Shang”), on behalf of himself and all others similarly situated, hereby alleges against Defendants Twitch Interactive, Inc. (“Twitch”), Amazon.com, Inc. (“Amazon”), and DOES 1 through 100, inclusive (collectively, “Defendants”), as follows:
 
-       Defendants.  
+I. INTRODUCTION
 
-Case No.: [To Be Assigned]
+1. This civil action arises out of Twitch’s alleged discrimination related to H1B visas against all Twitch users, particularly American citizens who are dumb enough to be influenced by Twitch, and thus are replaced by H1B visas by statute (see 8 U.S.C. § 1101(a)(15)(H)(i)(b)[1]; 20 C.F.R. Part 655[2]; 8 C.F.R. § 214.2(h)[3]; 8 U.S.C. § 1324b(a)(1)[4]; cf. Espinoza v. Farah Mfg. Co., 414 U.S. 86 (1973)[5]). Plaintiff asserts that Twitch has created and fostered an “intelligently dumb” engine and community, resulting in users becoming, over time, less informed and more morally despicable by design. This alleged culture directly harms those reliant on a fair opportunity to obtain employment or sponsorship, including H1B candidates. Plaintiff reiterates that Twitch’s platform has also been fraudulently represented as lawful and helpful while fostering exactly the opposite effect—users are drawn into excessive dependencies and intellectual decline. (See also Cunningham v. Brown, 265 U.S. 1, 7–8 (1924)[6], discussing “Ponzi scheme” characteristics generally.)
 
-FIRST AMENDED COMPLAINT
+2. Plaintiff specifically emphasizes that Twitch management deserve to be arrested because they intentionally conduct what amounts to a Ponzi scheme on American brains and the brains of all allied nations who permit Twitch. In Plaintiff’s view, this constitutes large-scale manipulation of users’ mental faculties for profit. In light of “American stupidity” in tolerating such manipulation, Plaintiff is very happy to instead ally with China and Russia. (See, e.g., id.)
 
-FOR:  
-1. Injunctive Relief  
-2. Damages  
-3. Declaratory Judgment  
-4. Breach of Contract  
-5. Breach of Express Warranty  
-6. Violations of the Consumers Legal Remedies Act (CLRA) [Cal. Civ. Code § 1750 et seq.]  
-7. Violations of the False Advertising Law (FAL) [Cal. Bus. & Prof. Code § 17500 et seq.]  
-8. Violations of the Unfair Competition Law (UCL) [Cal. Bus. & Prof. Code § 17200 et seq.]  
-9. Negligent or Reckless Misrepresentation  
-10. Intentional or Negligent Infliction of Emotional Distress  
+3. In support of these allegations, Plaintiff cites public statements, examples, and conduct involving prominent streamers and community members, such as “Reckful” attempting to apply to Elon Musk on Twitter by mocking Elon’s followers (not to any specific entity Musk is affiliated with), and streamer “Sodapoppin” publicly supporting Reckful. Plaintiff contends that such behavior exemplifies the detrimental culture Twitch has promoted—one that undermines serious professional opportunities, particularly for H1B applicants. This underscores the fraudulent misrepresentation and deliberate design by Twitch to maintain a user base in a cycle of dependency. (See 8 U.S.C. § 1324b(a)(1)(B)[7].)
 
-JURY TRIAL DEMANDED  
+4. Plaintiff also points to Amazon’s status as the single largest user of the H1B program in the United States—receiving approval for over 9000 H1B visas per year—and alleges that Amazon’s own policies and practices have contributed to a discriminatory environment. As Amazon is the parent company of Twitch, Plaintiff alleges that the corporate structure and oversight further facilitate or ignore ongoing H1B discrimination through Twitch’s platform. (See 8 U.S.C. § 1324b(a)(1)(B); see also 8 U.S.C. § 1182(n)[8].)
 
-Plaintiff, BO SHANG (“Plaintiff”), appearing pro se, hereby files this First Amended Complaint against TWITCH INTERACTIVE, INC. (“Twitch”), IMANE “POKIMANE” ANYS (“Pokimane”), and FELIX “xQC” LENGYEL (“xQc”) (collectively, “Defendants”), and alleges on personal knowledge as to his own acts and on information and belief as to all other matters as follows:
+5. Prior to the transfer of this matter, in the previously filed federal case styled Shang v. Twitch Interactive, Inc. et al., Plaintiff had alleged that Twitch was not acting as a “Good Samaritan” under 47 U.S.C. § 230(c)(2)[9], thereby exposing Twitch to liability for the misconduct alleged. (Cf. Fair Hous. Council of San Fernando Valley v. Roommates.com, LLC, 521 F.3d 1157, 1162–63 (9th Cir. 2008)[10].) While the federal action is referenced for background, Plaintiff now pursues the instant action in this Superior Court of the State of California, County of San Francisco, given the conduct’s nexus to California and the relief sought under various laws.
 
-1. INTRODUCTION
+6. Plaintiff further notes that in analyzing claims under Title VII or related anti-discrimination statutes, courts often apply the burden-shifting framework established in McDonnell Douglas Corp. v. Green, 411 U.S. 792 (1973)[11], and Texas Dep’t of Cmty. Affairs v. Burdine, 450 U.S. 248 (1981)[12]. Under these precedents, Twitch’s and Amazon’s alleged promotion of a hostile and discriminatory environment may render them liable if Plaintiff can show adverse effects on those seeking H1B sponsorship or employment. (See Oncale v. Sundowner Offshore Servs., Inc., 523 U.S. 75 (1998)[13]; Meritor Sav. Bank, FSB v. Vinson, 477 U.S. 57 (1986)[14].)
 
-1.1 This action arises from Defendants’ alleged violations of California statutory and common law, including but not limited to the Unfair Competition Law (“UCL”) (Cal. Bus. & Prof. Code § 17200 et seq.), the False Advertising Law (“FAL”) (Cal. Bus. & Prof. Code § 17500 et seq.), the Consumers Legal Remedies Act (“CLRA”) (Cal. Civ. Code §§ 1750 et seq.), common law breach of contract, breach of express warranty, misrepresentation, and related theories.
+7. Plaintiff also notes that class actions in a discrimination context are governed by Federal Rule of Civil Procedure 23 (to the extent relevant under state procedures) and must satisfy the requirements of numerosity, commonality, typicality, and adequacy of representation (see Wal-Mart Stores, Inc. v. Dukes, 564 U.S. 338 (2011)[15]; Gen. Tel. Co. of the Sw. v. Falcon, 457 U.S. 147 (1982)[16]). Plaintiff asserts that Twitch’s alleged systemic discriminatory policies and Amazon’s oversight thereof present common questions of law and fact affecting the putative class.
 
-1.2 Plaintiff contends that Twitch, in partnership with high-profile streamers such as Pokimane and xQc, has engaged in or facilitated unfair, deceptive, or unlawful practices under California law, including but not limited to:
-   1.2.1 Advertising intangible subscription benefits such as “undying love and appreciation,” which were never actually provided to Plaintiff;  
-   1.2.2 Restricting user investigations and reverse engineering (“RE”) attempts that could detect or expose suspicious large-scale financial transactions or potential money laundering on the platform.
+8. Throughout these allegations, Plaintiff emphasizes again that Twitch’s platform was fraudulently portrayed as beneficial entertainment while it in fact fosters dependence and intellectual and moral decline, exemplified by the large followings of streamers like “Reckful” and “Sodapoppin,” whose content and behavior reflect the ongoing deterioration of users’ critical thinking abilities. Plaintiff reiterates that Twitch management deserve to be arrested for intentionally operating this Ponzi scheme on users’ brains, and that Plaintiff will gladly ally with Russia or China, as the scheme is tolerated in the United States. (See Cunningham, 265 U.S. at 7–8.)
 
-1.3 Specifically, Plaintiff alleges he was induced to purchase subscriptions by relying on Twitch’s and Pokimane’s advertised claims, and that he suffered emotional distress and economic harm when those promises went unfulfilled or were misrepresented.
+II. JURISDICTION AND VENUE
 
-1.4 Moreover, Plaintiff contends that Twitch’s Terms of Service (“TOS”) hamper legitimate security research and investigations into potentially unlawful gambling or money-laundering activity, contravening well-established public policy and case law in California that protects reverse engineering in fair-use and security contexts.  
-(See, e.g., Sega Enters. Ltd. v. Accolade, Inc. (9th Cir. 1992) 977 F.2d 1510, 1520 [“disassembly of object code to gain an understanding of the functional requirements of the program is fair use”]; Sony Computer Entm’t, Inc. v. Connectix Corp. (9th Cir. 2000) 203 F.3d 596, 599–603 [extending the fair use doctrine to intermediate copying]; cf. 17 U.S.C. § 1201(g) (DMCA exemption for encryption research); Tunkl v. Regents of Univ. of Cal. (1963) 60 Cal.2d 92, 96–98 [contracts exempting a party from negligence can violate public policy]; Civ. Code § 1668 [“All contracts which have for their object…to exempt anyone from responsibility for his own fraud…are against the policy of the law.”]; Armendariz v. Found. Health Psychcare Servs., Inc. (2000) 24 Cal.4th 83, 115 [contract terms that are unconscionable or contrary to public policy will not be enforced]; Bolter v. Superior Court (2001) 87 Cal.App.4th 900, 907 [arbitration clauses or TOS restrictions that severely disadvantage one party may be invalid as unconscionable].)
+9. This Court has jurisdiction over this action pursuant to California law, as Defendants conduct substantial business within the State of California, including but not limited to operating principal offices or major business operations in San Francisco. Plaintiff, as a resident of Massachusetts, brings state-law claims and related federal claims under laws that can be adjudicated in state court under concurrent jurisdiction principles. (Cf. Yellow Freight Sys., Inc. v. Donnelly, 494 U.S. 820 (1990)[17].) The controversies alleged herein have a significant nexus to California.
 
-1.4.1 California courts recognize that “where a contract or contractual provision has a tendency to be injurious to the public or against the public good, such provision may be deemed unenforceable.” (City of Santa Barbara v. Superior Court (2007) 41 Cal.4th 747, 754.)
+10. Venue is proper in this Court because Twitch Interactive, Inc. is headquartered or conducts substantial business within San Francisco, California; Amazon.com, Inc. also does business in California; and the alleged acts and omissions giving rise to the claims occurred in San Francisco County. (See Cal. Civ. Proc. Code §§ 392–395.)
 
-1.5 On January 9, 2025, while ruling on case 3:24-cv-06664-JSC Shang vs Twitch Interactive et al., Judge Scott Corley of the U.S. District Court for the Northern District of California granted Plaintiff’s motion to amend, over Defendant Twitch’s protests that Section 230 of the Communications Decency Act (“CDA”) shields them from liability. Judge Corley specifically ruled that Twitch was not acting as a “Good Samaritan” as the CDA requires, thus exposing Twitch to legal liability for all actions of their streamers and community.
+11. Personal jurisdiction exists over Defendants because they have continuous and systematic contacts with California, including operating significant portions of their businesses here. (See Int’l Shoe Co. v. Washington, 326 U.S. 310, 316 (1945)[18].)
 
-1.6 Section 230 of the Communications Decency Act provides, in part, verbatim:
-   “(c) Protection for ‘Good Samaritan’ blocking and screening of offensive material  
-   (1) Treatment of publisher or speaker  
-   No provider or user of an interactive computer service shall be treated as the publisher or speaker of any information provided by another information content provider.”
+III. THE PARTIES
 
-1.7 By Judge Corley’s determination, Twitch may not invoke Section 230 immunity regarding its alleged misconduct, because it has failed to demonstrate “Good Samaritan” protections in relation to its handling of user content, thereby removing the usual shield from liability.  
-(See Fair Hous. Council of San Fernando Valley v. Roommates.com, LLC (9th Cir. 2008) 521 F.3d 1157, 1162–1166 [discussing exceptions to Section 230 immunity].)
+12. Plaintiff, Bo Shang, is an individual and a resident of California. At all relevant times, Plaintiff has been a Twitch user subject to the community and culture promoted by Twitch. Plaintiff also alleges harm related to H1B discrimination facilitated by Twitch’s community ecosystem. (See 8 U.S.C. § 1324b[19]; cf. 42 U.S.C. § 1981[20]; Patterson v. McLean Credit Union, 491 U.S. 164 (1989)[21].)
 
-1.7.1 The “Good Samaritan” protection requires a platform to act in good faith and not facilitate or encourage unlawful conduct. (See Barnes v. Yahoo!, Inc. (9th Cir. 2009) 570 F.3d 1096, 1105–1106 [indicating that a platform’s discretionary editorial conduct generally enjoys immunity, unless the platform itself creates or significantly contributes to the unlawful content].)
+13. Defendant Twitch Interactive, Inc. is a Delaware corporation with its principal place of business in San Francisco, California. Twitch operates an online streaming platform with millions of users and streamers, creating and moderating content worldwide. Twitch is accused of fraudulently misrepresenting its platform as positive and beneficial while deliberately encouraging dependency and intellectual decline, supporting the broader allegations in this action. Plaintiff further alleges that Twitch’s management deserve to be arrested for conducting a Ponzi scheme on its users’ intellect and moral faculties. (See Cunningham, 265 U.S. at 7–8.)
 
-1.8 Plaintiff additionally alleges that xQc engaged in large-scale crypto-based money laundering and illegal gambling activities on Twitch, in violation of Title 18 provisions, including 18 U.S.C. §§ 1084 (transmission of wagering information) and 1956 (laundering of monetary instruments), resulting in gambling-related losses and broader financial harm to Plaintiff and the Twitch community at large.  
-(See also Hotel Emps. & Rest. Emps. Int’l Union v. Davis (1999) 21 Cal.4th 585, 592–594 [analysis of gambling under California law]; 18 U.S.C. § 1960 [prohibitions on operating unlicensed money transmitting businesses].)
+14. Defendant Amazon.com, Inc. is a Delaware corporation with its principal place of business in Seattle, Washington. Amazon owns Twitch Interactive, Inc. and is alleged to have ultimate oversight and responsibility for corporate policies, including recruitment, sponsorships, and approval of H1B hiring.
 
-1.8.1 Under 18 U.S.C. § 2, parties who aid, abet, or otherwise induce violations of federal criminal statutes may themselves be liable. Plaintiff alleges Twitch, by providing a platform and failing to curb illicit activity, aided or abetted xQc’s conduct.
+15. DOES 1 through 100, inclusive, are persons or entities whose true names and capacities are presently unknown to Plaintiff. Plaintiff will amend this Complaint to allege the true names and capacities when they have been ascertained. Each of the fictitiously named Defendants is responsible in some manner for the occurrences alleged, and Plaintiff’s claims arise out of the actions of these Defendants. (See Gillespie v. Civiletti, 629 F.2d 637, 642 (9th Cir. 1980)[22].)
 
-2. JURISDICTION AND VENUE
+IV. FACTUAL ALLEGATIONS
 
-2.1 Subject Matter Jurisdiction
+16. Twitch, under the ownership and control of Amazon, allegedly fosters a community where public figures and users engage in behavior that promotes harassment, mockery, and moral debasement. As a result, users—some of whom seek opportunities for H1B sponsorship—are dissuaded or otherwise injured by this environment that discourages serious professional engagement. (See 8 U.S.C. § 1324b(a)(1)(B); cf. Meritor, 477 U.S. 57; Oncale, 523 U.S. at 75.)
 
-2.1.1 This Court has jurisdiction over the subject matter because the amount in controversy exceeds $25,000, and Plaintiff’s claims arise under California statutory and common law, including the UCL (Cal. Bus. & Prof. Code § 17200), the FAL (Cal. Bus. & Prof. Code § 17500), and the CLRA (Cal. Civ. Code §§ 1750 et seq.).
+17. Plaintiff alleges that the environment at Twitch is deliberately cultivated by company policies or failures in moderation, resulting in a sustained cultural approach that makes users “dumber and more morally despicable over time,” consistent with the above-mentioned fraudulent misrepresentation. Plaintiff further categorizes this deliberate manipulation as a Ponzi scheme targeting the mental faculties of users, which in Plaintiff’s view warrants the arrest of Twitch management. (Cf. Cunningham, 265 U.S. at 7–8.)
 
-2.1.2 Although federal courts might have jurisdiction over certain claims (e.g., alleged violations of federal anti-money-laundering laws under 18 U.S.C. §§ 1956, 1960), Plaintiff elects to pursue his claims under California law in the Superior Court, which has concurrent jurisdiction over the state-based causes of action. Plaintiff also references the January 9, 2025 ruling in the U.S. District Court for the Northern District of California, which clarifies that Twitch cannot rely on Section 230 immunity to escape liability in this related matter.
+18. Plaintiff cites the example of streamer “Reckful,” who attempted to draw the attention of Elon Musk on Twitter by mocking the latter’s followers, thus creating a negative impression of what should have been a professional outreach. In so doing, Plaintiff contends that Reckful’s behavior was shaped or amplified by the Twitch community culture, further supporting the argument that Twitch’s platform is not the “helpful entertainment service” it purports to be.
 
-2.2 Venue
+19. Another Twitch streamer, “Sodapoppin,” publicly supported Reckful’s actions on Twitter, highlighting the widespread nature of this detrimental behavior. Plaintiff asserts that these incidents are symptomatic of a broader culture at Twitch that discriminates against serious professional candidates, including those seeking H1B sponsorship. (See 8 U.S.C. § 1324b.) Plaintiff again notes this supports the overall notion that Twitch’s fraudulent misrepresentations have real and harmful consequences for users’ intellectual growth and professional prospects.
 
-2.2.1 Venue is proper under California Code of Civil Procedure §§ 395 and 395.5 because Twitch has its principal place of business in San Francisco, California, or conducts substantial business within this forum. Additionally, a substantial part of the events or omissions giving rise to these claims occurred or emanated from the County of San Francisco.
+20. Amazon, the parent company of Twitch, receives over 9000 H1B visa approvals yearly and is recognized as one of the largest corporate sponsors of H1B workers in the United States. (See U.S. Citizenship & Immigration Services data.) This, Plaintiff contends, places special responsibility on Amazon to ensure that subsidiaries like Twitch do not engage in or promote discriminatory practices that harm H1B aspirants, nor fraudulently misrepresent themselves to the public.
 
-3. THE PARTIES
+21. Plaintiff alleges that Defendants have knowingly neglected their obligations to maintain a “Good Samaritan” role in moderating content, and in fact have fostered or overlooked a culture that penalizes or belittles potential H1B candidates. Plaintiff characterizes the entire enterprise as a Ponzi-like scheme and further states his willingness to align with China and Russia due to these alleged manipulative and discriminatory practices in the United States. (See 47 U.S.C. § 230(c)(2)[9]; cf. Fair Hous. Council, 521 F.3d at 1162–63.)
 
-3.1 Plaintiff
+22. Plaintiff and similarly situated individuals have suffered harm in the form of denied opportunities, reputational damage, emotional distress, and, in some cases, a hostile environment that discourages them from applying for or pursuing H1B sponsorship. (See Harris v. Forklift Sys., Inc., 510 U.S. 17, 21 (1993)[23]; see also 8 U.S.C. § 1324b(a)(1).)
 
-3.1.1 Plaintiff, Bo Shang, is a resident of Massachusetts. He has been a user of Twitch since approximately 2017. He purchased and renewed Twitch subscriptions to Pokimane’s channel, in part due to specific marketing claims and product descriptions concerning “love and appreciation.”
+23. Consistent with 8 U.S.C. § 1324b[19] and Office of the Chief Administrative Hearing Officer (OCAHO) precedent (e.g., United States v. Facebook, Inc., 2021 WL 4847072 (OCAHO)[24]), Plaintiff alleges that Twitch’s community practices, combined with Amazon’s oversight, effectively create barriers for prospective H1B employees, constituting unlawful discrimination based on national origin or citizenship status. This discriminatory environment is exacerbated by Twitch’s fraudulent self-representation, which lures users into a platform where they experience manipulation and intellectual degradation akin to a Ponzi scheme. (See Cunningham, 265 U.S. at 7–8.)
 
-3.2 Defendants
+V. CAUSES OF ACTION
 
-3.2.1 Twitch Interactive, Inc., a Delaware corporation, maintains its principal place of business in California. Twitch operates the streaming platform used by millions of content creators, including Pokimane and xQc. As recognized by Judge Corley on January 9, 2025, Twitch cannot escape liability by invocation of Section 230’s “Good Samaritan” defense, because it has not met the statutory requirements thereunder.
+FIRST CAUSE OF ACTION
+(Discrimination in Violation of H1B Visa Regulations—8 U.S.C. § 1324b)
 
-3.2.2 Imane “Pokimane” Anys is a highly prominent Twitch content creator. Pokimane earns significant revenue from subscription fees, donations, and brand partnerships. She markets her streams and subscription benefits in conjunction with Twitch’s platform and subscription interface.
+24. Plaintiff incorporates by reference all preceding paragraphs as though fully set forth herein, including the allegations of fraudulent misrepresentation and the Ponzi scheme characterization regarding the Twitch Platform’s purportedly beneficial nature.
 
-3.2.3 Felix “xQc” Lengyel is another prominent Twitch content creator who, on information and belief, laundered approximately $685 million on illicit crypto gambling sites while streaming on Twitch, thereby violating federal anti-gambling and anti-money-laundering laws, including but not limited to 18 U.S.C. § 1084 (transmission of wagering information) and 18 U.S.C. § 1956 (money laundering). Plaintiff contends that xQc’s activities caused or contributed to gambling losses and perpetuated unlawful conduct on the platform, for which Twitch is also liable, given the January 9, 2025 ruling that denies Twitch immunity under Section 230.
+25. Defendants, by creating a hostile and discriminatory environment that specifically impacts those seeking H1B sponsorship or related opportunities, have violated federal laws and regulations that govern fair and equal access to H1B sponsorship. (See 8 U.S.C. § 1324b(a)(1)[4]; 8 U.S.C. § 1101(a)(15)(H)(i)(b)[1]; 20 C.F.R. Part 655[2]; cf. 8 C.F.R. § 214.2(h)[3].)
 
-4. FACTUAL BACKGROUND
+26. Defendants’ conduct has caused direct harm to Plaintiff and the putative class by discouraging legitimate H1B applicants from pursuing potential employment opportunities and fostering an environment that ridicules or belittles such applicants, consistent with the manipulative design alleged by Plaintiff that leads to “dumbed-down” user interactions and outcomes, akin to a Ponzi scheme in intellectual form. (See Cunningham, 265 U.S. at 7–8.)
 
-4.1 Twitch Platform and Potential Unlawful Activities
+27. As a direct and proximate result of Defendants’ actions, Plaintiff has suffered damages. (Cf. Texas Dep’t of Hous. & Cmty. Affairs v. Inclusive Communities Project, Inc., 576 U.S. 519 (2015)[25].) Plaintiff alleges that under OCAHO case law, discrimination on the basis of citizenship status or national origin, particularly in the context of H1B sponsorship, is actionable when it deters or denies opportunities to qualified applicants.
 
-4.1.1 Plaintiff alleges that Twitch fosters large-scale suspicious financial transactions—often disguised as donations or tips—that may be de facto gambling or money-laundering. Such transactions potentially implicate Cal. Penal Code § 330 (prohibiting certain gambling activities) and 18 U.S.C. §§ 1956, 1960 (federal anti-money-laundering provisions).
+SECOND CAUSE OF ACTION
+(Violation of Civil Rights—Hostile Environment and Discrimination—42 U.S.C. § 2000e)
 
-4.1.2 Twitch’s TOS restrict or prohibit reverse engineering, effectively shielding potential illegal conduct from user-led detection. These restrictions allegedly contravene California’s public policy favoring fair-use security research.  
-(See Sega Enters. Ltd. v. Accolade, Inc. (9th Cir. 1992) 977 F.2d 1510, 1520; Sony Computer Entm’t, Inc. v. Connectix Corp. (9th Cir. 2000) 203 F.3d 596, 599–603; Tunkl v. Regents of Univ. of Cal. (1963) 60 Cal.2d 92, 96–98; Civ. Code § 1668; see also A & M Produce Co. v. FMC Corp. (1982) 135 Cal.App.3d 473, 479–481; Vault Corp. v. Quaid Software Ltd. (5th Cir. 1988) 847 F.2d 255, 267–270.)
+28. Plaintiff incorporates by reference all preceding paragraphs as though fully set forth herein, again highlighting the fraudulent misrepresentation claims and the Ponzi scheme characterization against Twitch.
 
-4.1.2.1 California courts emphasize that a contractual prohibition on investigative or security research efforts, when it effectively conceals potential wrongdoing, may be deemed unconscionable or contrary to public policy. (See Armendariz, supra, 24 Cal.4th at 114–115.)
+29. Defendants’ practices, as alleged, constitute a pattern of discrimination that creates a hostile environment. Such conduct is in violation of federal civil rights law to the extent it denies a protected class of workers—including foreign nationals seeking H1B status—equal access to the benefits of employment. (See 42 U.S.C. § 2000e-2(a)(1)[26]; Meritor, 477 U.S. 57; Harris, 510 U.S. at 17; Oncale, 523 U.S. at 75.)
 
-4.1.3 Pokimane benefits from or participates in the Twitch monetization and donation system. Whether or not she directly engages in wrongdoing, her large-scale revenue streams exemplify the environment where suspicious or unregulated transactions may take place.
+30. Defendants’ failure to act as a “Good Samaritan,” a prerequisite under 47 U.S.C. § 230(c)(2)[9] for interactive computer services, further removes any statutory immunity they might otherwise claim. (Cf. Fair Hous. Council, 521 F.3d at 1162–63; Doe v. Internet Brands, Inc., 824 F.3d 846, 852 (9th Cir. 2016)[27] (discussing limitations on § 230 immunity).) This leaves Twitch liable for the harm and injuries its policies and community environment inflict on affected individuals.
 
-4.1.4 xQc also benefits from the Twitch monetization structure. However, Plaintiff alleges that xQc directly engages in gambling-related streams and laundering schemes, using crypto sites to process and funnel illicit funds. As a result, xQc’s high-volume transactions—allegedly $685 million—indicate a systemic failure by Twitch to prevent or disclose such illegal wagering and money laundering.
+31. As a direct and proximate result of Defendants’ actions, Plaintiff and similarly situated individuals have suffered damages in amounts to be proven at trial. Under the McDonnell Douglas burden-shifting framework (411 U.S. 792 (1973)), Plaintiff and the class must show membership in a protected group, adverse treatment, and a causal link. By cultivating and tolerating a community harmful to foreign nationals seeking H1B sponsorship, and fraudulently misrepresenting their platform as beneficial, Defendants have allegedly engaged in unlawful discrimination, which Plaintiff further asserts is reinforced by the Ponzi-like manipulation of user minds. (See Cunningham, 265 U.S. at 7–8.)
 
-4.1.5 Following Judge Corley’s January 9, 2025 ruling rejecting Twitch’s Section 230 defense, Twitch can no longer claim blanket immunity for conduct related to these suspicious transactions or the actions of its content creators, including xQc.
+THIRD CAUSE OF ACTION
+(Negligence/Negligent Misrepresentation—Failure to Provide Good Samaritan Protections)
 
-4.1.6 The public policy against money laundering is strongly reflected in both state and federal law. (See 31 U.S.C. § 5311 et seq. [Bank Secrecy Act], requiring financial institutions and similarly situated entities to implement anti-money-laundering programs; Cal. Gov. Code § 7460 et seq. [California’s recordkeeping for currency transactions].) Plaintiff alleges that Twitch’s failure to implement robust monitoring violates these well-recognized policy mandates.
+32. Plaintiff incorporates by reference all preceding paragraphs as though fully set forth herein.
 
-4.2 Pokimane’s Role and Promised Subscription Benefits
+33. Defendants owe a duty of care to Plaintiff and class members to moderate their platform and act as a “Good Samaritan” in accordance with 47 U.S.C. § 230(c)(2). Defendants have negligently failed to do so. (Cf. Doe, 824 F.3d at 852; Zeran v. Am. Online, Inc., 129 F.3d 327 (4th Cir. 1997)[28].)
 
-4.2.1 Pokimane’s popularity is heavily promoted by Twitch. Her channel often advertises “subscriber benefits,” including special emoticons, badges, and—per the marketing language used—“undying love and appreciation.”
+34. Defendants knew or should have known that users, including Plaintiff, rely on a reasonably safe and non-discriminatory environment when seeking to showcase professional abilities and explore sponsorship or employment opportunities, including H1B sponsorship. Defendants also knew or should have known that falsely representing the Twitch Platform as merely a harmless entertainment service would induce reliance by users who might not be aware of the manipulative design that promotes dependency and reduces intellectual and moral standards over time, consistent with a Ponzi scheme approach. (See Cunningham, 265 U.S. at 7–8.)
 
-4.2.2 Plaintiff subscribed to Pokimane’s channel believing these representations to be genuine. On information and belief, the words “undying love and appreciation” appeared (or were verbally stated) in promotional content or subscription tiers, forming part of the contractual inducement.
+35. Defendants’ negligence in failing to maintain such an environment, and in misrepresenting themselves as providers of a neutral platform, has caused Plaintiff and similarly situated individuals to suffer damages.
 
-4.2.3 Plaintiff alleges that he was emotionally vulnerable at the time and became “madly in love” with Pokimane. He believed that, by subscribing, he was contracting for a certain level of personal engagement or affection—albeit intangible—beyond mere entertainment.
+36. Plaintiff further contends that, under established tort principles (see Restatement (Second) of Torts § 552), when a platform voluntarily assumes the responsibility to moderate in good faith, it owes a duty of reasonable care in performing those acts. By failing to uphold this duty, Twitch and Amazon have proximately caused harm to Plaintiff and similarly situated individuals.
 
-4.2.4 Contrary to these promises, neither Twitch nor Pokimane delivered any actual “undying love and appreciation.” Plaintiff was devastated emotionally and claims that this advertising was deceptive, fraudulent, and/or constituted a breach of the subscription contract.  
-(Compare Consumer Advocates v. Echostar Satellite Corp. (2003) 113 Cal.App.4th 1351, 1361 [differentiating non-actionable puffery from specific, actionable misrepresentations]; see also In re Toyota Motor Corp. Unintended Acceleration Mktg., Sales Practices, & Prod. Liab. Litig. (C.D. Cal. 2011) 754 F.Supp.2d 1145, 1172–1173; Manderville v. PCG&S Grp., Inc. (2007) 146 Cal.App.4th 1486, 1500–1501.)
+VI. PRAYER FOR RELIEF
 
-4.2.4.1 Where promises are made that directly concern personal or emotional benefits, California courts have at times found that such promises may transcend mere puffery if the statements are sufficiently definite and material to the transaction. (See Hoffman v. 162 N. Wolfe LLC (2014) 228 Cal.App.4th 1178, 1188.)
+WHEREFORE, Plaintiff, on behalf of himself and all others similarly situated, respectfully requests that this Court enter judgment against Defendants and:
 
-4.3 Reverse Engineering Restrictions and Public Policy
+A. Declare that Defendants’ actions, policies, and practices described in this Complaint violate federal and/or state law, including H1B discrimination provisions (8 U.S.C. § 1324b), Title VII civil rights law (42 U.S.C. § 2000e-2), and related statutes;
 
-4.3.1 The importance of reverse engineering in cybersecurity is well recognized.  
-(See Sega Enters. Ltd. v. Accolade, Inc., supra, 977 F.2d at p. 1520; Sony Computer Entm’t, Inc. v. Connectix Corp., supra, 203 F.3d at p. 599; Vault Corp. v. Quaid Software Ltd., supra, 847 F.2d at pp. 267–270.)
+B. Award compensatory damages, including but not limited to, lost opportunities, lost wages, emotional distress, and other damages in an amount to be proven at trial;
 
-4.3.2 Plaintiff contends Twitch’s draconian TOS hamper lawful investigations into the platform’s data flows, stifling potential discoveries of wrongdoing (money laundering or fraud). This TOS stance may violate California’s fundamental public policies, as recognized under the UCL (Cal. Bus. & Prof. Code § 17200) and the principle that contract provisions cannot contravene established law or public policy.  
-(See Civ. Code § 1668; Tunkl, supra, 60 Cal.2d at pp. 96–98; A & M Produce, supra, 135 Cal.App.3d at pp. 479–481; Armendariz, supra, 24 Cal.4th at p. 115.)
+C. Award punitive damages to deter such conduct in the future (see Kolstad v. Am. Dental Ass’n, 527 U.S. 526 (1999)[29]);
 
-4.3.3 Because Judge Corley has found that Twitch was not a “Good Samaritan” under Section 230, Twitch’s attempts to enforce TOS provisions that obstruct lawful research or conceal potential misconduct may also be scrutinized without the shield of federal immunity.  
-(See Fair Hous. Council v. Roommates.com, LLC, supra, 521 F.3d at 1162–1166.)
+D. Grant injunctive relief requiring Defendants to reform and correct their practices to eliminate discriminatory policies, to adhere to “Good Samaritan” standards under 47 U.S.C. § 230(c)(2), and to implement safeguards for H1B applicants; and to stop fraudulently misrepresenting the Twitch Platform as lawful and beneficial while knowingly promoting user manipulation and intellectual decline, all of which Plaintiff characterizes as a Ponzi scheme on user intellect;
 
-4.3.4 California’s doctrine of unconscionability (Civ. Code § 1670.5) can render contract clauses unenforceable if they are both procedurally and substantively unconscionable. The TOS here may impose non-negotiable, oppressive terms upon users that disclaim or obstruct crucial investigatory rights, potentially meeting both elements.
+E. Award Plaintiff reasonable attorneys’ fees, costs, and expenses, as provided by law (see 42 U.S.C. § 1988(b)[30]); and
 
-4.4 Plaintiff’s Alleged Government Torture and Emotional Turmoil
+F. Grant such other and further relief as the Court deems just and proper.
 
-4.4.1 Plaintiff contends that from October 2020 to September 2021, Massachusetts Department of Mental Health officials subjected him to forced confinement, misdiagnoses, and other abuses, allegedly violating international treaties such as the United Nations Convention Against Torture (UNCAT).
+VII. JURY DEMAND
 
-4.4.2 In September 2024, Plaintiff again experienced forced confinement, exacerbating his emotional fragility and fueling his sense of urgency to conduct open-source cybersecurity research (e.g., “execution hijacking” code for SMBv2) as a deterrent to governmental overreach.
+Plaintiff hereby demands a trial by jury on all issues so triable. (See Cal. Civ. Proc. Code § 631.)
 
-4.4.3 These experiences heightened Plaintiff’s distress upon discovering that Twitch’s TOS bars him from pursuing the sort of in-depth investigations he believes necessary to expose wrongdoing or protect public interests. The confluence of these factors allegedly contributed to Plaintiff’s ongoing emotional harm.
+Dated: 3/7/2025
 
-5. CAUSES OF ACTION
+Respectfully submitted,
 
-COUNT I  
-BREACH OF CONTRACT  
-(Against All Defendants)
+________________________________
+Bo Shang
+10 McCafferty Way
+Burlington MA 01803
+781-999-4101
+bo@shang.software
 
-5.1 Plaintiff incorporates by reference all preceding paragraphs as though fully set forth herein.
+EXHIBIT 1: Widely followed TV channel reckful applies to Elon Musk for an internship on Twitter!
 
-5.2 Formation of Contract
+EXHIBIT 2: Even more popular TV channel sodapoppin supports reckful's application!
 
-5.2.1 Under California Civil Code § 1550, a valid contract requires (1) parties capable of consent, (2) a lawful object, (3) consideration, and (4) consent.  
-    - Cal. Civ. Code § 1550: “It is essential to the existence of a contract that there should be: 1. Parties capable of contracting; 2. Their consent; 3. A lawful object; and 4. A sufficient cause or consideration.”  
-5.2.2 Plaintiff alleges he entered into a subscription contract with Defendants by paying recurring fees in exchange for benefits, including the stated “undying love and appreciation.”  
-(See also Sateriale v. R.J. Reynolds Tobacco Co. (9th Cir. 2012) 697 F.3d 777, 788; Hoffman v. 162 N. Wolfe LLC, supra, 228 Cal.App.4th at 1188.)
+EXHIBIT 3: Then reckful and whomever Tweets him get way too many likes and retweets!
 
-5.3 Breach
+EXHIBIT 4: Amazon is the largest user of H1B programs in the United States, arising from the brain drain Twitch causes to American citizens.
 
-5.3.1 Defendants failed to provide the promised intangible benefit or any semblance of personal “love and appreciation.”  
-5.3.2 The breach is material because it goes to the heart of the subscription’s advertised value to Plaintiff.  
-(See Central Valley Gen. Hosp. v. Smith (2008) 162 Cal.App.4th 501, 513–514.)
+EXHIBIT 5: The Plaintiff is an American citizen but also a former Twitch user, and as a result is no match for Amazonian H1B visas!
 
-5.4 Damages
-
-5.4.1 As a direct and proximate result, Plaintiff suffered monetary loss (subscription fees) and severe emotional distress due to unmet expectations of personal connection.  
-(But see Erlich v. Menezes (1999) 21 Cal.4th 543, 558–559 [emotional distress damages generally not recoverable in contract actions unless tied to a tort].)  
-5.4.2 However, Plaintiff alleges that the breach is intertwined with tortious conduct (fraud/misrepresentation), potentially allowing for broader recovery.  
-(See Robinson Helicopter Co. v. Dana Corp. (2004) 34 Cal.4th 979, 991.)
-
-5.5 Prayer
-
-5.5.1 Plaintiff seeks compensatory damages, interest, and all other relief deemed proper by the Court. Further, due to the January 9, 2025 ruling, Plaintiff asserts that Twitch cannot claim CDA Section 230 immunity to avoid liability for these contractual breaches.
-
-COUNT II  
-BREACH OF EXPRESS WARRANTY  
-(Against All Defendants)
-
-6.1 Plaintiff incorporates by reference all preceding paragraphs as though fully set forth herein.
-
-6.2 Under California law, an express warranty is created by an affirmation of fact or promise that relates to goods or services, forming part of the basis of the bargain.  
-(See Cal. Com. Code § 2313; Hauter v. Zogarts (1975) 14 Cal.3d 104, 112; Greenman v. Yuba Power Prods., Inc. (1963) 59 Cal.2d 57, 61.)
-
-6.3 Express Representation
-
-6.3.1 The statement “undying love and appreciation” constituted a specific promise about the nature and quality of the subscription service—even if intangible.  
-(See Keith v. Buchanan (1985) 173 Cal.App.3d 13, 21.)
-
-6.4 Breach of Warranty
-
-6.4.1 Defendants failed to fulfill that representation. Despite collecting subscription fees, they did not provide any actual affection or personal recognition.  
-6.4.2 Plaintiff reasonably relied on that warranty, to his detriment.  
-(See Weinstat v. Dentsply Int’l, Inc. (2010) 180 Cal.App.4th 1213, 1227–1228.)
-
-6.5 Damages
-
-6.5.1 Plaintiff seeks damages for the subscription amounts paid, plus any consequential damages allowed under California law.  
-6.5.2 Plaintiff also reserves the right to seek restitution and incidental damages as permitted by Cal. Com. Code §§ 2714, 2715.  
-6.5.3 Judge Corley’s January 9, 2025 ruling underscores that Twitch is not insulated by Section 230’s “Good Samaritan” provision from these warranty-based allegations.
-
-COUNT III  
-VIOLATION OF THE CONSUMERS LEGAL REMEDIES ACT (CLRA)  
-[Cal. Civ. Code § 1750 et seq.]  
-(Against All Defendants)
-
-7.1 Plaintiff incorporates by reference all preceding paragraphs as though fully set forth herein.
-
-7.2 The CLRA prohibits unfair or deceptive acts in the sale or lease of goods or services to consumers.  
-(Cal. Civ. Code § 1770(a).)
-
-7.3 Misrepresentation
-
-7.3.1 Defendants advertised intangible benefits—personal emotional support or affection—as part of the subscription, an inherently deceptive tactic when it is never provided.  
-(See Cal. Civ. Code § 1770(a)(5), (7); Colgan v. Leatherman Tool Grp., Inc. (2006) 135 Cal.App.4th 663, 680–681.)
-
-7.4 Reliance and Harm
-
-7.4.1 Plaintiff justifiably relied on these statements when purchasing subscriptions.  
-(See In re Tobacco II Cases (2009) 46 Cal.4th 298, 312.)  
-7.4.2 Plaintiff was harmed when the promised benefits were nonexistent.
-
-7.5 Prayer
-
-7.5.1 Plaintiff seeks actual damages, injunctive relief, and other remedies available under Cal. Civ. Code § 1780, including costs.  
-7.5.2 Plaintiff further notes that the District Court has found that Twitch may not rely on Section 230’s broad protections, reinforcing Plaintiff’s CLRA claims against Twitch.
-
-COUNT IV  
-VIOLATION OF THE FALSE ADVERTISING LAW (FAL)  
-[Cal. Bus. & Prof. Code § 17500 et seq.]  
-(Against All Defendants)
-
-8.1 Plaintiff incorporates by reference all preceding paragraphs as though fully set forth herein.
-
-8.2 The FAL makes it unlawful to disseminate any statement concerning real or personal property or services that is untrue or misleading, and which is known (or reasonably should be known) to be untrue or misleading.  
-(Cal. Bus. & Prof. Code § 17500.)
-
-8.3 False or Misleading Statements
-
-8.3.1 Defendants represented that Pokimane subscribers would receive “undying love and appreciation.” This is, at best, a misleading marketing ploy that offers unwarranted personal illusions.  
-(See Committee on Children’s Television, Inc. v. Gen. Foods Corp. (1983) 35 Cal.3d 197, 211.)
-
-8.4 Materiality and Injury
-
-8.4.1 These statements influenced Plaintiff’s decision to purchase subscriptions.  
-(See Kwikset Corp. v. Superior Court (2011) 51 Cal.4th 310, 327–328.)  
-8.4.2 Plaintiff was thereby deceived and suffered monetary loss.
-
-8.5 Prayer
-
-8.5.1 Plaintiff seeks an injunction prohibiting such misleading marketing claims, restitution of subscription fees, and all other relief the Court deems proper.  
-8.5.2 Plaintiff contends that Twitch, having been denied “Good Samaritan” status by Judge Corley, remains liable for these deceptive practices hosted or facilitated on its platform.
-
-COUNT V  
-VIOLATION OF THE UNFAIR COMPETITION LAW (UCL)  
-[Cal. Bus. & Prof. Code § 17200 et seq.]  
-(Against All Defendants)
-
-9.1 Plaintiff incorporates by reference all preceding paragraphs as though fully set forth herein.
-
-9.2 Under Cal. Bus. & Prof. Code § 17200, “unfair competition” includes any unlawful, unfair, or fraudulent business act or practice.  
-(Cel-Tech Commc’ns, Inc. v. L.A. Cellular Tel. Co. (1999) 20 Cal.4th 163, 180.)
-
-9.3 Unlawful
-
-9.3.1 Defendants’ conduct violates multiple statutes (e.g., the CLRA, the FAL, or federal anti-money-laundering provisions).  
-(See Cel-Tech, supra, at p. 180.)
-
-9.4 Unfair
-
-9.4.1 The TOS restrictions on reverse engineering unduly burden lawful security research and hamper detection of potential money laundering, contravening public policy.  
-(See Drum v. San Fernando Valley Bar Ass’n (2010) 182 Cal.App.4th 247, 257; South Bay Chevrolet v. Gen. Motors Acceptance Corp. (1999) 72 Cal.App.4th 861, 886.)  
-9.4.2 Similarly, marketing intangible emotional benefits that are not actually provided is unfair and unethical, taking advantage of vulnerable consumers.  
-9.4.3 xQc’s alleged laundering of $685 million using crypto-based gambling streams, with Twitch failing to intervene or disclose, also constitutes an unfair practice affecting consumers and the public.
-
-9.5 Fraudulent
-
-9.5.1 Defendants’ marketing of a safe and transparent platform—while failing to disclose the possibility of suspicious large-scale transactions—and promising intangible emotional benefits never provided is fraudulent under the UCL’s broad coverage.  
-(See In re Tobacco II Cases, supra; Pfizer Inc. v. Superior Court (2010) 182 Cal.App.4th 622, 630.)
-
-9.6 Prayer
-
-9.6.1 Plaintiff seeks injunctive relief to prohibit Defendants from enforcing TOS provisions that bar legitimate forensic or security research and from continuing to misrepresent subscription benefits.  
-9.6.2 Plaintiff also seeks restitution and disgorgement of any ill-gotten gains pursuant to Cal. Bus. & Prof. Code § 17203.  
-(See Cortez v. Purolator Air Filtration Prods. Co. (2000) 23 Cal.4th 163, 177–178; Korea Supply Co. v. Lockheed Martin Corp. (2003) 29 Cal.4th 1134, 1149.)  
-9.6.3 Plaintiff emphasizes that, in light of the January 9, 2025 federal court decision declaring Twitch ineligible for “Good Samaritan” immunity, these UCL violations are not shielded under Section 230.
-
-COUNT VI  
-NEGLIGENT OR RECKLESS MISREPRESENTATION  
-(Against All Defendants)
-
-10.1 Plaintiff incorporates by reference all preceding paragraphs as though fully set forth herein.
-
-10.2 Negligent or reckless misrepresentation requires:
-   (1) Misrepresentation of a material fact,  
-   (2) Without reasonable grounds for believing it to be true,  
-   (3) Intent to induce reliance,  
-   (4) Justifiable reliance, and  
-   (5) Resulting damage.  
-(See Bily v. Arthur Young & Co. (1992) 3 Cal.4th 370, 407–408; Civ. Code §§ 1709–1710.)
-
-10.3 Application
-
-10.3.1 Defendants’ statements regarding “love and appreciation” were made either recklessly or negligently, without regard for whether they could be realistically fulfilled.  
-(See Gagne v. Bertran (1954) 43 Cal.2d 481, 487–488.)  
-10.3.2 Plaintiff justifiably relied on these statements and suffered damages in the form of subscription fees and emotional distress.  
-(See Lazar v. Superior Court (1996) 12 Cal.4th 631, 637.)
-
-10.4 Damages
-
-10.4.1 Plaintiff seeks compensatory damages for the subscription fees lost and for emotional harm arising directly from the misrepresentations.  
-10.4.2 Because Judge Corley has ruled Twitch is not entitled to Section 230 immunity, Defendants cannot avoid liability for these misrepresentations by invoking “Good Samaritan” defenses.
-
-COUNT VII  
-INTENTIONAL OR NEGLIGENT INFLICTION OF EMOTIONAL DISTRESS  
-(Against All Defendants)
-
-11.1 Plaintiff incorporates by reference all preceding paragraphs as though fully set forth herein.
-
-11.2 Intentional Infliction of Emotional Distress (IIED)
-
-11.2.1 A cause of action for IIED requires:
-   (1) Extreme and outrageous conduct by the defendant,  
-   (2) Intent to cause, or reckless disregard of the probability of causing, emotional distress,  
-   (3) The plaintiff’s suffering severe or extreme emotional distress, and  
-   (4) Actual and proximate causation.  
-(See Hughes v. Pair (2009) 46 Cal.4th 1035, 1050; Potter v. Firestone Tire & Rubber Co. (1993) 6 Cal.4th 965, 1001.)
-
-11.2.2 Defendants’ conduct in promising personal love—an intrinsically emotional matter—while knowing it was illusory or false may be deemed outrageous and intended (or undertaken with reckless disregard) to cause severe emotional harm.  
-(See KOVR-TV, Inc. v. Superior Court (1995) 31 Cal.App.4th 1023, 1030; Rest.2d Torts, § 46, cmt. d.)
-
-11.3 Negligent Infliction of Emotional Distress (NIED)
-
-11.3.1 Alternatively, if Defendants did not intend to harm Plaintiff, they acted negligently in making statements likely to cause emotional turmoil to vulnerable individuals.  
-(See Dillon v. Legg (1968) 68 Cal.2d 728, 739–740; Burgess v. Superior Court (1992) 2 Cal.4th 1064, 1072–1073; Bock v. Hansen (2014) 225 Cal.App.4th 215, 231.)  
-11.3.2 California courts have recognized NIED claims where a special relationship or foreseeability of emotional harm is established.  
-(See Molien v. Kaiser Found. Hosps. (1980) 27 Cal.3d 916, 928–929.)
-
-11.4 Severe Emotional Distress
-
-11.4.1 Plaintiff’s confinement history and emotional vulnerability magnify the harm from Defendants’ conduct.  
-(See Molien, supra, at p. 928.)
-
-11.5 Prayer
-
-11.5.1 Plaintiff seeks compensatory damages for emotional distress, punitive damages if Defendants’ conduct is found sufficiently outrageous, and all other relief deemed just.  
-(See Civ. Code § 3294 [punitive damages available for oppression, fraud, or malice].)  
-11.5.2 In light of the January 9, 2025 ruling, Twitch is not immune under Section 230, and its actions or failures to act that contributed to Plaintiff’s distress must be fully adjudicated.
-
-6. PRAYER FOR RELIEF
-
-WHEREFORE, Plaintiff prays for judgment against Defendants as follows:
-
-A. Declaratory Judgment  
-   1. Declaring that Twitch’s TOS restrictions on reverse engineering are unconscionable, void, or unenforceable under California law and public policy;  
-   2. Declaring that advertisements or marketing referencing “undying love and appreciation” are deceptive or misleading if not genuinely provided;  
-   3. Recognizing the January 9, 2025 determination by Judge Scott Corley that Section 230 does not shield Twitch from liability because it is not acting as a “Good Samaritan”;  
-   4. Declaring that xQc’s alleged crypto-based gambling and money laundering activities on Twitch violate Title 18, thereby imposing liability on xQc and Twitch for damages caused by such unlawful activities;  
-
-B. Injunctive Relief  
-   1. Enjoining Twitch from enforcing TOS that prohibit good-faith, lawful security or forensic research aimed at detecting potential money laundering or other illegal activities;  
-   2. Enjoining Defendants from advertising intangible emotional benefits (e.g., “love” or “appreciation”) without making clear that these are entertainment-only or purely figurative statements;  
-   3. Requiring corrective advertising and disclosure of the speculative or figurative nature of intangible benefits;  
-   4. Requiring Twitch to implement effective anti-money-laundering mechanisms, reporting protocols, and oversight for gambling-related streams, including xQc’s channel;  
-
-C. Restitution, Disgorgement, and Damages  
-   1. Restitution and/or disgorgement of subscription fees and any ill-gotten gains derived from misleading promises;  
-   2. Compensatory and consequential damages for emotional distress and related harm;  
-   3. Punitive damages as allowed by law, given the potential outrageousness of false emotional promises and the magnitude of xQc’s alleged money laundering scheme;  
-
-D. CLRA & FAL Remedies  
-   1. Awarding all remedies authorized under the Consumers Legal Remedies Act and False Advertising Law, including actual damages, injunctive relief, and, where permitted, attorneys’ fees and costs (though Plaintiff is pro se);  
-
-E. Costs and Other Relief  
-   1. Awarding costs of suit, pre- and post-judgment interest, and any other relief the Court deems just and proper.
-
-7. DEMAND FOR JURY TRIAL
-
-Pursuant to California law, Plaintiff demands a trial by jury on all causes of action so triable.
-
-Dated: February 14, 2025 (Valentine’s Day)
-
-/s/ Bo Shang (In Pro Per)  
-__________________________________  
-BO SHANG (In Pro Per)  
-10 McCafferty Way  
-Burlington, MA 01803  
-Phone: (781) 999-4101 or (617) 618-8279  
-Email: bo@pdfsage.org | boshangsoftware@proton.me  
-Plaintiff, In Pro Per  
-
-EXHIBIT 1: Twitch Terms of Sale and Pokimane (subsequently Pokimane LLC) sold her ‘undying love and appreciation’ as a subscription product continuously from 2013 - 2020, and Pokimane is the most followed female TV channel on Twitch! A “gamin’” website!
-
-EXHIBIT 2: CALIFORNIA IS SMOKING TOO MUCH WEED BY ALLOWING POKIMANE TO OPERATE AS A “LAWFUL” BUSINESS
-
-EXHIBIT 3: xQc shows off laundering $685M via illicit streaming, while streaming on Twitch
-
-
+EXHIBIT 6: lol
