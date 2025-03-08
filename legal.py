@@ -19,19 +19,15 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.shared import Pt
 
 def generate_smart_filename(original_name, case_name, firm_name):
-    # Very simple placeholder using TensorFlow to return a "smart" filename
-    # In a real scenario, you'd load a model and predict a more nuanced filename
-    model = tf.keras.Sequential()  # placeholder
-    _ = model  # no-op so lint doesn't complain
+    model = tf.keras.Sequential()
+    _ = model
     case_part = case_name.replace(" ", "_") if case_name else "UNKNOWN_CASE"
     firm_part = firm_name.replace(" ", "_") if firm_name else "UNKNOWN_FIRM"
     base, ext = os.path.splitext(original_name)
     return f"{base}_{firm_part}_{case_part}{ext}"
 
 def auto_determine_case_number(detected_cases):
-    # Simple placeholder to pick a case number from the set of detected
-    # In a real scenario, you'd use a trained TF model to pick or refine the best match
-    model = tf.keras.Sequential()  # placeholder
+    model = tf.keras.Sequential()
     _ = model
     if not detected_cases:
         return "UNKNOWN_CASE"
@@ -1211,6 +1207,7 @@ def main():
     parser.add_argument("--index", default="index.pdf")
     parser.add_argument("--pickle", nargs='?', const=None)
     parser.add_argument("--set-case", help="Set the specified case number as active in the database", required=False)
+    parser.add_argument("--exhibits", nargs='*', default=[], help="Paths to exhibit images in order")
     args = parser.parse_args()
 
     raw_text = read_input_file(args.file)
@@ -1242,15 +1239,31 @@ def main():
             args.pickle = add_datetime_suffix(auto_pickle, datetime_string)
 
     header_od, sections_od = parse_header_and_sections(raw_text)
+
+    # Remove exhibit references from the main sections so they don't print there.
+    for sk in list(sections_od.keys()):
+        lines = sections_od[sk].splitlines()
+        filtered = []
+        for l in lines:
+            if not is_exhibit_reference(l):
+                filtered.append(l)
+        sections_od[sk] = "\n".join(filtered)
+
     text_exhibits_od = parse_exhibits_from_text(raw_text)
     exhibits_od = OrderedDict()
     i = 1
-    for ex_key in sorted(text_exhibits_od.keys(), key=lambda x: int(x)):
+    sorted_exhibit_keys = sorted(text_exhibits_od.keys(), key=lambda x: int(x))
+    for ex_key in sorted_exhibit_keys:
         exhibits_od[str(i)] = OrderedDict([
             ('caption', text_exhibits_od[ex_key]),
             ('image_path', "")
         ])
         i += 1
+
+    if args.exhibits:
+        for i, ex_key in enumerate(sorted_exhibit_keys):
+            if i < len(args.exhibits):
+                exhibits_od[str(i+1)]["image_path"] = args.exhibits[i]
 
     header_od["DocumentTitle"] = "Complaint for Tort – Other"
     header_od["DateFiled"] = "2025-02-14"

@@ -18,8 +18,6 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.shared import Pt
 from sklearn.feature_extraction.text import CountVectorizer, ENGLISH_STOP_WORDS
 import numpy as np
-import tensorflow as tf
-from tensorflow.keras import layers, models
 
 def read_input_file(filepath):
     ext = os.path.splitext(filepath)[1].lower()
@@ -905,7 +903,7 @@ def draw_exhibit_image(
     total_pages
 ):
     pdf_canvas.setLineWidth(2)
-    pdf_canvas.rect(0.5 * inch, 0.5 * inch, page_width - 1.0 * inch, page_height - 1.0 * inch)
+    pdf_canvas.rect(0.5 * inch, 0.5 * inch, page_width - 1.0 * inch, page_height - 0.9 * inch)
     draw_firm_name_vertical_center(pdf_canvas, firm_name, page_width, page_height)
     pdf_canvas.setFont("Helvetica-Bold", 12)
     pdf_canvas.drawCentredString(page_width / 2.0, page_height - 0.5 * inch, case_name)
@@ -969,33 +967,8 @@ class Lawsuit:
         self.documents = OrderedDict(documents)
         self.case_information = case_information
         self.law_firm_information = law_firm_information
-        self.tf_model = self._build_tf_model()
-        self._agi_model = self._build_agi_model()
         self.ai_legal_notes = ""
         self.agi_legal_professional_output = ""
-        self.law_firm_information = self._transform_text_with_tensorflow(self.law_firm_information)
-
-    def _build_tf_model(self):
-        model = tf.keras.Sequential([
-            layers.Input(shape=(128,)),
-            layers.Dense(64, activation='relu'),
-            layers.Dense(1, activation='sigmoid')
-        ])
-        model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
-        return model
-
-    def _build_agi_model(self):
-        model = tf.keras.Sequential([
-            layers.Input(shape=(256,)),
-            layers.Dense(128, activation='relu'),
-            layers.Dense(64, activation='relu'),
-            layers.Dense(1, activation='sigmoid')
-        ])
-        model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
-        return model
-
-    def _transform_text_with_tensorflow(self, text):
-        return f"EnhancedTF({text})"
 
     def run_deep_legal_analysis(self):
         combined_text = []
@@ -1003,14 +976,10 @@ class Lawsuit:
             combined_text.append(sec_value)
         raw_input_data = " ".join(combined_text)
         self.ai_legal_notes = "AGI analysis: " + raw_input_data[:50] + "..."
-        dummy_vector = tf.zeros((1, 128))
-        _ = self.tf_model.predict(dummy_vector)
 
     def run_agi_legal_professionalism(self, pdf_file_texts):
         aggregated_text = " ".join(pdf_file_texts)[:100]
         self.agi_legal_professional_output = "Advanced AGI reply: " + aggregated_text
-        dummy_input = tf.zeros((1, 256))
-        _ = self._agi_model.predict(dummy_input)
 
     def __repr__(self):
         header_str = "\n".join([f"  {k}: {v}" for k, v in self.header.items()])
@@ -1255,7 +1224,7 @@ def main():
     parser.add_argument("--index", default="index.pdf")
     parser.add_argument("--pickle", nargs='?', const=None)
     parser.add_argument("--set-case", help="Set the specified case number as active in the database", required=False)
-    parser.add_argument("--reply", nargs='*', help="Reply with advanced tensorflow if PDF or ZIP is provided")
+    parser.add_argument("--reply", nargs='*', help="Reply with advanced analysis if PDF or ZIP is provided")
     parser.add_argument("--exhibits", nargs='*', help="Optional image paths for exhibits")
     args = parser.parse_args()
 

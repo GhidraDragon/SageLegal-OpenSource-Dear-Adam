@@ -1,14 +1,22 @@
 SUPERIOR COURT OF THE STATE OF CALIFORNIA
 COUNTY OF SANTA CLARA
+191 N First St, San Jose, CA 95113
 
-BO SHANG, an individual,                      Case No.: [____________]
+
+BO SHANG, an individual,                      Case No.: TBD
 10 McCafferty Way, Burlington MA 01803
+781-999-4101 bo@shang.software
+
 Plaintiff,
+
 v.
+
 NVIDIA CORPORATION;
 2788 San Tomas Expy, Santa Clara, CA 95051
-MICROSOFT CORPORATION d/b/a AZURE,
+
+MICROSOFT CORPORATION d/b/a AZURE;
 One Microsoft Way, Redmond, WA 98052
+
 Defendants.
 
 CIVIL COMPLAINT AND DEMAND FOR JURY TRIAL
