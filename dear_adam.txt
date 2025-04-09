@@ -1,0 +1,143 @@
+COMMONWEALTH OF MASSACHUSETTS
+MIDDLESEX, SS.
+SUPERIOR COURT DEPARTMENT
+OF THE TRIAL COURT
+
+BO SHANG,
+Plaintiff,
+v.                                      Civil Action No. __________
+MASSACHUSETTS INSTITUTE OF
+TECHNOLOGY (MIT) and
+ADAM HARTZ,
+Defendants.
+
+CIVIL COMPLAINT
+Plaintiff, Bo Shang, proceeding pro se, brings this Complaint against Defendants Massachusetts Institute of Technology (MIT) and Adam Hartz, and alleges as follows:
+
+I. JURISDICTION AND VENUE
+	1.	This Court has subject-matter jurisdiction pursuant to G.L. c. 212, § 3 (or § 4), because the amount in controversy exceeds the jurisdictional threshold for the Superior Court, and/or under the common law jurisdiction for civil matters.
+	2.	Venue is proper in Middlesex County under G.L. c. 223, §§ 1, 5, 8, because MIT is located in Cambridge, Middlesex County, and a substantial part of the events or omissions giving rise to the claims occurred there. If MIT is determined not to be in Middlesex County, Plaintiff seeks alternative venue in accordance with these statutes.
+
+II. THE PARTIES
+	3.	Plaintiff, Bo Shang, resides at [Plaintiff’s Address] in Burlington, Massachusetts.
+	4.	Defendant Massachusetts Institute of Technology (MIT) is a private research university located in Cambridge, Massachusetts, and is subject to suit as an educational institution.
+	5.	Defendant Adam Hartz is, on information and belief, an advisor or professor affiliated with MIT, acting in his official and/or individual capacity within the Commonwealth of Massachusetts at all relevant times.
+
+III. FACTUAL ALLEGATIONS
+	6.	Plaintiff devoted significant time to studying Python, focusing on compilation (syntax) errors and runtime errors.
+	7.	In or around 2018, MIT and Defendant Hartz supervised, reviewed, or otherwise facilitated the publication of a Master’s Thesis by student Samantha Briasco-Stewart, entitled “Making Python Easier to Learn with Improved Syntax Error Reporting” (“the Thesis”), accessible at https://dspace.mit.edu/handle/1721.1/119778.
+	8.	In the Thesis, Defendant Hartz allegedly made or endorsed a statement that Python “compilation time errors (syntax errors) are the least well-explained,” compared to runtime errors.
+	9.	Plaintiff alleges this statement was factually incorrect and misleading, asserting that Python syntax errors typically provide direct information about the location and type of error, whereas certain runtime errors can be less explicit.
+	10.	Plaintiff asserts that Defendant Hartz knew or should have known that Python syntax errors generally include explanatory messages identifying the specific line and token causing the error, and that many runtime errors are often less transparent.
+	11.	Plaintiff contends Defendant Hartz deliberately misrepresented or grossly understated the clarity of Python syntax errors to enhance his own academic résumé by facilitating the swift completion and publication of an additional thesis under his advisory purview.
+	12.	Plaintiff further contends that MIT, through negligent oversight of the thesis process, failed to detect or correct this alleged misrepresentation, causing Plaintiff to rely on false statements in academic and research endeavors.
+	13.	As a direct and proximate result of Defendants’ conduct, Plaintiff suffered severe emotional distress, wasted significant time, and experienced reputational harm in certain academic circles for challenging statements endorsed by MIT and Defendant Hartz.
+	14.	On or about March 14, 2025, Plaintiff alerted MIT by email regarding an alleged violation of MIT’s research integrity policy by Defendant Hartz, connected to the statements in the Thesis and subsequent conduct.
+	15.	Plaintiff alleges that Defendant Hartz’s impact on the academic environment influenced Ms. Briasco-Stewart (formerly at erosolar@mit.edu and then erosolar@alum.mit.edu) to make false claims publicly on LinkedIn via Twitch’s corporate profile about how Twitch protects its users’ passwords.
+	16.	Plaintiff cites a LinkedIn article (https://www.linkedin.com/posts/twitch-tv_womenshistorymonth2021-twitch-activity-6780911361724678144-8xyV) in which Ms. Briasco-Stewart allegedly asserted that Twitch’s use of Django bcrypt hashing would fully protect user credentials. Plaintiff contends this is “mathematically impossible” to guarantee complete security, especially if plaintext from Google’s Firebase Auth servers was allegedly leaked.
+	17.	Plaintiff references a civil case in California (CCH-24-587168, Superior Court of California, San Francisco County), entitled SAMANTHA BRIASCO-STEWART vs. BO SHANG, filed 2024-07-26, where Ms. Briasco-Stewart, allegedly guided by “Adam Hartz of a lawyer,” introduced “8 pages of false statements under oath” in Case 3:24-cv-06664-JSC. Plaintiff maintains these statements were knowingly false and orchestrated under advice of counsel.
+	18.	Plaintiff states that on January 9, 2025, United States District Judge Jacqueline Scott Corley ruled on aspects of that federal action, granting Defendants’ motion to dismiss with leave to amend and confirming that Ms. Briasco-Stewart could not be named again in an amended complaint. Plaintiff characterizes this ruling as a judicial rebuke of counsel for Ms. Briasco-Stewart.
+
+IV. CAUSES OF ACTION
+COUNT I – NEGLIGENCE (Against Defendant MIT)
+	19.	Plaintiff repeats and realleges all preceding paragraphs as though fully set forth herein.
+	20.	Under Massachusetts law, an institution owes a duty of reasonable care to those who rely on its publications and official statements, particularly when it presents itself as an authoritative source of academic or professional information. See O’Connell v. Narragansett Elec. Co., 90 Mass. App. Ct. 674, 681 (2016); Restatement (Second) of Torts § 302. Academic institutions may also owe specific duties to students or researchers. See Schaer v. Brandeis Univ., 432 Mass. 474, 478 (2000) (discussing the scope of a university’s duty).
+	21.	MIT breached this duty by failing to exercise reasonable care in reviewing the accuracy of critical statements in the Thesis regarding the comparative clarity of Python syntax and runtime errors.
+	22.	This breach was the direct and proximate cause of Plaintiff’s damages, including but not limited to:
+a. Emotional distress;
+b. Wasted time reconciling faulty academic information;
+c. Harm to Plaintiff’s standing among peers when referencing the Thesis.
+	23.	Plaintiff has suffered and continues to suffer damages for which MIT is liable.
+
+COUNT II – FRAUD (Against Defendant Adam Hartz)
+	24.	Plaintiff repeats and realleges all preceding paragraphs as though fully set forth herein.
+	25.	Under Massachusetts law, fraud requires:
+	26.	A false representation of a material fact;
+	27.	Knowledge of the falsity;
+	28.	Intent to induce reliance;
+	29.	Justifiable reliance; and
+	30.	Damages resulting from that reliance.
+See Stolzoff v. Waste Sys. Int’l, Inc., 58 Mass. App. Ct. 747, 759 (2003); Zimmerman v. Kent, 31 Mass. App. Ct. 72, 77 (1991).
+	31.	Defendant Hartz made a false representation of material fact by endorsing the claim that Python syntax errors “are the least well-explained” form of errors, despite widely available information demonstrating otherwise.
+	32.	Defendant Hartz knew or recklessly disregarded the falsity of this statement, given his expertise and advisory role.
+	33.	Defendant Hartz intended that MIT, the academic community, and students like Plaintiff would rely on this statement and attribute academic credibility to Hartz’s guidance.
+	34.	Plaintiff justifiably relied on this statement, expending time and effort to verify or refute it, which led to severe emotional distress and reputational harm when Plaintiff challenged the Thesis’s conclusions.
+	35.	As a result, Plaintiff suffered damages, including but not limited to wasted time, mental anguish, and harm to future collaborations or academic opportunities.
+
+COUNT III – INTENTIONAL INFLICTION OF EMOTIONAL DISTRESS (Against All Defendants)
+	31.	Plaintiff repeats and realleges all preceding paragraphs as though fully set forth herein.
+	32.	To establish a claim for IIED under Massachusetts law, a plaintiff must show:
+	33.	Defendants intended to inflict emotional distress or knew or should have known that emotional distress was likely;
+	34.	Defendants’ conduct was extreme and outrageous;
+	35.	The conduct caused the plaintiff’s distress; and
+	36.	The plaintiff suffered severe emotional distress.
+See Agis v. Howard Johnson Co., 371 Mass. 140, 145 (1976); Tetrault v. Mahoney, Hawkes & Goldings, 425 Mass. 456, 466 (1997).
+	37.	Defendants’ conduct in misrepresenting or facilitating the dissemination of incorrect academic claims, with knowledge of potential harm to Plaintiff, was extreme and outrageous under the circumstances.
+	38.	Defendants knew or should have known that such misrepresentations could cause Plaintiff substantial distress, given the professional confusion and ramifications.
+	39.	Defendants’ actions directly caused severe emotional distress to Plaintiff, affecting mental health and resulting in wasted research time.
+
+COUNT IV – VIOLATION OF M.G.L. c. 93A (Against All Defendants, In the Alternative)
+	36.	Plaintiff repeats and realleges all preceding paragraphs as though fully set forth herein.
+	37.	M.G.L. c. 93A, §§ 2 & 11 prohibit unfair or deceptive acts or practices in the conduct of trade or commerce. While often applied to consumer or business transactions, c. 93A’s broad scope can include contexts where false or misleading statements harm a party’s professional or research interests. See Puritan Med. Ctr., Inc. v. Cashman, 413 Mass. 167, 172 (1992).
+	38.	By endorsing or publishing allegedly false statements about Python error clarity and gaining academic or reputational benefits therefrom, Defendants engaged in conduct that could be deemed “unfair or deceptive” under c. 93A, provided it is shown that such statements were connected to trade or commerce and harmed Plaintiff’s professional interests.
+	39.	Plaintiff has suffered damages as a result of these unfair or deceptive acts, including emotional distress, reputational harm, and wasted time.
+	40.	Defendants are liable for all damages, which may be multiplied, as well as attorneys’ fees and costs (should Plaintiff later retain counsel), under M.G.L. c. 93A, §§ 9 or 11 if the Court finds a violation.
+
+V. DEMAND FOR JUDGMENT
+WHEREFORE, Plaintiff respectfully requests that this Court enter judgment in his favor against Defendants, jointly and severally, as follows:
+A. Compensatory Damages in an amount to be determined at trial, including but not limited to damages for emotional distress, wasted time, and harm to Plaintiff’s professional reputation, pursuant to G.L. c. 231 and common law principles;
+B. Punitive Damages, where applicable, for knowing, intentional, or reckless misconduct, consistent with Massachusetts law on punitive or exemplary damages (noting that Massachusetts generally requires statutory authority for punitive damages, see Kapp v. Ballantine, 380 Mass. 186, 190 (1980));
+C. Treble Damages under G.L. c. 93A, §§ 9 or 11, and attorneys’ fees, if the Court finds that Defendants committed an unfair or deceptive act in violation of c. 93A;
+D. Injunctive Relief compelling MIT to retract or clarify portions of the Thesis, including a public correction of the alleged false statement regarding Python syntax errors;
+E. Costs of Suit and any further relief this Court deems just and proper.
+
+VI. JURY DEMAND
+Pursuant to Mass. R. Civ. P. 38, Plaintiff demands a trial by jury on all issues so triable.
+Respectfully submitted this __ day of __________, 2023.
+
+Bo Shang (Pro Se)
+10 McCafferty Way
+Burlington, MA 01803
+617-444-9017
+bo@shang.software
+
+
+
+
+
+
+
+
+
+
+
+
+
+EXHIBIT 1: THE ABSTRACT: Adam Hartz intentionally instructed erosolar of this emotionally distressing falsehood, in order to pump up with fraudulent intent the relevance or sensibility of the thesis, then erosolar wrote this which was approved by Adam Hartz
+
+
+
+
+
+
+
+EXHIBIT 2: If the Abstract was vague, right under it, Chapter 1 (there’s way more) 
+
+
+EXHIBIT 3: erosolar, after being trained to lie by Adam Hartz, lied entirely about helping to protect Twitch users’ passwords from leakers, such as losers like the Plaintiff Bo Shang leaking shared plaintext from Google’s Firebase Auth servers.
+
+
+
+
+
+ 
+EXHIBIT 4: The Twitch API has such a severe design flaw, that it does not require anyone to sign a developer agreement nor be approved in any way, to use the vast majority of the API for whatever purposes the user wants. The Plaintiff Bo Shang is looking for ways to thread the Twitch API so that their expressjs node code takes down something critical in their backend when a horizontally scaling AWS lambda hits something limited in constraint. 
+
+This shows that Twitch lacks any security much less any care about users’ leaked Plaintext; nor does the Plaintiff believe that grabbing Twitch’s bcrypt encrypted hashed_pw.txt from Twitch’s django server would be more difficult than the loser Plaintiff grabbing the loser passwords from Google’s Firebase Auth servers. However the Plaintiff threatens all of his users that their hashed_pw.txt and those of all other Firebase Auth or on AWS Cognito, are fair game for the Plaintiff.
+
+
+
+
+EXHIBIT 5: Judge Jacqueline Scott Corley slaps Megan down like a little bitch
+
+
