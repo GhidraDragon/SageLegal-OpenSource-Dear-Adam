@@ -76,6 +76,12 @@ def is_line_all_caps(line_str):
         return False
     return not re.search(r'[a-z]', line_str)
 
+def is_line_of_punctuation(line_str):
+    s = line_str.strip()
+    if not s:
+        return False
+    return all(ch in "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~" for ch in s)
+
 def is_line_of_equals(line_str):
     s = line_str.strip()
     if len(s) < 5:
@@ -357,7 +363,7 @@ def generate_complaint_docx(docx_filename, firm_name, case_name, header_od, sect
                     p = doc.add_paragraph()
                     line_stripped = line.strip()
                     r = p.add_run(line_stripped)
-                    if is_line_all_caps(line_stripped):
+                    if is_line_all_caps(line_stripped) or is_line_of_punctuation(line_stripped):
                         p.alignment = WD_ALIGN_PARAGRAPH.CENTER
                     else:
                         p.alignment = WD_ALIGN_PARAGRAPH.LEFT
@@ -379,7 +385,7 @@ def generate_complaint_docx(docx_filename, firm_name, case_name, header_od, sect
                     p = doc.add_paragraph()
                     line_stripped = line.strip()
                     r = p.add_run(line_stripped)
-                    if is_line_all_caps(line_stripped):
+                    if is_line_all_caps(line_stripped) or is_line_of_punctuation(line_stripped):
                         p.alignment = WD_ALIGN_PARAGRAPH.CENTER
                     else:
                         p.alignment = WD_ALIGN_PARAGRAPH.LEFT
@@ -398,7 +404,7 @@ def generate_complaint_docx(docx_filename, firm_name, case_name, header_od, sect
             p = doc.add_paragraph()
             line_stripped = line.strip()
             r = p.add_run(line_stripped)
-            if is_line_all_caps(line_stripped):
+            if is_line_all_caps(line_stripped) or is_line_of_punctuation(line_stripped):
                 p.alignment = WD_ALIGN_PARAGRAPH.CENTER
             else:
                 p.alignment = WD_ALIGN_PARAGRAPH.LEFT
@@ -471,7 +477,10 @@ def generate_complaint_docx(docx_filename, firm_name, case_name, header_od, sect
             for bline in normal_buffer:
                 bline_str = bline.strip()
                 p = doc.add_paragraph()
-                p.alignment = WD_ALIGN_PARAGRAPH.LEFT
+                if is_line_all_caps(bline_str) or is_line_of_punctuation(bline_str):
+                    p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                else:
+                    p.alignment = WD_ALIGN_PARAGRAPH.LEFT
                 rr = p.add_run(bline_str)
                 if style_type == "section":
                     rr.font.size = Pt(12)
@@ -636,7 +645,7 @@ def prepare_main_pdf_segments(header_text, sections_od, heading_styles, pdf_canv
                     "is_heading": False,
                     "is_subheading": False
                 })
-            elif is_line_all_caps(line_str):
+            elif is_line_all_caps(line_str) or is_line_of_punctuation(line_str):
                 wrapped = wrap_text_to_lines(pdf_canvas, line_str, "Helvetica", 10, max_text_width)
                 for (wl, _) in wrapped:
                     if is_exhibit_reference(line_str):
@@ -764,6 +773,27 @@ def prepare_main_pdf_segments(header_text, sections_od, heading_styles, pdf_canv
                         "is_heading": False,
                         "is_subheading": False
                     })
+                elif is_line_all_caps(line_str) or is_line_of_punctuation(line_str):
+                    wrapped = wrap_text_to_lines(pdf_canvas, line_str, body_font_name, body_font_size, max_text_width)
+                    for (wl, _) in wrapped:
+                        if is_exhibit_reference(line_str):
+                            segments.append({
+                                "text": wl,
+                                "font_name": "Helvetica-Bold",
+                                "font_size": body_font_size,
+                                "alignment": "center",
+                                "is_heading": False,
+                                "is_subheading": False
+                            })
+                        else:
+                            segments.append({
+                                "text": wl,
+                                "font_name": body_font_name,
+                                "font_size": body_font_size,
+                                "alignment": "center",
+                                "is_heading": False,
+                                "is_subheading": False
+                            })
                 else:
                     wrapped = wrap_text_to_lines(pdf_canvas, line_str, body_font_name, body_font_size, max_text_width)
                     for (wl, _) in wrapped:
