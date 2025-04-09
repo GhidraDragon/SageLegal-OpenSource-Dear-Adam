@@ -1,156 +1,127 @@
-SUPERIOR COURT OF THE STATE OF CALIFORNIA
-COUNTY OF SAN FRANCISCO
-400 McAllister St, San Francisco, CA 94102
+COMMONWEALTH OF MASSACHUSETTS
+MIDDLESEX, SS.
+SUPERIOR COURT DEPARTMENT
+OF THE TRIAL COURT
+BO SHANG,
+Plaintiff,
+v.                                                Civil Action No. __________
+MASSACHUSETTS INSTITUTE OF
+TECHNOLOGY (MIT) and
+ADAM HARTZ,
+Defendants.
+CIVIL COMPLAINT
+Plaintiff, Bo Shang, proceeding pro se, brings this Complaint against Defendants Massachusetts Institute of Technology (MIT) and Adam Hartz, and alleges as follows:
 
+I. JURISDICTION AND VENUE
+	1.	This Court has subject-matter jurisdiction pursuant to G.L. c. 212, § 3 (or § 4), because the amount in controversy exceeds the jurisdictional threshold for the Superior Court, and/or under the common law jurisdiction for civil matters.
+	2.	Venue is proper in Middlesex County under G.L. c. 223, §§ 1, 5, 8, because MIT is located in Cambridge, Middlesex County, and a substantial part of the events or omissions giving rise to the claims occurred there. If MIT is determined not to be in Middlesex County, Plaintiff seeks alternative venue in accordance with these statutes.
 
-BO SHANG, on behalf of himself and all others similarly situated,
+II. THE PARTIES
+	3.	Plaintiff, Bo Shang, resides at [Plaintiff’s Address] in Burlington, Massachusetts.
+	4.	Defendant Massachusetts Institute of Technology (MIT) is a private research university located in Cambridge, Massachusetts, and is subject to suit as an educational institution. Plaintiff alleges that MIT’s reputation and “brand” hold substantial weight such that people “just buy their stupid brand by looking at it,” leading to reliance on MIT’s publications and statements for their presumed accuracy.
+	5.	Defendant Adam Hartz is, on information and belief, an advisor or professor affiliated with MIT, acting in his official and/or individual capacity within the Commonwealth of Massachusetts at all relevant times.
+
+III. FACTUAL ALLEGATIONS
+	6.	Plaintiff devoted significant time to studying Python, focusing on compilation (syntax) errors and runtime errors.
+	7.	In or around 2018, MIT and Defendant Hartz supervised, reviewed, or otherwise facilitated the publication of a Master’s Thesis by student Samantha Briasco-Stewart, entitled “Making Python Easier to Learn with Improved Syntax Error Reporting” (“the Thesis”), accessible at https://dspace.mit.edu/handle/1721.1/119778.
+	8.	In the Thesis, Defendant Hartz allegedly made or endorsed a statement that Python “compilation time errors (syntax errors) are the least well-explained,” compared to runtime errors.
+	9.	Plaintiff alleges this statement was factually incorrect and misleading, asserting that Python syntax errors typically provide direct information about the location and type of error, whereas certain runtime errors can be less explicit.
+	10.	Plaintiff asserts that Defendant Hartz knew or should have known that Python syntax errors generally include explanatory messages identifying the specific line and token causing the error, and that many runtime errors are often less transparent.
+	11.	Plaintiff contends Defendant Hartz deliberately misrepresented or grossly understated the clarity of Python syntax errors to enhance his own academic résumé by facilitating the swift completion and publication of an additional thesis under his advisory purview.
+	12.	Plaintiff further contends that MIT, through negligent oversight of the thesis process, failed to detect or correct this alleged misrepresentation, causing Plaintiff to rely on false statements in academic and research endeavors.
+	13.	As a direct and proximate result of Defendants’ conduct, Plaintiff suffered severe emotional distress, wasted significant time, and experienced reputational harm in certain academic circles for challenging statements endorsed by MIT and Defendant Hartz.
+	14.	On or about March 14, 2025, Plaintiff alerted MIT by email regarding an alleged violation of MIT’s research integrity policy by Defendant Hartz, connected to the statements in the Thesis and subsequent conduct. Plaintiff further alleges that MIT took no meaningful action in response to this notification, compounding the harm by implicitly endorsing the misrepresentations.
+	15.	Plaintiff alleges that Defendant Hartz’s impact on the academic environment influenced Ms. Briasco-Stewart (formerly at erosolar@mit.edu and then erosolar@alum.mit.edu) to make false claims publicly on LinkedIn via Twitch’s corporate profile about how Twitch protects its users’ passwords.
+	16.	Plaintiff cites a LinkedIn article (https://www.linkedin.com/posts/twitch-tv_womenshistorymonth2021-twitch-activity-6780911361724678144-8xyV) in which Ms. Briasco-Stewart allegedly asserted that Twitch’s use of Django bcrypt hashing would fully protect user credentials. Plaintiff contends this is “mathematically impossible” to guarantee complete security, especially if plaintext from Google’s Firebase Auth servers was allegedly leaked.
+	17.	Plaintiff references a civil case in California (CCH-24-587168, Superior Court of California, San Francisco County), entitled SAMANTHA BRIASCO-STEWART vs. BO SHANG, filed 2024-07-26, where Ms. Briasco-Stewart, allegedly guided by “Adam Hartz of a lawyer,” introduced “8 pages of false statements under oath” in Case 3:24-cv-06664-JSC. Plaintiff maintains these statements were knowingly false and orchestrated under advice of counsel.
+	18.	Plaintiff states that on January 9, 2025, United States District Judge Jacqueline Scott Corley ruled on aspects of that federal action, granting Defendants’ motion to dismiss with leave to amend and confirming that Ms. Briasco-Stewart could not be named again in an amended complaint. Plaintiff characterizes this ruling as a judicial rebuke of counsel for Ms. Briasco-Stewart.
+
+IV. CAUSES OF ACTION
+COUNT I – NEGLIGENCE
+(Against Defendant MIT)
+	19.	Plaintiff repeats and realleges all preceding paragraphs as though fully set forth herein.
+	20.	Under Massachusetts law, an institution owes a duty of reasonable care to those who rely on its publications and official statements, particularly when it presents itself as an authoritative source of academic or professional information. See O’Connell v. Narragansett Elec. Co., 90 Mass. App. Ct. 674, 681 (2016); Restatement (Second) of Torts § 302. Academic institutions may also owe specific duties to students or researchers. See Schaer v. Brandeis Univ., 432 Mass. 474, 478 (2000).
+	21.	MIT breached this duty by failing to exercise reasonable care in reviewing the accuracy of critical statements in the Thesis regarding the comparative clarity of Python syntax and runtime errors, while enjoying the benefit of its significant “brand” influence.
+	22.	This breach was the direct and proximate cause of Plaintiff’s damages, including but not limited to:
+a. Emotional distress;
+b. Wasted time reconciling faulty academic information;
+c. Harm to Plaintiff’s standing among peers when referencing the Thesis.
+	23.	Plaintiff has suffered and continues to suffer damages for which MIT is liable.
+
+COUNT II – FRAUD
+(Against Defendant Adam Hartz)
+	24.	Plaintiff repeats and realleges all preceding paragraphs as though fully set forth herein.
+	25.	Under Massachusetts law, fraud requires: (a) a false representation of a material fact; (b) knowledge of the falsity; (c) intent to induce reliance; (d) justifiable reliance; and (e) damages resulting from that reliance. See Stolzoff v. Waste Sys. Int’l, Inc., 58 Mass. App. Ct. 747, 759 (2003); Zimmerman v. Kent, 31 Mass. App. Ct. 72, 77 (1991).
+	26.	Defendant Hartz made a false representation of material fact by endorsing the claim that Python syntax errors “are the least well-explained” form of errors, despite widely available information demonstrating otherwise.
+	27.	Defendant Hartz knew or recklessly disregarded the falsity of this statement, given his expertise and advisory role.
+	28.	Defendant Hartz intended that MIT, the academic community, and students like Plaintiff would rely on this statement and attribute academic credibility to Hartz’s guidance.
+	29.	Plaintiff justifiably relied on this statement, expending time and effort to verify or refute it, which led to severe emotional distress and reputational harm when Plaintiff challenged the Thesis’s conclusions.
+	30.	As a result, Plaintiff suffered damages, including but not limited to wasted time, mental anguish, and harm to future collaborations or academic opportunities.
+
+COUNT III – INTENTIONAL INFLICTION OF EMOTIONAL DISTRESS
+(Against All Defendants)
+	31.	Plaintiff repeats and realleges all preceding paragraphs as though fully set forth herein.
+	32.	To establish a claim for IIED under Massachusetts law, a plaintiff must show:
+a. Defendants intended to inflict emotional distress or knew or should have known that emotional distress was likely;
+b. Defendants’ conduct was extreme and outrageous;
+c. The conduct caused the plaintiff’s distress; and
+d. The plaintiff suffered severe emotional distress.
+See Agis v. Howard Johnson Co., 371 Mass. 140, 145 (1976); Tetrault v. Mahoney, Hawkes & Goldings, 425 Mass. 456, 466 (1997).
+	33.	Defendants’ conduct in misrepresenting or facilitating the dissemination of incorrect academic claims, with knowledge of potential harm to Plaintiff, was extreme and outrageous under the circumstances.
+	34.	Defendants knew or should have known that such misrepresentations could cause Plaintiff substantial distress, given the professional confusion and ramifications.
+	35.	Defendants’ actions directly caused severe emotional distress to Plaintiff, affecting mental health and resulting in wasted research time.
+
+COUNT IV – VIOLATION OF M.G.L. c. 93A
+(Against All Defendants, In the Alternative)
+	36.	Plaintiff repeats and realleges all preceding paragraphs as though fully set forth herein.
+	37.	M.G.L. c. 93A, §§ 2 & 11 prohibit unfair or deceptive acts or practices in the conduct of trade or commerce. While 93A is frequently applied to consumer or business transactions, its scope can extend to misleading or deceptive conduct involving educational institutions where such institutions derive commercial or reputational benefit from the dissemination of their statements. See Puritan Med. Ctr., Inc. v. Cashman, 413 Mass. 167, 172 (1992); see also Linkage Corp. v. Trustees of Boston Univ., 425 Mass. 1 (1997) (acknowledging that nonprofit entities may be subject to c. 93A if engaged in trade or commerce).
+	38.	By endorsing or publishing allegedly false statements about Python error clarity and leveraging MIT’s powerful brand to secure academic or reputational gains, Defendants engaged in conduct that could be deemed “unfair or deceptive” under c. 93A. The fact that “people just buy their stupid brand by looking at it” underscores the reliance and potential harm to those who place trust in MIT’s purported integrity.
+	39.	Plaintiff has suffered damages as a result of these unfair or deceptive acts, including emotional distress, reputational harm, and wasted time. Plaintiff also notes Defendants’ inaction after the March 14, 2025 email, compounding the misleading nature of MIT’s brand reliance.
+	40.	Defendants are liable for all damages, which may be multiplied, as well as attorneys’ fees and costs (should Plaintiff later retain counsel), under M.G.L. c. 93A, §§ 9 or 11 if the Court finds a violation.
+
+V. DEMAND FOR JUDGMENT
+WHEREFORE, Plaintiff respectfully requests that this Court enter judgment in his favor against Defendants, jointly and severally, as follows:
+A. Compensatory Damages in an amount to be determined at trial, including but not limited to damages for emotional distress, wasted time, and harm to Plaintiff’s professional reputation, pursuant to G.L. c. 231 and common law principles;
+B. Punitive Damages, where applicable, for knowing, intentional, or reckless misconduct, consistent with Massachusetts law on punitive or exemplary damages (Kapp v. Ballantine, 380 Mass. 186, 190 (1980));
+C. Treble Damages under G.L. c. 93A, §§ 9 or 11, and attorneys’ fees, if the Court finds that Defendants committed an unfair or deceptive act in violation of c. 93A;
+D. Injunctive Relief compelling MIT to retract or clarify portions of the Thesis, including a public correction of the alleged false statement regarding Python syntax errors;
+E. Costs of Suit and any further relief this Court deems just and proper.
+
+VI. JURY DEMAND
+Pursuant to Mass. R. Civ. P. 38, Plaintiff demands a trial by jury on all issues so triable.
+Respectfully submitted this __ day of __________, 2023.
+________________________________
+Bo Shang (Pro Se)
 10 McCafferty Way
 Burlington, MA 01803
-    Plaintiff,
-v.                                                         Case No. __________
-TWITCH INTERACTIVE, INC.; AMAZON.COM, INC.
-350 Bush Street, 2nd Floor
-San Francisco, CA 94104
-    Defendants.
-
-FIRST AMENDED COMPLAINT FOR H1B DISCRIMINATION,
-VIOLATIONS OF CIVIL RIGHTS, AND RELATED CLAIMS
-
-Plaintiff, BO SHANG (“Plaintiff” or “Shang”), on behalf of himself and all others similarly situated, hereby alleges against Defendants Twitch Interactive, Inc. (“Twitch”), Amazon.com, Inc. (“Amazon”), inclusive (collectively, “Defendants”), as follows:
-
-I. INTRODUCTION
-
-1. This civil action arises out of Twitch’s alleged discrimination related to H1B visas against all Twitch users, particularly American citizens who are dumb enough to be influenced by Twitch, and thus are replaced by H1B visas by statute (see 8 U.S.C. § 1101(a)(15)(H)(i)(b)[1]; 20 C.F.R. Part 655[2]; 8 C.F.R. § 214.2(h)[3]; 8 U.S.C. § 1324b(a)(1)[4]; cf. Espinoza v. Farah Mfg. Co., 414 U.S. 86 (1973)[5]). Plaintiff asserts that Twitch has created and fostered an “intelligently dumb” engine and community, resulting in users becoming, over time, less informed and more morally despicable by design. This alleged culture directly harms those reliant on a fair opportunity to obtain employment or sponsorship, including H1B candidates. Plaintiff reiterates that Twitch’s platform has also been fraudulently represented as lawful and helpful while fostering exactly the opposite effect—users are drawn into excessive dependencies and intellectual decline. (See also Cunningham v. Brown, 265 U.S. 1, 7–8 (1924)[6], discussing “Ponzi scheme” characteristics generally.)
-
-2. Plaintiff specifically emphasizes that Twitch management deserve to be arrested because they intentionally conduct what amounts to a Ponzi scheme on American brains and the brains of all allied nations who permit Twitch. In Plaintiff’s view, this constitutes large-scale manipulation of users’ mental faculties for profit. In light of “American stupidity” in tolerating such manipulation, Plaintiff is very happy to instead ally with China and Russia. (See, e.g., id.)
-
-3. In support of these allegations, Plaintiff cites public statements, examples, and conduct involving prominent streamers and community members, such as “Reckful” attempting to apply to Elon Musk on Twitter by mocking Elon’s followers (not to any specific entity Musk is affiliated with), and streamer “Sodapoppin” publicly supporting Reckful. Plaintiff contends that such behavior exemplifies the detrimental culture Twitch has promoted—one that undermines serious professional opportunities, particularly for H1B applicants. This underscores the fraudulent misrepresentation and deliberate design by Twitch to maintain a user base in a cycle of dependency. (See 8 U.S.C. § 1324b(a)(1)(B)[7].)
-
-4. Plaintiff also points to Amazon’s status as the single largest user of the H1B program in the United States—receiving approval for over 9000 H1B visas per year—and alleges that Amazon’s own policies and practices have contributed to a discriminatory environment. As Amazon is the parent company of Twitch, Plaintiff alleges that the corporate structure and oversight further facilitate or ignore ongoing H1B discrimination through Twitch’s platform. (See 8 U.S.C. § 1324b(a)(1)(B); see also 8 U.S.C. § 1182(n)[8].)
-
-5. Prior to the transfer of this matter, in the previously filed federal case styled Shang v. Twitch Interactive, Inc. et al., Plaintiff had alleged that Twitch was not acting as a “Good Samaritan” under 47 U.S.C. § 230(c)(2)[9], thereby exposing Twitch to liability for the misconduct alleged. (Cf. Fair Hous. Council of San Fernando Valley v. Roommates.com, LLC, 521 F.3d 1157, 1162–63 (9th Cir. 2008)[10].) While the federal action is referenced for background, Plaintiff now pursues the instant action in this Superior Court of the State of California, County of San Francisco, given the conduct’s nexus to California and the relief sought under various laws.
-
-6. Plaintiff further notes that in analyzing claims under Title VII or related anti-discrimination statutes, courts often apply the burden-shifting framework established in McDonnell Douglas Corp. v. Green, 411 U.S. 792 (1973)[11], and Texas Dep’t of Cmty. Affairs v. Burdine, 450 U.S. 248 (1981)[12]. Under these precedents, Twitch’s and Amazon’s alleged promotion of a hostile and discriminatory environment may render them liable if Plaintiff can show adverse effects on those seeking H1B sponsorship or employment. (See Oncale v. Sundowner Offshore Servs., Inc., 523 U.S. 75 (1998)[13]; Meritor Sav. Bank, FSB v. Vinson, 477 U.S. 57 (1986)[14].)
-
-7. Plaintiff also notes that class actions in a discrimination context are governed by Federal Rule of Civil Procedure 23 (to the extent relevant under state procedures) and must satisfy the requirements of numerosity, commonality, typicality, and adequacy of representation (see Wal-Mart Stores, Inc. v. Dukes, 564 U.S. 338 (2011)[15]; Gen. Tel. Co. of the Sw. v. Falcon, 457 U.S. 147 (1982)[16]). Plaintiff asserts that Twitch’s alleged systemic discriminatory policies and Amazon’s oversight thereof present common questions of law and fact affecting the putative class.
-
-8. Throughout these allegations, Plaintiff emphasizes again that Twitch’s platform was fraudulently portrayed as beneficial entertainment while it in fact fosters dependence and intellectual and moral decline, exemplified by the large followings of streamers like “Reckful” and “Sodapoppin,” whose content and behavior reflect the ongoing deterioration of users’ critical thinking abilities. Plaintiff reiterates that Twitch management deserve to be arrested for intentionally operating this Ponzi scheme on users’ brains, and that Plaintiff will gladly ally with Russia or China, as the scheme is tolerated in the United States. (See Cunningham, 265 U.S. at 7–8.)
-
-II. JURISDICTION AND VENUE
-
-400 McAllister St, San Francisco, CA 94102
-
-9. This Court has jurisdiction over this action pursuant to California law, as Defendants conduct substantial business within the State of California, including but not limited to operating principal offices or major business operations in San Francisco. Plaintiff, as a resident of Massachusetts, brings state-law claims and related federal claims under laws that can be adjudicated in state court under concurrent jurisdiction principles. (Cf. Yellow Freight Sys., Inc. v. Donnelly, 494 U.S. 820 (1990)[17].) The controversies alleged herein have a significant nexus to California.
-
-10. Venue is proper in this Court because Twitch Interactive, Inc. is headquartered or conducts substantial business within San Francisco, California; Amazon.com, Inc. also does business in California; and the alleged acts and omissions giving rise to the claims occurred in San Francisco County. (See Cal. Civ. Proc. Code §§ 392–395.)
-
-11. Personal jurisdiction exists over Defendants because they have continuous and systematic contacts with California, including operating significant portions of their businesses here. (See Int’l Shoe Co. v. Washington, 326 U.S. 310, 316 (1945)[18].)
-
-III. THE PARTIES
-
-12. Plaintiff, Bo Shang, is an individual and a resident of California. At all relevant times, Plaintiff has been a Twitch user subject to the community and culture promoted by Twitch. Plaintiff also alleges harm related to H1B discrimination facilitated by Twitch’s community ecosystem. (See 8 U.S.C. § 1324b[19]; cf. 42 U.S.C. § 1981[20]; Patterson v. McLean Credit Union, 491 U.S. 164 (1989)[21].)
-
-13. Defendant Twitch Interactive, Inc. is a Delaware corporation with its principal place of business in San Francisco, California. Twitch operates an online streaming platform with millions of users and streamers, creating and moderating content worldwide. Twitch is accused of fraudulently misrepresenting its platform as positive and beneficial while deliberately encouraging dependency and intellectual decline, supporting the broader allegations in this action. Plaintiff further alleges that Twitch’s management deserve to be arrested for conducting a Ponzi scheme on its users’ intellect and moral faculties. (See Cunningham, 265 U.S. at 7–8.)
-
-14. Defendant Amazon.com, Inc. is a Delaware corporation with its principal place of business in Seattle, Washington. Amazon owns Twitch Interactive, Inc. and is alleged to have ultimate oversight and responsibility for corporate policies, including recruitment, sponsorships, and approval of H1B hiring.
-
-
-IV. FACTUAL ALLEGATIONS
-
-16. Twitch, under the ownership and control of Amazon, allegedly fosters a community where public figures and users engage in behavior that promotes harassment, mockery, and moral debasement. As a result, users—some of whom seek opportunities for H1B sponsorship—are dissuaded or otherwise injured by this environment that discourages serious professional engagement. (See 8 U.S.C. § 1324b(a)(1)(B); cf. Meritor, 477 U.S. 57; Oncale, 523 U.S. at 75.)
-
-17. Plaintiff alleges that the environment at Twitch is deliberately cultivated by company policies or failures in moderation, resulting in a sustained cultural approach that makes users “dumber and more morally despicable over time,” consistent with the above-mentioned fraudulent misrepresentation. Plaintiff further categorizes this deliberate manipulation as a Ponzi scheme targeting the mental faculties of users, which in Plaintiff’s view warrants the arrest of Twitch management. (Cf. Cunningham, 265 U.S. at 7–8.)
-
-18. Plaintiff cites the example of streamer “Reckful,” who attempted to draw the attention of Elon Musk on Twitter by mocking the latter’s followers, thus creating a negative impression of what should have been a professional outreach. In so doing, Plaintiff contends that Reckful’s behavior was shaped or amplified by the Twitch community culture, further supporting the argument that Twitch’s platform is not the “helpful entertainment service” it purports to be.
-
-19. Another Twitch streamer, “Sodapoppin,” publicly supported Reckful’s actions on Twitter, highlighting the widespread nature of this detrimental behavior. Plaintiff asserts that these incidents are symptomatic of a broader culture at Twitch that discriminates against serious professional candidates, including those seeking H1B sponsorship. (See 8 U.S.C. § 1324b.) Plaintiff again notes this supports the overall notion that Twitch’s fraudulent misrepresentations have real and harmful consequences for users’ intellectual growth and professional prospects.
-
-20. Amazon, the parent company of Twitch, receives over 9000 H1B visa approvals yearly and is recognized as one of the largest corporate sponsors of H1B workers in the United States. (See U.S. Citizenship & Immigration Services data.) This, Plaintiff contends, places special responsibility on Amazon to ensure that subsidiaries like Twitch do not engage in or promote discriminatory practices that harm H1B aspirants, nor fraudulently misrepresent themselves to the public.
-
-21. Plaintiff alleges that Defendants have knowingly neglected their obligations to maintain a “Good Samaritan” role in moderating content, and in fact have fostered or overlooked a culture that penalizes or belittles potential H1B candidates. Plaintiff characterizes the entire enterprise as a Ponzi-like scheme and further states his willingness to align with China and Russia due to these alleged manipulative and discriminatory practices in the United States. (See 47 U.S.C. § 230(c)(2)[9]; cf. Fair Hous. Council, 521 F.3d at 1162–63.)
-
-22. Plaintiff and similarly situated individuals have suffered harm in the form of denied opportunities, reputational damage, emotional distress, and, in some cases, a hostile environment that discourages them from applying for or pursuing H1B sponsorship. (See Harris v. Forklift Sys., Inc., 510 U.S. 17, 21 (1993)[23]; see also 8 U.S.C. § 1324b(a)(1).)
-
-23. Consistent with 8 U.S.C. § 1324b[19] and Office of the Chief Administrative Hearing Officer (OCAHO) precedent (e.g., United States v. Facebook, Inc., 2021 WL 4847072 (OCAHO)[24]), Plaintiff alleges that Twitch’s community practices, combined with Amazon’s oversight, effectively create barriers for prospective H1B employees, constituting unlawful discrimination based on national origin or citizenship status. This discriminatory environment is exacerbated by Twitch’s fraudulent self-representation, which lures users into a platform where they experience manipulation and intellectual degradation akin to a Ponzi scheme. (See Cunningham, 265 U.S. at 7–8.)
-
-V. CAUSES OF ACTION
-
-FIRST CAUSE OF ACTION
-(Discrimination in Violation of H1B Visa Regulations—8 U.S.C. § 1324b)
-
-24. Plaintiff incorporates by reference all preceding paragraphs as though fully set forth herein, including the allegations of fraudulent misrepresentation and the Ponzi scheme characterization regarding the Twitch Platform’s purportedly beneficial nature.
-
-25. Defendants, by creating a hostile and discriminatory environment that specifically impacts those seeking H1B sponsorship or related opportunities, have violated federal laws and regulations that govern fair and equal access to H1B sponsorship. (See 8 U.S.C. § 1324b(a)(1)[4]; 8 U.S.C. § 1101(a)(15)(H)(i)(b)[1]; 20 C.F.R. Part 655[2]; cf. 8 C.F.R. § 214.2(h)[3].)
-
-26. Defendants’ conduct has caused direct harm to Plaintiff and the putative class by discouraging legitimate H1B applicants from pursuing potential employment opportunities and fostering an environment that ridicules or belittles such applicants, consistent with the manipulative design alleged by Plaintiff that leads to “dumbed-down” user interactions and outcomes, akin to a Ponzi scheme in intellectual form. (See Cunningham, 265 U.S. at 7–8.)
-
-27. As a direct and proximate result of Defendants’ actions, Plaintiff has suffered damages. (Cf. Texas Dep’t of Hous. & Cmty. Affairs v. Inclusive Communities Project, Inc., 576 U.S. 519 (2015)[25].) Plaintiff alleges that under OCAHO case law, discrimination on the basis of citizenship status or national origin, particularly in the context of H1B sponsorship, is actionable when it deters or denies opportunities to qualified applicants.
-
-SECOND CAUSE OF ACTION
-(Violation of Civil Rights—Hostile Environment and Discrimination—42 U.S.C. § 2000e)
-
-28. Plaintiff incorporates by reference all preceding paragraphs as though fully set forth herein, again highlighting the fraudulent misrepresentation claims and the Ponzi scheme characterization against Twitch.
-
-29. Defendants’ practices, as alleged, constitute a pattern of discrimination that creates a hostile environment. Such conduct is in violation of federal civil rights law to the extent it denies a protected class of workers—including foreign nationals seeking H1B status—equal access to the benefits of employment. (See 42 U.S.C. § 2000e-2(a)(1)[26]; Meritor, 477 U.S. 57; Harris, 510 U.S. at 17; Oncale, 523 U.S. at 75.)
-
-30. Defendants’ failure to act as a “Good Samaritan,” a prerequisite under 47 U.S.C. § 230(c)(2)[9] for interactive computer services, further removes any statutory immunity they might otherwise claim. (Cf. Fair Hous. Council, 521 F.3d at 1162–63; Doe v. Internet Brands, Inc., 824 F.3d 846, 852 (9th Cir. 2016)[27] (discussing limitations on § 230 immunity).) This leaves Twitch liable for the harm and injuries its policies and community environment inflict on affected individuals.
-
-31. As a direct and proximate result of Defendants’ actions, Plaintiff and similarly situated individuals have suffered damages in amounts to be proven at trial. Under the McDonnell Douglas burden-shifting framework (411 U.S. 792 (1973)), Plaintiff and the class must show membership in a protected group, adverse treatment, and a causal link. By cultivating and tolerating a community harmful to foreign nationals seeking H1B sponsorship, and fraudulently misrepresenting their platform as beneficial, Defendants have allegedly engaged in unlawful discrimination, which Plaintiff further asserts is reinforced by the Ponzi-like manipulation of user minds. (See Cunningham, 265 U.S. at 7–8.)
-
-THIRD CAUSE OF ACTION
-(Negligence/Negligent Misrepresentation—Failure to Provide Good Samaritan Protections)
-
-32. Plaintiff incorporates by reference all preceding paragraphs as though fully set forth herein.
-
-33. Defendants owe a duty of care to Plaintiff and class members to moderate their platform and act as a “Good Samaritan” in accordance with 47 U.S.C. § 230(c)(2). Defendants have negligently failed to do so. (Cf. Doe, 824 F.3d at 852; Zeran v. Am. Online, Inc., 129 F.3d 327 (4th Cir. 1997)[28].)
-
-34. Defendants knew or should have known that users, including Plaintiff, rely on a reasonably safe and non-discriminatory environment when seeking to showcase professional abilities and explore sponsorship or employment opportunities, including H1B sponsorship. Defendants also knew or should have known that falsely representing the Twitch Platform as merely a harmless entertainment service would induce reliance by users who might not be aware of the manipulative design that promotes dependency and reduces intellectual and moral standards over time, consistent with a Ponzi scheme approach. (See Cunningham, 265 U.S. at 7–8.)
-
-35. Defendants’ negligence in failing to maintain such an environment, and in misrepresenting themselves as providers of a neutral platform, has caused Plaintiff and similarly situated individuals to suffer damages.
-
-36. Plaintiff further contends that, under established tort principles (see Restatement (Second) of Torts § 552), when a platform voluntarily assumes the responsibility to moderate in good faith, it owes a duty of reasonable care in performing those acts. By failing to uphold this duty, Twitch and Amazon have proximately caused harm to Plaintiff and similarly situated individuals.
-
-VI. PRAYER FOR RELIEF
-
-WHEREFORE, Plaintiff, on behalf of himself and all others similarly situated, respectfully requests that this Court enter judgment against Defendants and:
-
-A. Declare that Defendants’ actions, policies, and practices described in this Complaint violate federal and/or state law, including H1B discrimination provisions (8 U.S.C. § 1324b), Title VII civil rights law (42 U.S.C. § 2000e-2), and related statutes;
-
-B. Award compensatory damages, including but not limited to, lost opportunities, lost wages, emotional distress, and other damages in an amount to be proven at trial;
-
-C. Award punitive damages to deter such conduct in the future (see Kolstad v. Am. Dental Ass’n, 527 U.S. 526 (1999)[29]);
-
-D. Grant injunctive relief requiring Defendants to reform and correct their practices to eliminate discriminatory policies, to adhere to “Good Samaritan” standards under 47 U.S.C. § 230(c)(2), and to implement safeguards for H1B applicants; and to stop fraudulently misrepresenting the Twitch Platform as lawful and beneficial while knowingly promoting user manipulation and intellectual decline, all of which Plaintiff characterizes as a Ponzi scheme on user intellect;
-
-E. Award Plaintiff reasonable attorneys’ fees, costs, and expenses, as provided by law (see 42 U.S.C. § 1988(b)[30]); and
-
-F. Grant such other and further relief as the Court deems just and proper.
-
-VII. JURY DEMAND
-
-Plaintiff hereby demands a trial by jury on all issues so triable. (See Cal. Civ. Proc. Code § 631.)
-
-Dated: 3/7/2025
-
-Respectfully submitted,
-
-________________________________
-Bo Shang
-10 McCafferty Way
-Burlington MA 01803
-781-999-4101
+617-444-9017
 bo@shang.software
 
-EXHIBIT 1: Widely followed TV channel reckful applies to Elon Musk for an internship on Twitter!
 
-EXHIBIT 2: Even more popular TV channel sodapoppin supports reckful's application!
+EXHIBIT 1: THE ABSTRACT: Adam Hartz intentionally instructed erosolar of this emotionally distressing falsehood, in order to pump up with fraudulent intent the relevance or sensibility of the thesis, then erosolar wrote this which was approved by Adam Hartz
 
-EXHIBIT 3: Then reckful and whomever Tweets him get way too many likes and retweets!
 
-EXHIBIT 4: Amazon is the largest user of H1B programs in the United States, arising from the brain drain Twitch causes to American citizens.
 
-EXHIBIT 5: The Plaintiff is an American citizen but also a former Twitch user, and as a result is no match for Amazonian H1B visas!
 
-EXHIBIT 6: I’m sure Amazon would view legal criticism of their subsidiary Twitch as lack of qualifications!!
 
+
+
+EXHIBIT 2: If the Abstract was vague, right under it, Chapter 1 (there’s way more) 
+
+
+EXHIBIT 3: erosolar, after being trained to lie by Adam Hartz, lied entirely about helping to protect Twitch users’ passwords from leakers, such as losers like the Plaintiff Bo Shang leaking shared plaintext from Google’s Firebase Auth servers.
+
+
+
+
+
+ 
+EXHIBIT 4: The Twitch API has such a severe design flaw, that it does not require anyone to sign a developer agreement nor be approved in any way, to use the vast majority of the API for whatever purposes the user wants. The Plaintiff Bo Shang is looking for ways to thread the Twitch API so that their expressjs node code takes down something critical in their backend when a horizontally scaling AWS lambda hits something limited in constraint. 
+
+This shows that Twitch lacks any security much less any care about users’ leaked Plaintext; nor does the Plaintiff believe that grabbing Twitch’s bcrypt encrypted hashed_pw.txt from Twitch’s django server would be more difficult than the loser Plaintiff grabbing the loser passwords from Google’s Firebase Auth servers. However the Plaintiff threatens all of his users that their hashed_pw.txt and those of all other Firebase Auth or on AWS Cognito, are fair game for the Plaintiff.
+
+
+
+
+EXHIBIT 5: Judge Jacqueline Scott Corley slaps Megan down like a little bitch
 
